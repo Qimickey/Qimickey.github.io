@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>SSM框架</title>
+    <url>/2022/10/15/SSM/</url>
+    <content><![CDATA[<h1 id="SSM"><a href="#SSM" class="headerlink" title="SSM*"></a><em>SSM</em>*</h1><h1 id="一、Spring"><a href="#一、Spring" class="headerlink" title="一、Spring"></a>一、Spring</h1><p><img src="/2022/10/15/SSM/1662043785756.png" alt="1662043785756"></p>
+<p><img src="/2022/10/15/SSM/1662043961142.png" alt="1662043961142"></p>
+<p><img src="/2022/10/15/SSM/1662044011475.png" alt="1662044011475"></p>
+<p><img src="/2022/10/15/SSM/1662044544526.png" alt="1662044544526"></p>
+<p>通过断点调试可知 ：</p>
+<p>singleton 在加载配置文件时候创建bean对象</p>
+<p>prototype 在调用getbean方法时创建bean对象</p>
+<p><img src="/2022/10/15/SSM/1662044915540.png" alt="1662044915540"></p>
+<p><img src="/2022/10/15/SSM/1662045148297.png" alt="1662045148297"></p>
+<p><img src="/2022/10/15/SSM/1662045402357.png" alt="1662045402357"></p>
+<p>默认使用无参构造    </p>
+<p>工厂静态方法实例化：</p>
+<p>首先创造工厂类 创建静态方法  通过 factory-method找方法</p>
+<p><img src="/2022/10/15/SSM/1662045487394.png" alt="1662045487394"></p>
+<p>工厂实例方法实例化： </p>
+<p><img src="/2022/10/15/SSM/1662045527267.png" alt="1662045527267"></p>
+<p><img src="/2022/10/15/SSM/1662384935193.png" alt="1662384935193"></p>
+<p><img src="/2022/10/15/SSM/1662385094131.png" alt="1662385094131"></p>
+<p><img src="/2022/10/15/SSM/1662385509745.png" alt="1662385509745"></p>
+<p><img src="/2022/10/15/SSM/1662386348344.png" alt="1662386348344"></p>
+<p>1、普通</p>
+<p><img src="/2022/10/15/SSM/1662386371571.png" alt="1662386371571"></p>
+<p>2、List  和 map  和 集合</p>
+<p><img src="/2022/10/15/SSM/1662386422152.png" alt="1662386422152"></p>
+<p><img src="/2022/10/15/SSM/1662386457742.png" alt="1662386457742"></p>
+<p><img src="/2022/10/15/SSM/1662386476236.png" alt="1662386476236"></p>
+<p><img src="/2022/10/15/SSM/1662477200253.png" alt="1662477200253"></p>
+<p><img src="/2022/10/15/SSM/1662477819175.png" alt="1662477819175"></p>
+<p><img src="/2022/10/15/SSM/1662478050848.png" alt="1662478050848"></p>
+<p><img src="/2022/10/15/SSM/1662478175739.png" alt="1662478175739"></p>
+<p><img src="/2022/10/15/SSM/1662648342666.png" alt="1662648342666"></p>
+<p><img src="/2022/10/15/SSM/1662648232341.png" alt="1662648232341"></p>
+<p><img src="/2022/10/15/SSM/1662648263414.png" alt="1662648263414"></p>
+<p><img src="/2022/10/15/SSM/1662648558467.png" alt="1662648558467"></p>
+<p><img src="/2022/10/15/SSM/1662649661829.png" alt="1662649661829"></p>
+<p>注解开发需要配合组件扫描一起使用</p>
+<p><img src="/2022/10/15/SSM/1662650326083.png" alt="1662650326083"></p>
+<p>@Autowired </p>
+<p>@Qualifier（“userDao”） 只要一个bean的时候 可以省略此行</p>
+<p>@Resource(name&#x3D;”userDao”) 相当于上面两个的合体</p>
+<p><img src="/2022/10/15/SSM/1662701327851.png" alt="1662701327851"></p>
+<p><img src="/2022/10/15/SSM/1662701345192.png" alt="1662701345192"></p>
+<p><img src="/2022/10/15/SSM/1662702447904.png" alt="1662702447904"></p>
+<p><img src="/2022/10/15/SSM/1662714749735.png" alt="1662714749735"></p>
+<p><img src="/2022/10/15/SSM/1662717380877.png" alt="1662717380877"></p>
+<h1 id="二、Spring-MVC"><a href="#二、Spring-MVC" class="headerlink" title="二、Spring MVC"></a>二、Spring MVC</h1><p><img src="/2022/10/15/SSM/1662878953754.png" alt="1662878953754"></p>
+<p><img src="/2022/10/15/SSM/1662879336934.png" alt="1662879336934"></p>
+<p><img src="/2022/10/15/SSM/1662957276484.png" alt="1662957276484"></p>
+<p><img src="/2022/10/15/SSM/1662957372404.png" alt="1662957372404"></p>
+<p><img src="/2022/10/15/SSM/1662959866461.png" alt="1662959866461"></p>
+<p><img src="/2022/10/15/SSM/1662960148851.png" alt="1662960148851"></p>
+<p><img src="/2022/10/15/SSM/1662961022027.png" alt="1662961022027"></p>
+<p><img src="/2022/10/15/SSM/1662961261610.png" alt="1662961261610"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;!--    配置内部资源视图解析器--&gt;    </span><br><span class="line">&lt;bean id=<span class="string">&quot;viewResolver&quot;</span>        class=<span class="string">&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;</span>&gt;        &lt;property name=<span class="string">&quot;prefix&quot;</span> value=<span class="string">&quot;/jsp/&quot;</span>&gt;&lt;/property&gt;       </span><br><span class="line"> &lt;property name=<span class="string">&quot;suffix&quot;</span> value=<span class="string">&quot;.jsp&quot;</span>&gt;&lt;/property&gt;   </span><br><span class="line">&lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2022/10/15/SSM/1662970766275.png" alt="1662970766275"></p>
+<p>ModelAndView 也可以单独model  和 view  </p>
+<p>也可以 public ModelAndView save3(ModelAndView modelAndView)</p>
+<p>springMVC框架会帮我们创建对象</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@RequestMapping(&quot;/quick2&quot;)</span></span><br><span class="line"><span class="keyword">public</span> ModelAndView <span class="title function_">save2</span><span class="params">()</span>&#123;   </span><br><span class="line">    ModelAndView modelAndView=<span class="keyword">new</span> <span class="title class_">ModelAndView</span>();    </span><br><span class="line">    modelAndView.addObject(<span class="string">&quot;username&quot;</span>,<span class="string">&quot;itheima&quot;</span>);   </span><br><span class="line">    modelAndView.setViewName(<span class="string">&quot;success&quot;</span>);    </span><br><span class="line">    <span class="keyword">return</span> modelAndView;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="/2022/10/15/SSM/1663310887312.png" alt="1663310887312"></p>
+<p>controller直接返回对象 通过配置文件自动转换为json格式</p>
+<p>springmvx配置文件如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;bean class=<span class="string">&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&quot;</span>&gt;    &lt;property name=<span class="string">&quot;messageConverters&quot;</span>&gt;</span><br><span class="line">     &lt;list&gt;</span><br><span class="line">       &lt;bean  class=<span class="string">&quot;org.springframework.http.converter.json.MappingJackson2HttpMessageConverter&quot;</span>/&gt;        &lt;/list&gt;   </span><br><span class="line"> &lt;/property&gt;</span><br><span class="line">&lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+
+<p>。。。。。。经典白学</p>
+<p>通过mvc注解驱动会自动完成</p>
+<p><img src="/2022/10/15/SSM/1663418173865.png" alt="1663418173865"></p>
+<p>获取请求参数</p>
+<p> <img src="/2022/10/15/SSM/1663420437246.png" alt="1663420437246"></p>
+<p><img src="/2022/10/15/SSM/1663511474539.png" alt="1663511474539"></p>
+<p>获取集合类型参数 ，要将集合参数包装到一个pojo中才可以</p>
+<p><img src="/2022/10/15/SSM/1663512331171.png" alt="1663512331171"></p>
+<p><img src="/2022/10/15/SSM/1663513013433.png" alt="1663513013433"></p>
+<p><img src="/2022/10/15/SSM/1663513458180.png" alt="1663513458180"></p>
+<p>default-servlet-handler 让tomcat服务器帮我们去找静态资源</p>
+<p><img src="/2022/10/15/SSM/1663513549987.png" alt="1663513549987"></p>
+<p>解决中文乱码问题</p>
+<p>RequestParam(“name”)   将name 映射到username中</p>
+<p><img src="/2022/10/15/SSM/1663514243897.png" alt="1663514243897"></p>
+<p><img src="/2022/10/15/SSM/1663514270968.png" alt="1663514270968"></p>
+<p><img src="/2022/10/15/SSM/1663514456360.png" alt="1663514456360"></p>
+<p><img src="/2022/10/15/SSM/1663514635446.png" alt="1663514635446"></p>
+<p><img src="/2022/10/15/SSM/1663515436171.png" alt="1663515436171"></p>
+<p><img src="/2022/10/15/SSM/1663515543762.png" alt="1663515543762"></p>
+<p><img src="/2022/10/15/SSM/1663516107982.png" alt="1663516107982"></p>
+<p><img src="/2022/10/15/SSM/1663516131562.png" alt="1663516131562"></p>
+<p>文件上传</p>
+<p>先导入依赖坐标</p>
+<p><img src="/2022/10/15/SSM/1663769181971.png" alt="1663769181971"></p>
+<p><img src="/2022/10/15/SSM/1663769103866.png" alt="1663769103866"></p>
+<p><img src="/2022/10/15/SSM/1663769092709.png" alt="1663769092709"></p>
+<p><img src="/2022/10/15/SSM/1663769132047.png" alt="1663769132047"></p>
+<p><img src="/2022/10/15/SSM/1663769249533.png" alt="1663769249533"></p>
+<h2 id="jdbcTemplate基本使用"><a href="#jdbcTemplate基本使用" class="headerlink" title="jdbcTemplate基本使用"></a>jdbcTemplate基本使用</h2><p><img src="/2022/10/15/SSM/1663769466895.png" alt="1663769466895"></p>
+<p><img src="/2022/10/15/SSM/1663769480944.png" alt="1663769480944"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">ComboPooledDataSource dataSource=<span class="keyword">new</span> <span class="title class_">ComboPooledDataSource</span>();</span><br><span class="line">dataSource.setDriverClass(<span class="string">&quot;com.mysql.jdbc.Driver&quot;</span>);</span><br><span class="line">dataSource.setJdbcUrl(<span class="string">&quot;jdbc:mysql:///db1&quot;</span>);</span><br><span class="line">dataSource.setUser(<span class="string">&quot;root&quot;</span>);</span><br><span class="line">dataSource.setPassword(<span class="string">&quot;1234&quot;</span>);</span><br><span class="line">JdbcTemplate jdbcTemplate=<span class="keyword">new</span> <span class="title class_">JdbcTemplate</span>();</span><br><span class="line"><span class="comment">//设置数据源对象，知道数据库的位置</span></span><br><span class="line">jdbcTemplate.setDataSource(dataSource);</span><br><span class="line"><span class="comment">//执行操作</span></span><br><span class="line"><span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> jdbcTemplate.update(<span class="string">&quot;insert into account values (?,?)&quot;</span>, <span class="string">&quot;tom&quot;</span>, <span class="number">5000</span>);</span><br><span class="line">System.out.println(row);</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2022/10/15/SSM/1663772245814.png" alt="1663772245814"></p>
+<p><img src="/2022/10/15/SSM/1663773697656.png" alt="1663773697656"></p>
+<h2 id="sping-mvc拦截器"><a href="#sping-mvc拦截器" class="headerlink" title="sping-mvc拦截器"></a>sping-mvc拦截器</h2><p><img src="/2022/10/15/SSM/1664202484692.png" alt="1664202484692"></p>
+<p><img src="/2022/10/15/SSM/1664203319954.png" alt="1664203319954"></p>
+<p><img src="/2022/10/15/SSM/1664205285583.png" alt="1664205285583"></p>
+<p><img src="/2022/10/15/SSM/1664205334292.png" alt="1664205334292"></p>
+<h2 id="spring异常处理机制"><a href="#spring异常处理机制" class="headerlink" title="spring异常处理机制"></a>spring异常处理机制</h2><p><img src="/2022/10/15/SSM/1664208176765.png" alt="1664208176765"></p>
+<p><img src="/2022/10/15/SSM/1664208358860.png" alt="1664208358860"></p>
+<p><img src="/2022/10/15/SSM/1664208888937.png" alt="1664208888937"></p>
+<h2 id="Spring-AOP"><a href="#Spring-AOP" class="headerlink" title="Spring AOP"></a>Spring AOP</h2><p><img src="/2022/10/15/SSM/1664292304509.png" alt="1664292304509"></p>
+<p><img src="/2022/10/15/SSM/1664292618933.png" alt="1664292618933"></p>
+<p><img src="/2022/10/15/SSM/1664292839278.png" alt="1664292839278"></p>
+<p><img src="/2022/10/15/SSM/1664294434716.png" alt="1664294434716"></p>
+<p><img src="/2022/10/15/SSM/1664895616889.png" alt="1664895616889"></p>
+<p><img src="/2022/10/15/SSM/1664895664946.png" alt="1664895664946"></p>
+<p><img src="/2022/10/15/SSM/1664897057817.png" alt="1664897057817"></p>
+<p><img src="/2022/10/15/SSM/1664897691446.png" alt="1664897691446"></p>
+<p><img src="/2022/10/15/SSM/1664897705001.png" alt="1664897705001"></p>
+<p>切点表达式的抽取：</p>
+<p><img src="/2022/10/15/SSM/1664897828575.png" alt="1664897828575"></p>
+<p><img src="/2022/10/15/SSM/1664897834613.png" alt="1664897834613"></p>
+<p><img src="/2022/10/15/SSM/1664897893168.png" alt="1664897893168"></p>
+<p>基于注解的aop开发</p>
+<p><img src="/2022/10/15/SSM/1664981930027.png" alt="1664981930027"></p>
+<p><img src="/2022/10/15/SSM/1664981940202.png" alt="1664981940202"></p>
+<p><img src="/2022/10/15/SSM/1664982009440.png" alt="1664982009440"></p>
+<p><img src="/2022/10/15/SSM/1664982190198.png" alt="1664982190198"></p>
+<p><img src="/2022/10/15/SSM/1665031965634.png" alt="1665031965634"></p>
+<p><img src="/2022/10/15/SSM/1665031267456.png" alt="1665031267456"></p>
+<p><img src="/2022/10/15/SSM/1665031696303.png" alt="1665031696303"></p>
+<p><img src="/2022/10/15/SSM/1665031934615.png" alt="1665031934615"></p>
+<p><img src="/2022/10/15/SSM/1665032207110.png" alt="1665032207110"></p>
+<p><img src="/2022/10/15/SSM/1665033375690.png" alt="1665033375690"></p>
+<p>使用注解</p>
+<p><img src="/2022/10/15/SSM/1665033780738.png" alt="1665033780738"></p>
+<p><img src="/2022/10/15/SSM/1665033799554.png" alt="1665033799554"></p>
+<h1 id="三、Mybatis"><a href="#三、Mybatis" class="headerlink" title="三、Mybatis"></a>三、Mybatis</h1><p><img src="/2022/10/15/SSM/1665066378231.png" alt="1665066378231"></p>
+<p><img src="/2022/10/15/SSM/1665066545753.png" alt="1665066545753"></p>
+<p><img src="/2022/10/15/SSM/1665066993704.png" alt="1665066993704"></p>
+<p><img src="/2022/10/15/SSM/1665067162200.png" alt="1665067162200"></p>
+<p><img src="/2022/10/15/SSM/1665068443531.png" alt="1665068443531"></p>
+<p><img src="/2022/10/15/SSM/1665115892320.png" alt="1665115892320"></p>
+<p><img src="/2022/10/15/SSM/1665116172179.png" alt="1665116172179"></p>
+<p><img src="/2022/10/15/SSM/1665116277158.png" alt="1665116277158"></p>
+<p><img src="/2022/10/15/SSM/1665116318422.png" alt="1665116318422"></p>
+<p><img src="/2022/10/15/SSM/1665116367806.png" alt="1665116367806"></p>
+<p>sqlmapconfig核心配置文件需要安顺序</p>
+<p><img src="/2022/10/15/SSM/1665116552422.png" alt="1665116552422"></p>
+<p><img src="/2022/10/15/SSM/1665117472154.png" alt="1665117472154"></p>
+<p><img src="/2022/10/15/SSM/1665121525951.png" alt="1665121525951"></p>
+<p>通过反射 代理</p>
+<p><img src="/2022/10/15/SSM/1665121635168.png" alt="1665121635168"></p>
+<p>动态sql的标签应用</p>
+<p><img src="/2022/10/15/SSM/1665122854313.png" alt="1665122854313"></p>
+<p><img src="/2022/10/15/SSM/1665122779316.png" alt="1665122779316"></p>
+<p>sql语句的抽取</p>
+<p><img src="/2022/10/15/SSM/1665122956696.png" alt="1665122956696"></p>
+<p><img src="/2022/10/15/SSM/1665123033380.png" alt="1665123033380"></p>
+<p>自定义类型转化器 用于数据库类型和java类型的项目转换</p>
+<p><img src="/2022/10/15/SSM/1665154962243.png" alt="1665154962243"></p>
+<p>利用插件完成分页</p>
+<p><img src="/2022/10/15/SSM/1665155200078.png" alt="1665155200078"></p>
+<p><img src="/2022/10/15/SSM/1665155222475.png" alt="1665155222475"></p>
+<p><img src="/2022/10/15/SSM/1665155580987.png" alt="1665155580987"></p>
+<p><img src="/2022/10/15/SSM/1665155608406.png" alt="1665155608406"></p>
+<h2 id="多表查询"><a href="#多表查询" class="headerlink" title="多表查询"></a>多表查询</h2><p>java 的domain 要使用面向对象封装</p>
+<p><img src="/2022/10/15/SSM/1665156346205.png" alt="1665156346205"></p>
+<p>使用resultmap手动指定映射关系</p>
+<p><img src="/2022/10/15/SSM/1665156362662.png" alt="1665156362662"></p>
+<p>规范优化</p>
+<p><img src="/2022/10/15/SSM/1665156554906.png" alt="1665156554906"></p>
+<p>一对多 collection</p>
+<p><img src="/2022/10/15/SSM/1665156909239.png" alt="1665156909239"></p>
+<p><img src="/2022/10/15/SSM/1665157309893.png" alt="1665157309893"></p>
+<p>注解开发</p>
+<p><img src="/2022/10/15/SSM/1665241197809.png" alt="1665241197809"></p>
+<p>需要包扫描</p>
+<p>注解配置映射关系</p>
+<p><img src="/2022/10/15/SSM/1665241954548.png" alt="1665241954548"></p>
+<p>另外一种方法</p>
+<p><img src="/2022/10/15/SSM/1665242249691.png" alt="1665242249691"></p>
+<p><img src="/2022/10/15/SSM/1665243077025.png" alt="1665243077025"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2099/12/15/gonggao/</url>
+    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JAVA</title>
+    <url>/2022/04/15/hello-world/</url>
+    <content><![CDATA[<p>Arrays 数组</p>
+<p>基本类型包装类</p>
+<p>Integer </p>
+<p>Split 把string中的数据取出到int数组中、<br>stringbuilder（）元素拼接成字符串</p>
+<p>simpledataformat<br>format parse</p>
+<p>字符串拼接<br>StringBuilder sb&#x3D;new StringBuilder();<br>sb.append(xxx).append(“(“).append(xxx).append(“)”);<br>String s &#x3D; sb.toString();<br>System.out.println(s);</p>
+<p>集合操作<br>Collections.sort(list);排序<br>Collections.reverse(list);反序<br>Collections.shuffle(list);随即置换</p>
+<p>文件操作<br>File  f1&#x3D;new File(“路径”);<br>fl.createNewFile(); 创建文件<br>f1.mkdir()创建文件夹(目录)；<br>f1.mkdirs();多级目录<br>不能出现名字一样即使是不同 文件或者文件夹<br>f1.isDirectory()是否为目录<br>f1.isFile()是否为文件<br>f1.exists()是否存在</p>
+<p>f1.getAbsolutePath();绝对路径<br>f1,getPath();路径<br>f1.getName();名称</p>
+<p>f1.list()得到的是字符串数组  遍历目录下的文件<br>f1.listFiles()绝对路径的 字符串数组、</p>
+<p>要先删除内容 才能删除文件夹</p>
+<p>io输入流<br>字节流  记事本打开乱码的用 万能<br>字符流  记事本打开看得懂的</p>
+<p>fileOutputStream  fos &#x3D;new FileOutputStream(“路径”,true)文件输出流 true追加写入</p>
+<p>fos.write(String.getBytes());<br>文件换行  fos.write(“\r\n”.getBytes());</p>
+<p>try{<br>}catch{<br>}finally {<br>    执行所有释放资源的代码<br>}</p>
+<p>字节缓冲输出流：BufferedOutputStream(new OutPutStream)<br>字节缓冲输入流：BufferedInputStream();、<br>效率快</p>
+<p>字符流  识别中文<br>编码 汉字存储都是负数<br>GBK  一个汉字两个字节<br>UTF-8  一个汉字三个字节</p>
+<p>字符缓冲流<br>输入流：BufferedReader br&#x3D;new BufferedReader(new FileReader(“”));<br>输出流：Reader&#x3D;Write;<br>newLine() 换行  不同系统都能换行 通用<br>readLine() 读取一行<br>flush 刷新<br>特有功能</p>
+<p>InputStreamReader 转换流 字节流转化成字符流<br>标准输入流<br>BufferedReader br &#x3D; new BufferedReader(enw InputStreamReader(System.in))</p>
+<p>对象序列化<br>反序列化  都要 implements接口<br>给对象加一个变量serialVersionUID 可保证修改类 仍然可以识别<br>transient 修饰变量可以不被序列化</p>
+<p> Map体系集合类 Properties 可以在io流中使用 Properties 不能写泛形<br> 特有功能 prop.setProperty(String,String);添加到集合 底层 hashtable中的put方法<br>          prop.getProperty(String key) 根据键搜索属性<br>          Set<String> stringPropertyNames() 返回键集合，且不可修改<br>void load(Reader reader)  读取属性列表<br>void store(Writer writer,String comments)把属性列表写入输出字符流	  </String></p>
+<pre><code>      启动线程start();
+</code></pre>
+<p>   .getPriority() 获取线程优先级<br>   .setPriority();<br>   max——priority10  min 1 默认值5；<br>   优先级高 几率高 并不是一直在前面<br>线程控制：<br>    sleep() 线程休眠时间；<br>    join() 等待线程死亡，才执行后面的<br>    设置守护线程， setDaemon（true） 主线程执行完毕后，守护线程也要消失</p>
+<p>实现方法 1、创建一个类继承 Thread 重写其中的run();<br>         2、创建类实现Runnable接口  重写run()方法：  创建Thread 构造中接入类对象</p>
+<p>同步代码块：解决数据共享数据安全问题<br>synchronized（任意对象即锁对象）{<br>    多条语句操作的代码<br>}<br>同步方法 加到方法上 private synchronized void ….. 同步方法锁对象 是this<br>同步静态方法private static synchronized void …..  同步静态方法锁对象 java类名.class</p>
+<p>线程安全类 加的有synchronized<br>StringBuffer</p>
+<p>Vector           Collections.synchronized<br>Hashtable 被替代 Collections.synchronized</p>
+<p>Lock锁<br>Lock是接口 调用实例化对象 ReentrantLock<br>.lock（）加锁<br>unlock（）释放锁</p>
+<p>生产者消费者模式<br>生产者 仓库 消费者<br>wait() 当前线程等待，知道被唤醒<br>notify() 唤醒正在等待对象监视的单个线程、<br>notifyAll() 唤醒正在等待对象监视的所有线程</p>
+<p>——-网络编程<br>三要素： IP地址  端口（设备应用程序的唯一标识0-65535  0-1023 一些知名网络一般用1024以上 ）   协议（遵守一定的规则）UDP TCP<br>  cmd控制窗口 ：ipconfig 查看本机IP地址   ping ip地址 检查网络是否连通、<br>  10.219.81.31<br> Udp： 创建发送端Socket对象 创建数据包 打包 发送 关闭<br>       创建接收端Socket对象 接受收据包 解析 关闭</p>
+<p>Lambda表达式<br>（形式参数）-&gt;{代码块}<br> 使用lambda 必须要有接口，并且接口中有且只有一个抽象方法<br> 匿名内部类编译后会产生一个单独的字节码文件 Lambda 不会</p>
+<p> 接口中默认方法 public default 不强制重写此方法 public 可以省略，实现接口的升级  也可以重写<br> 接口中静态方法 public static  静态方法只能被接口名调用 public可以省略<br> 接口中私有方法 private or private static 私有方法只能被默认方法中调用<br> 私有静态可以被静态方法调用 也可以被 默认方法调用 </p>
+<p> 方法引用符   ：：</p>
+<p> 引用类方法–静态方法<br> 引用对象的实例方法–引用类的成员方法<br> 引用类的实例方法–引用类的成员方法 （s,x,y-&gt;s.substring(x,y）可以是 (string::substring(x,y)) 多个参数时，第一个为调用者 后面为参数<br> 引用构造器–引用构造方法</p>
+<p> 函数式接口<br>有且只有一个抽象方法的接口<br>函数式接口注解 @FunctionalInterface<br>Supplier<T>接口 get（）获得数据<br>Consumer<T>接口 accept（T t）  con1.andThen (con2).accept(name);<br>Predicate<T>接口 返回boolean test（）；negate（）！逻辑非；and（Predicatere） 与&amp;&amp; ; or(Predicate) 或 or；<br>Function&lt;T,R&gt;接口 apply()字符串转换     andThen </T></T></T></p>
+<p>Stream流<br>生成流 中间操作 终结操作<br>中间操作：<br>集合过滤操作 filter(lambda表达式)    limit()输出几个 skip()跳过几个 count()统计<br>concat(Stream a,Stream b)合并两个流； distinct()删除重复元素  sorted()自然排序  sorted(Comparator com1 )<br>mapToint(lambda) 有一个sum()很好用<br>终结操作：<br>forEach(lambda)输出流 收集流中数据 collect(Collectors.toList());</p>
+<p>反射<br>获取的三种方法<br>1.使用类的.class属性<br>2.调用对象的.getClass()方法<br>3.class类中的静态方法.forName(“路径”)灵活性高<br>获取构造函数：<br>getConstructors() 返回公共的构造方法数组<br>getDeclaredConstructors()返回公共和私有的构造方法数组<br>getConstructor() 返回单个 得到一个无参构造 .newInstance()创建对象<br>getDeclaredConstructor() 返回单个构造方法对象<br>暴力反射：setAccessible(boolean flag) 值为true,取消访问检查 即可用私有构造方法<br>getConstructor(T.class)<br>获取成员变量：<br>getFields()<br>getDeclaredFields()<br>getField()<br>getDeclaredField()</p>
+<p>成员变量.set(对象，””);给成员变量赋值<br>私有的成员变量也要暴力使用</p>
+<p>获取成员方法：<br>getMethods() 还获取继承父类的<br>getDeclaredMethods()<br>getMethod()<br>getDeclaredMethod() </p>
+<p>成员方法.invoke(obj,””)</p>
+<h1 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h1><h2 id="src新建module-info-java-的描述性文件"><a href="#src新建module-info-java-的描述性文件" class="headerlink" title="src新建module-info.java 的描述性文件"></a>src新建module-info.java 的描述性文件</h2><h2 id="exports-包名"><a href="#exports-包名" class="headerlink" title="exports 包名"></a>exports 包名</h2><h2 id="requires-模块名"><a href="#requires-模块名" class="headerlink" title="requires 模块名"></a>requires 模块名</h2>]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JAVAWEB</title>
+    <url>/2022/07/15/javaweb/</url>
+    <content><![CDATA[<blockquote>
+<h1 id="JAVAWeb"><a href="#JAVAWeb" class="headerlink" title="JAVAWeb"></a>JAVAWeb</h1></blockquote>
+<p>[TOC]</p>
+<h1 id="1、数据库（mysql）"><a href="#1、数据库（mysql）" class="headerlink" title="1、数据库（mysql）"></a>1、数据库（mysql）</h1><p>show databases；查询所有数据库</p>
+<p>use xxx；使用某数据库</p>
+<p>show tables； 查询所有表</p>
+<p>desc func； 查询表整体结构信息</p>
+<p>create table 表名（</p>
+<p>字段名1 数据类型1，</p>
+<p>字段名2 数据类型2，</p>
+<p>…….</p>
+<p>）</p>
+<p><img src="/2022/07/15/javaweb/1655358873068.png" alt="1655358873068"></p>
+<p><img src="/2022/07/15/javaweb/1655358980759.png" alt="1655358980759"></p>
+<p><img src="/2022/07/15/javaweb/1655359067063.png" alt="1655359067063"></p>
+<p><img src="/2022/07/15/javaweb/1655359088750.png" alt="1655359088750"></p>
+<p>查询去除重复记录 </p>
+<p>select distinct 字段列表 from 表名；</p>
+<p>null值的比较不能使用&#x3D; ！&#x3D;。 需要使用 is is not</p>
+<p><img src="/2022/07/15/javaweb/1655359264409.png" alt="1655359264409"></p>
+<p>聚合函数：<img src="/2022/07/15/javaweb/1655359394011.png" alt="1655359394011">分组查询：<img src="/2022/07/15/javaweb/1655359638554.png" alt="1655359638554"></p>
+<p>分页查询：</p>
+<p><img src="/2022/07/15/javaweb/1655360004545.png" alt="1655360004545"></p>
+<p>约束：<img src="/2022/07/15/javaweb/1655360233685.png" alt="1655360233685"></p>
+<p>自增长　 auto increment</p>
+<p><img src="/2022/07/15/javaweb/1655360442461.png" alt="1655360442461"></p>
+<p><img src="/2022/07/15/javaweb/1655360545482.png" alt="1655360545482"></p>
+<p>外键</p>
+<p><img src="/2022/07/15/javaweb/1655360685648.png" alt="1655360685648"></p>
+<p>多表查询：</p>
+<p><img src="/2022/07/15/javaweb/1655362093841.png" alt="1655362093841"></p>
+<p><img src="/2022/07/15/javaweb/1655362205236.png" alt="1655362205236"></p>
+<p><img src="/2022/07/15/javaweb/1655362329350.png" alt="1655362329350"></p>
+<p>事务：</p>
+<p><img src="/2022/07/15/javaweb/1655362751677.png" alt="1655362751677"></p>
+<p>查询事务的默认提交方式：select　＠＠autocommit；</p>
+<h1 id="２、JDBC"><a href="#２、JDBC" class="headerlink" title="２、JDBC"></a>２、JDBC</h1><p><img src="/2022/07/15/javaweb/1655363613215.png" alt="1655363613215"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">JDBCdemo</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">        Class.forName(<span class="string">&quot;com.mysql.jdbc.Driver&quot;</span>);<span class="comment">//MYSQL 5之后可以省略jar包里面有</span></span><br><span class="line">        String url=<span class="string">&quot;jdbc:mysql://127.0.0.1:3306/db1?useSSL=false&quot;</span>;</span><br><span class="line">        String username=<span class="string">&quot;root&quot;</span>;</span><br><span class="line">        String password=<span class="string">&quot;1234&quot;</span>;</span><br><span class="line">       <span class="type">Connection</span>  <span class="variable">conn</span> <span class="operator">=</span>DriverManager.getConnection(url,username,password);</span><br><span class="line"></span><br><span class="line">       String sql=<span class="string">&quot;UPDATE cs set name=&#x27;李钊&#x27; where id=2&quot;</span>;</span><br><span class="line"></span><br><span class="line">       Statement stmt=conn.createStatement();</span><br><span class="line">       <span class="type">int</span> count=stmt.executeUpdate(sql);<span class="comment">//受影响的行数</span></span><br><span class="line">        <span class="keyword">if</span> (count &gt; <span class="number">0</span>) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;修改成功~&quot;</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;修改失败~&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">      <span class="comment">//System.out.println(count);</span></span><br><span class="line">        stmt.close();</span><br><span class="line">        conn.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="API详解："><a href="#API详解：" class="headerlink" title="API详解："></a>API详解：</h2><p><img src="/2022/07/15/javaweb/1655363896136.png" alt="1655363896136">·</p>
+<h3 id="1、DriverManager"><a href="#1、DriverManager" class="headerlink" title="1、DriverManager:"></a>1、DriverManager:</h3><p><img src="/2022/07/15/javaweb/1655364387165.png" alt="1655364387165"></p>
+<p><img src="/2022/07/15/javaweb/1655364401202.png" alt="1655364401202"></p>
+<h3 id="2、Connection"><a href="#2、Connection" class="headerlink" title="2、Connection:"></a>2、Connection:</h3><p><img src="/2022/07/15/javaweb/1655364546826.png" alt="1655364546826"></p>
+<p><img src="/2022/07/15/javaweb/1655364573853.png" alt="1655364573853"></p>
+<p><img src="/2022/07/15/javaweb/1655364585297.png" alt="1655364585297"></p>
+<p>开启事务：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">           conn.setAutoCommit(<span class="literal">false</span>);</span><br><span class="line">           count1 = stmt.executeUpdate(sql1);</span><br><span class="line">           count2 = stmt.executeUpdate(sql2);</span><br><span class="line">           conn.commit();</span><br><span class="line">       &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">           conn.rollback();</span><br><span class="line">           e.printStackTrace();</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3、Statement"><a href="#3、Statement" class="headerlink" title="3、Statement"></a>3、Statement</h3><p><img src="/2022/07/15/javaweb/1655365722409.png" alt="1655365722409"></p>
+<h3 id="4、ResultSet"><a href="#4、ResultSet" class="headerlink" title="4、ResultSet"></a>4、ResultSet</h3><p><img src="/2022/07/15/javaweb/1655366106462.png" alt="1655366106462"></p>
+<h3 id="5、PreparedStatement"><a href="#5、PreparedStatement" class="headerlink" title="5、PreparedStatement"></a>5、PreparedStatement</h3><p>此API防止sql注入</p>
+<p><img src="/2022/07/15/javaweb/1655395861961.png" alt="1655395861961"></p>
+<p>原理：</p>
+<p>开启预编译 性能更高</p>
+<p><img src="/2022/07/15/javaweb/1655396074775.png" alt="1655396074775"></p>
+<h2 id="数据库连接池-Druid"><a href="#数据库连接池-Druid" class="headerlink" title="数据库连接池 Druid"></a>数据库连接池 Druid</h2><p>用一个容器管理连接对象</p>
+<p><img src="/2022/07/15/javaweb/1655449686609.png" alt="1655449686609"></p>
+<p><img src="/2022/07/15/javaweb/1655449763814.png" alt="1655449763814"></p>
+<h1 id="3、Maven"><a href="#3、Maven" class="headerlink" title="3、Maven"></a>3、Maven</h1><p>Maven官网：<a href="http://maven.apache.org/">http://maven.apache.org/</a></p>
+<p><img src="/2022/07/15/javaweb/1655451189445.png" alt="1655451189445"></p>
+<p><img src="/2022/07/15/javaweb/1655451250551.png" alt="1655451250551"></p>
+<p><img src="/2022/07/15/javaweb/1655451338409.png" alt="1655451338409"></p>
+<p><img src="/2022/07/15/javaweb/1655452084878.png" alt="1655452084878"></p>
+<p>配置阿里云私服：加快导包速度</p>
+<p><img src="/2022/07/15/javaweb/1655452168166.png" alt="1655452168166"></p>
+<p>Maven基本使用</p>
+<p><img src="/2022/07/15/javaweb/1655453096845.png" alt="1655453096845"></p>
+<p>Maven生命周期</p>
+<p><img src="/2022/07/15/javaweb/1655453531458.png" alt="1655453531458"></p>
+<p>Maven在IDEA中的配置</p>
+<p><img src="/2022/07/15/javaweb/1655453775944.png" alt="1655453775944"></p>
+<p>Maven坐标详解</p>
+<p><img src="/2022/07/15/javaweb/1655453826176.png" alt="1655453826176"></p>
+<p>Maven项目创建</p>
+<p><img src="/2022/07/15/javaweb/1655454956771.png" alt="1655454956771"></p>
+<p>Mavne项目导入</p>
+<p><img src="/2022/07/15/javaweb/1655454993461.png" alt="1655454993461"></p>
+<p>Maven插件：Maven Helper 可以断点调试</p>
+<p>依赖范围<img src="/2022/07/15/javaweb/1655455685274.png" alt="1655455685274"></p>
+<h1 id="4、MyBatis"><a href="#4、MyBatis" class="headerlink" title="4、MyBatis"></a>4、MyBatis</h1><h2 id="1、Mybatis快速入门"><a href="#1、Mybatis快速入门" class="headerlink" title="1、Mybatis快速入门"></a>1、Mybatis快速入门</h2><p>优秀的持久层框架 ，简化JDBC</p>
+<p>官网：<a href="https://mybatis.org/mybatis-3/zh/index.html">https://mybatis.org/mybatis-3/zh/index.html</a></p>
+<p><img src="/2022/07/15/javaweb/1655475982999.png" alt="1655475982999"></p>
+<p>配置文件</p>
+<p><img src="/2022/07/15/javaweb/1655520880165.png" alt="1655520880165"></p>
+<p>pojo中创建和数据库表中数据类型对应的类</p>
+<p>logback.xml：控制台字体颜色配置文件</p>
+<p>mybatis-config.xml:核心配置文件 包含<strong>数据库连接</strong> 和<strong>sql映射文件</strong></p>
+<p>UserMapper.xml：查询语句</p>
+<p><img src="/2022/07/15/javaweb/1655521021574.png" alt="1655521021574"></p>
+<h2 id="2、Mapper代理开发"><a href="#2、Mapper代理开发" class="headerlink" title="2、Mapper代理开发"></a>2、Mapper代理开发</h2><p>还是解决硬编码问题</p>
+<p><img src="/2022/07/15/javaweb/1655521118161.png" alt="1655521118161"></p>
+<p>注：在resources中创建和mapper接口同名的目录 用&#x2F;来替代.当分隔符；</p>
+<p>​		可以使用包扫描方式加载sql映射文件</p>
+<h2 id="3、Mybatis核心配置文件"><a href="#3、Mybatis核心配置文件" class="headerlink" title="3、Mybatis核心配置文件"></a>3、Mybatis核心配置文件</h2><p>1、environments:配置数据库连接环境信息，可以配置多个environment，通过default属性切换不同的environment</p>
+<p>2、typeAliases：起别名  通过包扫描 可以简化</p>
+<p><img src="/2022/07/15/javaweb/1655523885240.png" alt="1655523885240"></p>
+<p><img src="/2022/07/15/javaweb/1655523872167.png" alt="1655523872167"></p>
+<p><img src="/2022/07/15/javaweb/1655523833703.png" alt="1655523833703"></p>
+<p>插件：</p>
+<p><img src="/2022/07/15/javaweb/1655545007773.png" alt="1655545007773"></p>
+<h2 id="4、配置文件完成增删改查"><a href="#4、配置文件完成增删改查" class="headerlink" title="4、配置文件完成增删改查"></a>4、配置文件完成增删改查</h2><p>解决数据库表的字段名称 和 实体类的属性名称不一样的方法</p>
+<p><img src="/2022/07/15/javaweb/1655546555632.png" alt="1655546555632"></p>
+<p><img src="/2022/07/15/javaweb/1655546815448.png" alt="1655546815448"></p>
+<p>参数占位符：#{}     </p>
+<p><img src="/2022/07/15/javaweb/1655547438623.png" alt="1655547438623"></p>
+<p>特殊字符的处理： 1、转义字符： 2、CDATA区：</p>
+<p><img src="/2022/07/15/javaweb/1655547513484.png" alt="1655547513484"></p>
+<p><img src="/2022/07/15/javaweb/1655548889168.png" alt="1655548889168"></p>
+<p>多条件动态sql需注意</p>
+<p><img src="/2022/07/15/javaweb/1655554214428.png" alt="1655554214428"></p>
+<p><img src="/2022/07/15/javaweb/1655555785158.png" alt="1655555785158"></p>
+<p>单条件动态sql</p>
+<p><img src="/2022/07/15/javaweb/1655554277165.png" alt="1655554277165"></p>
+<p>添加操作： 手动提交事务  或者设置参数</p>
+<p><img src="/2022/07/15/javaweb/1655625211574.png" alt="1655625211574"></p>
+<p>添加操作 –主键返回</p>
+<p><img src="/2022/07/15/javaweb/1655625334557.png" alt="1655625334557"></p>
+<p>修改操作：动态修改使用<set>标签</set></p>
+<p><img src="/2022/07/15/javaweb/1655626126852.png" alt="1655626126852"></p>
+<p>批量删除 foreach标签<img src="/2022/07/15/javaweb/1655626546877.png" alt="1655626546877"></p>
+<h2 id="5、Mybatis参数传递"><a href="#5、Mybatis参数传递" class="headerlink" title="5、Mybatis参数传递"></a>5、Mybatis参数传递</h2><p><img src="/2022/07/15/javaweb/1655627354442.png" alt="1655627354442"></p>
+<h2 id="6、注解开发"><a href="#6、注解开发" class="headerlink" title="6、注解开发"></a>6、注解开发</h2><p><img src="/2022/07/15/javaweb/1655627496627.png" alt="1655627496627"></p>
+<h1 id="5、前端三件套"><a href="#5、前端三件套" class="headerlink" title="5、前端三件套"></a>5、前端三件套</h1><h2 id="1、html"><a href="#1、html" class="headerlink" title="1、html"></a>1、html</h2><p><img src="/2022/07/15/javaweb/1655860070522.png" alt="1655860070522"></p>
+<p><img src="/2022/07/15/javaweb/1655860545183.png" alt="1655860545183"></p>
+<p><img src="/2022/07/15/javaweb/1655909232601.png" alt="1655909232601"></p>
+<p>controls展示播放控件</p>
+<p><img src="/2022/07/15/javaweb/1655910500609.png" alt="1655910500609"></p>
+<p><img src="/2022/07/15/javaweb/1655910618800.png" alt="1655910618800"></p>
+<p><img src="/2022/07/15/javaweb/1655983058469.png" alt="1655983058469"></p>
+<p><img src="/2022/07/15/javaweb/1655983309255.png" alt="1655983309255"></p>
+<p><img src="/2022/07/15/javaweb/1655983507888.png" alt="1655983507888"></p>
+<p><img src="/2022/07/15/javaweb/1655983670893.png" alt="1655983670893"></p>
+<p>label内容和输入框关联<img src="/2022/07/15/javaweb/1655985833370.png" alt="1655985833370"></p>
+<h2 id="2、css"><a href="#2、css" class="headerlink" title="2、css"></a>2、css</h2><p><img src="/2022/07/15/javaweb/1655984916958.png" alt="1655984916958"></p>
+<p><img src="/2022/07/15/javaweb/1655985014882.png" alt="1655985014882"></p>
+<p><img src="/2022/07/15/javaweb/1655985085833.png" alt="1655985085833"></p>
+<p>引入css需要加入rel 属性 中的stylesheet</p>
+<p>css选择器<img src="/2022/07/15/javaweb/1655985210928.png" alt="1655985210928"></p>
+<h2 id="3、javaScript"><a href="#3、javaScript" class="headerlink" title="3、javaScript"></a>3、javaScript</h2><p><img src="/2022/07/15/javaweb/1655985529437.png" alt="1655985529437"></p>
+<p><img src="/2022/07/15/javaweb/1655985950776.png" alt="1655985950776"></p>
+<p><img src="/2022/07/15/javaweb/1655986090839.png" alt="1655986090839"></p>
+<p><img src="/2022/07/15/javaweb/1655986401646.png" alt="1655986401646"></p>
+<p>javascript中的原始类型和引用类型</p>
+<p><img src="/2022/07/15/javaweb/1656082568076.png" alt="1656082568076"></p>
+<p>运算符：&#x3D;&#x3D; 和&#x3D;&#x3D;&#x3D;（全等于） &#x3D;&#x3D;会进行类型转换 &#x3D;&#x3D;&#x3D;不会进行类型转换	</p>
+<p><img src="/2022/07/15/javaweb/1656082982845.png" alt="1656082982845"></p>
+<p>流程控制语句和java一样</p>
+<p><img src="/2022/07/15/javaweb/1656083288047.png" alt="1656083288047"></p>
+<p><img src="/2022/07/15/javaweb/1656083735636.png" alt="1656083735636"></p>
+<p>array数组</p>
+<p>push() 添加方法  splice(i,j)从第i个开始 删除j个元素</p>
+<p><img src="/2022/07/15/javaweb/1656085513756.png" alt="1656085513756"></p>
+<p><img src="/2022/07/15/javaweb/1656212885297.png" alt="1656212885297"></p>
+<p>trim去除字符串前后的空白字符</p>
+<p>自定义对象</p>
+<p><img src="/2022/07/15/javaweb/1656212961925.png" alt="1656212961925"></p>
+<p>BOM：</p>
+<p><img src="/2022/07/15/javaweb/1656213053226.png" alt="1656213053226"></p>
+<p><img src="/2022/07/15/javaweb/1656213317145.png" alt="1656213317145"></p>
+<p><img src="/2022/07/15/javaweb/1656213556253.png" alt="1656213556253"></p>
+<p><img src="/2022/07/15/javaweb/1656213587448.png" alt="1656213587448"></p>
+<p>Dom:<img src="/2022/07/15/javaweb/1656213885733.png" alt="1656213885733"></p>
+<p><img src="/2022/07/15/javaweb/1656214402830.png" alt="1656214402830"></p>
+<p><img src="/2022/07/15/javaweb/1656216434081.png" alt="1656216434081"></p>
+<p><img src="/2022/07/15/javaweb/1656224083482.png" alt="1656224083482"></p>
+<p>DOM事件 去 W3school查询</p>
+<p>表单验证</p>
+<p><img src="/2022/07/15/javaweb/1656225361329.png" alt="1656225361329"></p>
+<p><img src="/2022/07/15/javaweb/1656226846953.png" alt="1656226846953"></p>
+<h1 id="6、web核心"><a href="#6、web核心" class="headerlink" title="6、web核心"></a>6、web核心</h1><p>javaweb技术栈</p>
+<p><img src="/2022/07/15/javaweb/1656514199988.png" alt="1656514199988"></p>
+<h2 id="1、http-web–tomcat-servlet"><a href="#1、http-web–tomcat-servlet" class="headerlink" title="1、http web–tomcat  servlet"></a>1、http web–tomcat  servlet</h2><p>1、http概念：HyperText Transfer Protocol,超文本传输协议，规定了浏览器和服务器的传输规则</p>
+<p><img src="/2022/07/15/javaweb/1656514788241.png" alt="1656514788241"></p>
+<p><img src="/2022/07/15/javaweb/1656514976363.png" alt="1656514976363"></p>
+<p><img src="/2022/07/15/javaweb/1656515410448.png" alt="1656515410448"></p>
+<h2 id="2、web服务器-—-tomcat"><a href="#2、web服务器-—-tomcat" class="headerlink" title="2、web服务器 —-tomcat"></a>2、web服务器 —-tomcat</h2><p><img src="/2022/07/15/javaweb/1656937707003.png" alt="1656937707003"></p>
+<p>tomcat官网：<a href="https://tomcat.apache.org/">https://tomcat.apache.org/</a></p>
+<p><img src="/2022/07/15/javaweb/1656937951597.png" alt="1656937951597"></p>
+<p><img src="/2022/07/15/javaweb/1656938479611.png" alt="1656938479611"></p>
+<p><img src="/2022/07/15/javaweb/1656938637543.png" alt="1656938637543"></p>
+<p><img src="/2022/07/15/javaweb/1656939248299.png" alt="1656939248299"></p>
+<p><img src="/2022/07/15/javaweb/1656939454231.png" alt="1656939454231"></p>
+<p>创建maven项目：</p>
+<p><img src="/2022/07/15/javaweb/1657031992808.png" alt="1657031992808"></p>
+<img src="/2022/07/15/javaweb/1657031978900.png" alt="1657031978900" style="zoom:200%;">
+
+<p><img src="/2022/07/15/javaweb/1656942518422.png" alt="1656942518422"></p>
+<h2 id="3、servlet"><a href="#3、servlet" class="headerlink" title="3、servlet"></a>3、servlet</h2><p><img src="/2022/07/15/javaweb/1657122318535.png" alt="1657122318535"></p>
+<p><img src="/2022/07/15/javaweb/1657123505996.png" alt="1657123505996"></p>
+<p><img src="/2022/07/15/javaweb/1657206725298.png" alt="1657206725298"></p>
+<p><img src="/2022/07/15/javaweb/1657207685351.png" alt="1657207685351"></p>
+<p><img src="/2022/07/15/javaweb/1657207706487.png" alt="1657207706487"></p>
+<p><img src="/2022/07/15/javaweb/1657208348592.png" alt="1657208348592"></p>
+<p><img src="/2022/07/15/javaweb/1657445052265.png" alt="1657445052265"></p>
+<p><img src="/2022/07/15/javaweb/1657445077232.png" alt="1657445077232"></p>
+<p><img src="/2022/07/15/javaweb/1657445238382.png" alt="1657445238382"></p>
+<p>老版本通过xml配置servlet 现在都是用注解</p>
+<h2 id="4、request和response"><a href="#4、request和response" class="headerlink" title="4、request和response"></a>4、request和response</h2><p><img src="/2022/07/15/javaweb/1659944105384.png" alt="1659944105384"></p>
+<p><img src="/2022/07/15/javaweb/1659944590059.png" alt="1659944590059"></p>
+<p><img src="/2022/07/15/javaweb/1659947223421.png" alt="1659947223421"></p>
+<p><img src="/2022/07/15/javaweb/1659950032404.png" alt="1659950032404"></p>
+<p><img src="/2022/07/15/javaweb/1660029522429.png" alt="1660029522429"></p>
+<p><img src="/2022/07/15/javaweb/1660032693689.png" alt="1660032693689"></p>
+<p><img src="/2022/07/15/javaweb/1660032769554.png" alt="1660032769554"></p>
+<p><img src="/2022/07/15/javaweb/1660102734779.png" alt="1660102734779"></p>
+<p><img src="/2022/07/15/javaweb/1660103273258.png" alt="1660103273258"></p>
+<p><img src="/2022/07/15/javaweb/1660103463754.png" alt="1660103463754"></p>
+<p>动态获取虚拟目录</p>
+<p><img src="/2022/07/15/javaweb/1660103736569.png" alt="1660103736569"></p>
+<p><img src="/2022/07/15/javaweb/1660103942443.png" alt="1660103942443"></p>
+<h1 id="7、jsp"><a href="#7、jsp" class="headerlink" title="7、jsp"></a>7、jsp</h1><p><img src="/2022/07/15/javaweb/1660204977639.png" alt="1660204977639"></p>
+<p><img src="/2022/07/15/javaweb/1660289646791.png" alt="1660289646791"></p>
+<p><img src="/2022/07/15/javaweb/1660289753431.png" alt="1660289753431"></p>
+<p><img src="/2022/07/15/javaweb/1660290323444.png" alt="1660290323444"></p>
+<p><img src="/2022/07/15/javaweb/1660290602374.png" alt="1660290602374"></p>
+<p><img src="/2022/07/15/javaweb/1660290840836.png" alt="1660290840836"></p>
+<p><img src="/2022/07/15/javaweb/1660291539452.png" alt="1660291539452"></p>
+<p><img src="/2022/07/15/javaweb/1660291560644.png" alt="1660291560644"></p>
+<h1 id="8、MVC开发模式"><a href="#8、MVC开发模式" class="headerlink" title="8、MVC开发模式"></a>8、MVC开发模式</h1><p><img src="/2022/07/15/javaweb/1660291683985.png" alt="1660291683985"></p>
+<p><img src="/2022/07/15/javaweb/1660291843183.png" alt="1660291843183"></p>
+<p><img src="/2022/07/15/javaweb/1660291882721.png" alt="1660291882721"></p>
+<h1 id="9、会话跟踪技术"><a href="#9、会话跟踪技术" class="headerlink" title="9、会话跟踪技术"></a>9、会话跟踪技术</h1><p><img src="/2022/07/15/javaweb/1660555214751.png" alt="1660555214751"></p>
+<p><img src="/2022/07/15/javaweb/1660555599037.png" alt="1660555599037"></p>
+<p><img src="/2022/07/15/javaweb/1660555756463.png" alt="1660555756463"></p>
+<p><img src="/2022/07/15/javaweb/1660556777632.png" alt="1660556777632"></p>
+<p><img src="/2022/07/15/javaweb/1660556966244.png" alt="1660556966244"></p>
+<p><img src="/2022/07/15/javaweb/1660559189317.png" alt="1660559189317"></p>
+<p><img src="/2022/07/15/javaweb/1660559597392.png" alt="1660559597392"></p>
+<p><img src="/2022/07/15/javaweb/1660559862553.png" alt="1660559862553"></p>
+<h1 id="10、filter过滤器"><a href="#10、filter过滤器" class="headerlink" title="10、filter过滤器"></a>10、filter过滤器</h1><p><img src="/2022/07/15/javaweb/1660726835165.png" alt="1660726835165"></p>
+<p><img src="/2022/07/15/javaweb/1660727325055.png" alt="1660727325055"></p>
+<p>一般 放行前对resqust中修改  放行后对response中改</p>
+<p><img src="/2022/07/15/javaweb/1660727480997.png" alt="1660727480997"></p>
+<p><img src="/2022/07/15/javaweb/1660727680169.png" alt="1660727680169"></p>
+<p><img src="/2022/07/15/javaweb/1660728380599.png" alt="1660728380599"></p>
+<p>11、listener监听器</p>
+<p><img src="/2022/07/15/javaweb/1660728936391.png" alt="1660728936391"></p>
+<h1 id="12、AJAX"><a href="#12、AJAX" class="headerlink" title="12、AJAX"></a>12、AJAX</h1><p><img src="/2022/07/15/javaweb/1660729327098.png" alt="1660729327098"></p>
+<p><img src="/2022/07/15/javaweb/1660729344925.png" alt="1660729344925"></p>
+<p><img src="/2022/07/15/javaweb/1660729375409.png" alt="1660729375409"></p>
+<p><img src="/2022/07/15/javaweb/1660731018264.png" alt="1660731018264"></p>
+<p><img src="/2022/07/15/javaweb/1660731364050.png" alt="1660731364050"></p>
+<p><img src="/2022/07/15/javaweb/1660731582386.png" alt="1660731582386"></p>
+<p><img src="/2022/07/15/javaweb/1660731627474.png" alt="1660731627474"></p>
+<h1 id="13、Vue"><a href="#13、Vue" class="headerlink" title="13、Vue"></a>13、Vue</h1><p><img src="/2022/07/15/javaweb/1660972291162.png" alt="1660972291162"></p>
+<p><img src="/2022/07/15/javaweb/1660972563402.png" alt="1660972563402"></p>
+<p><img src="/2022/07/15/javaweb/1660972703946.png" alt="1660972703946"></p>
+<p><img src="/2022/07/15/javaweb/1660972727803.png" alt="1660972727803"></p>
+<p><img src="/2022/07/15/javaweb/1660972821789.png" alt="1660972821789"></p>
+<p><img src="/2022/07/15/javaweb/1660972959395.png" alt="1660972959395"></p>
+<p><img src="/2022/07/15/javaweb/1660973730162.png" alt="1660973730162"></p>
+<h1 id="14、Element"><a href="#14、Element" class="headerlink" title="14、Element"></a>14、Element</h1><p> <a href="https://element.eleme.cn/#/zh-CN">Element - 网站快速成型工具</a> </p>
+<p><img src="/2022/07/15/javaweb/1660977332487.png" alt="1660977332487"></p>
+<p><img src="/2022/07/15/javaweb/1660977890183.png" alt="1660977890183"></p>
+<p><img src="/2022/07/15/javaweb/1660977898724.png" alt="1660977898724"></p>
+<p><img src="/2022/07/15/javaweb/1660985789894.png" alt="1660985789894"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+</search>
