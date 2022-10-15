@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SSM框架 - Qimi</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Qimickey个人博客,"> 
+    <meta name="description" content="个人博客,SSM*一、Spring
+
+
+
+通过断点调试可知 ：
+singleton 在加载配置文件时候创建bean对象
+prototype 在调用getbean方法时创建bean对象
+
+
+
+默认使用无参构造 ,"> 
+    <meta name="author" content="Qimickey"> 
+    <link rel="alternative" href="atom.xml" title="Qimi" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="SSM框架 - Qimi"/>
+    <meta name="twitter:description" content="个人博客,SSM*一、Spring
+
+
+
+通过断点调试可知 ：
+singleton 在加载配置文件时候创建bean对象
+prototype 在调用getbean方法时创建bean对象
+
+
+
+默认使用无参构造 ,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Qimi"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="SSM框架 - Qimi"/>
+    <meta property="og:description" content="个人博客,SSM*一、Spring
+
+
+
+通过断点调试可知 ：
+singleton 在加载配置文件时候创建bean对象
+prototype 在调用getbean方法时创建bean对象
+
+
+
+默认使用无参构造 ,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Qimi</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://qimickey.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">SSM框架</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">SSM框架</h1>
+        <div class="stuff">
+            <span>十月 15, 2022</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <h1 id="SSM"><a href="#SSM" class="headerlink" title="SSM*"></a><em>SSM</em>*</h1><h1 id="一、Spring"><a href="#一、Spring" class="headerlink" title="一、Spring"></a>一、Spring</h1><p><img src="/2022/10/15/SSM/1662043785756.png" alt="1662043785756"></p>
+<p><img src="/2022/10/15/SSM/1662043961142.png" alt="1662043961142"></p>
+<p><img src="/2022/10/15/SSM/1662044011475.png" alt="1662044011475"></p>
+<p><img src="/2022/10/15/SSM/1662044544526.png" alt="1662044544526"></p>
+<p>通过断点调试可知 ：</p>
+<p>singleton 在加载配置文件时候创建bean对象</p>
+<p>prototype 在调用getbean方法时创建bean对象</p>
+<p><img src="/2022/10/15/SSM/1662044915540.png" alt="1662044915540"></p>
+<p><img src="/2022/10/15/SSM/1662045148297.png" alt="1662045148297"></p>
+<p><img src="/2022/10/15/SSM/1662045402357.png" alt="1662045402357"></p>
+<p>默认使用无参构造    </p>
+<p>工厂静态方法实例化：</p>
+<p>首先创造工厂类 创建静态方法  通过 factory-method找方法</p>
+<p><img src="/2022/10/15/SSM/1662045487394.png" alt="1662045487394"></p>
+<p>工厂实例方法实例化： </p>
+<p><img src="/2022/10/15/SSM/1662045527267.png" alt="1662045527267"></p>
+<p><img src="/2022/10/15/SSM/1662384935193.png" alt="1662384935193"></p>
+<p><img src="/2022/10/15/SSM/1662385094131.png" alt="1662385094131"></p>
+<p><img src="/2022/10/15/SSM/1662385509745.png" alt="1662385509745"></p>
+<p><img src="/2022/10/15/SSM/1662386348344.png" alt="1662386348344"></p>
+<p>1、普通</p>
+<p><img src="/2022/10/15/SSM/1662386371571.png" alt="1662386371571"></p>
+<p>2、List  和 map  和 集合</p>
+<p><img src="/2022/10/15/SSM/1662386422152.png" alt="1662386422152"></p>
+<p><img src="/2022/10/15/SSM/1662386457742.png" alt="1662386457742"></p>
+<p><img src="/2022/10/15/SSM/1662386476236.png" alt="1662386476236"></p>
+<p><img src="/2022/10/15/SSM/1662477200253.png" alt="1662477200253"></p>
+<p><img src="/2022/10/15/SSM/1662477819175.png" alt="1662477819175"></p>
+<p><img src="/2022/10/15/SSM/1662478050848.png" alt="1662478050848"></p>
+<p><img src="/2022/10/15/SSM/1662478175739.png" alt="1662478175739"></p>
+<p><img src="/2022/10/15/SSM/1662648342666.png" alt="1662648342666"></p>
+<p><img src="/2022/10/15/SSM/1662648232341.png" alt="1662648232341"></p>
+<p><img src="/2022/10/15/SSM/1662648263414.png" alt="1662648263414"></p>
+<p><img src="/2022/10/15/SSM/1662648558467.png" alt="1662648558467"></p>
+<p><img src="/2022/10/15/SSM/1662649661829.png" alt="1662649661829"></p>
+<p>注解开发需要配合组件扫描一起使用</p>
+<p><img src="/2022/10/15/SSM/1662650326083.png" alt="1662650326083"></p>
+<p>@Autowired </p>
+<p>@Qualifier（“userDao”） 只要一个bean的时候 可以省略此行</p>
+<p>@Resource(name&#x3D;”userDao”) 相当于上面两个的合体</p>
+<p><img src="/2022/10/15/SSM/1662701327851.png" alt="1662701327851"></p>
+<p><img src="/2022/10/15/SSM/1662701345192.png" alt="1662701345192"></p>
+<p><img src="/2022/10/15/SSM/1662702447904.png" alt="1662702447904"></p>
+<p><img src="/2022/10/15/SSM/1662714749735.png" alt="1662714749735"></p>
+<p><img src="/2022/10/15/SSM/1662717380877.png" alt="1662717380877"></p>
+<h1 id="二、Spring-MVC"><a href="#二、Spring-MVC" class="headerlink" title="二、Spring MVC"></a>二、Spring MVC</h1><p><img src="/2022/10/15/SSM/1662878953754.png" alt="1662878953754"></p>
+<p><img src="/2022/10/15/SSM/1662879336934.png" alt="1662879336934"></p>
+<p><img src="/2022/10/15/SSM/1662957276484.png" alt="1662957276484"></p>
+<p><img src="/2022/10/15/SSM/1662957372404.png" alt="1662957372404"></p>
+<p><img src="/2022/10/15/SSM/1662959866461.png" alt="1662959866461"></p>
+<p><img src="/2022/10/15/SSM/1662960148851.png" alt="1662960148851"></p>
+<p><img src="/2022/10/15/SSM/1662961022027.png" alt="1662961022027"></p>
+<p><img src="/2022/10/15/SSM/1662961261610.png" alt="1662961261610"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--    配置内部资源视图解析器--&gt;    </span><br><span class="line">&lt;bean id=<span class="string">&quot;viewResolver&quot;</span>        class=<span class="string">&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;</span>&gt;        &lt;property name=<span class="string">&quot;prefix&quot;</span> value=<span class="string">&quot;/jsp/&quot;</span>&gt;&lt;/property&gt;       </span><br><span class="line"> &lt;property name=<span class="string">&quot;suffix&quot;</span> value=<span class="string">&quot;.jsp&quot;</span>&gt;&lt;/property&gt;   </span><br><span class="line">&lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2022/10/15/SSM/1662970766275.png" alt="1662970766275"></p>
+<p>ModelAndView 也可以单独model  和 view  </p>
+<p>也可以 public ModelAndView save3(ModelAndView modelAndView)</p>
+<p>springMVC框架会帮我们创建对象</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping(&quot;/quick2&quot;)</span></span><br><span class="line"><span class="keyword">public</span> ModelAndView <span class="title function_">save2</span><span class="params">()</span>&#123;   </span><br><span class="line">    ModelAndView modelAndView=<span class="keyword">new</span> <span class="title class_">ModelAndView</span>();    </span><br><span class="line">    modelAndView.addObject(<span class="string">&quot;username&quot;</span>,<span class="string">&quot;itheima&quot;</span>);   </span><br><span class="line">    modelAndView.setViewName(<span class="string">&quot;success&quot;</span>);    </span><br><span class="line">    <span class="keyword">return</span> modelAndView;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="/2022/10/15/SSM/1663310887312.png" alt="1663310887312"></p>
+<p>controller直接返回对象 通过配置文件自动转换为json格式</p>
+<p>springmvx配置文件如下</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;bean class=<span class="string">&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&quot;</span>&gt;    &lt;property name=<span class="string">&quot;messageConverters&quot;</span>&gt;</span><br><span class="line">     &lt;list&gt;</span><br><span class="line">       &lt;bean  class=<span class="string">&quot;org.springframework.http.converter.json.MappingJackson2HttpMessageConverter&quot;</span>/&gt;        &lt;/list&gt;   </span><br><span class="line"> &lt;/property&gt;</span><br><span class="line">&lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+
+<p>。。。。。。经典白学</p>
+<p>通过mvc注解驱动会自动完成</p>
+<p><img src="/2022/10/15/SSM/1663418173865.png" alt="1663418173865"></p>
+<p>获取请求参数</p>
+<p> <img src="/2022/10/15/SSM/1663420437246.png" alt="1663420437246"></p>
+<p><img src="/2022/10/15/SSM/1663511474539.png" alt="1663511474539"></p>
+<p>获取集合类型参数 ，要将集合参数包装到一个pojo中才可以</p>
+<p><img src="/2022/10/15/SSM/1663512331171.png" alt="1663512331171"></p>
+<p><img src="/2022/10/15/SSM/1663513013433.png" alt="1663513013433"></p>
+<p><img src="/2022/10/15/SSM/1663513458180.png" alt="1663513458180"></p>
+<p>default-servlet-handler 让tomcat服务器帮我们去找静态资源</p>
+<p><img src="/2022/10/15/SSM/1663513549987.png" alt="1663513549987"></p>
+<p>解决中文乱码问题</p>
+<p>RequestParam(“name”)   将name 映射到username中</p>
+<p><img src="/2022/10/15/SSM/1663514243897.png" alt="1663514243897"></p>
+<p><img src="/2022/10/15/SSM/1663514270968.png" alt="1663514270968"></p>
+<p><img src="/2022/10/15/SSM/1663514456360.png" alt="1663514456360"></p>
+<p><img src="/2022/10/15/SSM/1663514635446.png" alt="1663514635446"></p>
+<p><img src="/2022/10/15/SSM/1663515436171.png" alt="1663515436171"></p>
+<p><img src="/2022/10/15/SSM/1663515543762.png" alt="1663515543762"></p>
+<p><img src="/2022/10/15/SSM/1663516107982.png" alt="1663516107982"></p>
+<p><img src="/2022/10/15/SSM/1663516131562.png" alt="1663516131562"></p>
+<p>文件上传</p>
+<p>先导入依赖坐标</p>
+<p><img src="/2022/10/15/SSM/1663769181971.png" alt="1663769181971"></p>
+<p><img src="/2022/10/15/SSM/1663769103866.png" alt="1663769103866"></p>
+<p><img src="/2022/10/15/SSM/1663769092709.png" alt="1663769092709"></p>
+<p><img src="/2022/10/15/SSM/1663769132047.png" alt="1663769132047"></p>
+<p><img src="/2022/10/15/SSM/1663769249533.png" alt="1663769249533"></p>
+<h2 id="jdbcTemplate基本使用"><a href="#jdbcTemplate基本使用" class="headerlink" title="jdbcTemplate基本使用"></a>jdbcTemplate基本使用</h2><p><img src="/2022/10/15/SSM/1663769466895.png" alt="1663769466895"></p>
+<p><img src="/2022/10/15/SSM/1663769480944.png" alt="1663769480944"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">ComboPooledDataSource dataSource=<span class="keyword">new</span> <span class="title class_">ComboPooledDataSource</span>();</span><br><span class="line">dataSource.setDriverClass(<span class="string">&quot;com.mysql.jdbc.Driver&quot;</span>);</span><br><span class="line">dataSource.setJdbcUrl(<span class="string">&quot;jdbc:mysql:///db1&quot;</span>);</span><br><span class="line">dataSource.setUser(<span class="string">&quot;root&quot;</span>);</span><br><span class="line">dataSource.setPassword(<span class="string">&quot;1234&quot;</span>);</span><br><span class="line">JdbcTemplate jdbcTemplate=<span class="keyword">new</span> <span class="title class_">JdbcTemplate</span>();</span><br><span class="line"><span class="comment">//设置数据源对象，知道数据库的位置</span></span><br><span class="line">jdbcTemplate.setDataSource(dataSource);</span><br><span class="line"><span class="comment">//执行操作</span></span><br><span class="line"><span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> jdbcTemplate.update(<span class="string">&quot;insert into account values (?,?)&quot;</span>, <span class="string">&quot;tom&quot;</span>, <span class="number">5000</span>);</span><br><span class="line">System.out.println(row);</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2022/10/15/SSM/1663772245814.png" alt="1663772245814"></p>
+<p><img src="/2022/10/15/SSM/1663773697656.png" alt="1663773697656"></p>
+<h2 id="sping-mvc拦截器"><a href="#sping-mvc拦截器" class="headerlink" title="sping-mvc拦截器"></a>sping-mvc拦截器</h2><p><img src="/2022/10/15/SSM/1664202484692.png" alt="1664202484692"></p>
+<p><img src="/2022/10/15/SSM/1664203319954.png" alt="1664203319954"></p>
+<p><img src="/2022/10/15/SSM/1664205285583.png" alt="1664205285583"></p>
+<p><img src="/2022/10/15/SSM/1664205334292.png" alt="1664205334292"></p>
+<h2 id="spring异常处理机制"><a href="#spring异常处理机制" class="headerlink" title="spring异常处理机制"></a>spring异常处理机制</h2><p><img src="/2022/10/15/SSM/1664208176765.png" alt="1664208176765"></p>
+<p><img src="/2022/10/15/SSM/1664208358860.png" alt="1664208358860"></p>
+<p><img src="/2022/10/15/SSM/1664208888937.png" alt="1664208888937"></p>
+<h2 id="Spring-AOP"><a href="#Spring-AOP" class="headerlink" title="Spring AOP"></a>Spring AOP</h2><p><img src="/2022/10/15/SSM/1664292304509.png" alt="1664292304509"></p>
+<p><img src="/2022/10/15/SSM/1664292618933.png" alt="1664292618933"></p>
+<p><img src="/2022/10/15/SSM/1664292839278.png" alt="1664292839278"></p>
+<p><img src="/2022/10/15/SSM/1664294434716.png" alt="1664294434716"></p>
+<p><img src="/2022/10/15/SSM/1664895616889.png" alt="1664895616889"></p>
+<p><img src="/2022/10/15/SSM/1664895664946.png" alt="1664895664946"></p>
+<p><img src="/2022/10/15/SSM/1664897057817.png" alt="1664897057817"></p>
+<p><img src="/2022/10/15/SSM/1664897691446.png" alt="1664897691446"></p>
+<p><img src="/2022/10/15/SSM/1664897705001.png" alt="1664897705001"></p>
+<p>切点表达式的抽取：</p>
+<p><img src="/2022/10/15/SSM/1664897828575.png" alt="1664897828575"></p>
+<p><img src="/2022/10/15/SSM/1664897834613.png" alt="1664897834613"></p>
+<p><img src="/2022/10/15/SSM/1664897893168.png" alt="1664897893168"></p>
+<p>基于注解的aop开发</p>
+<p><img src="/2022/10/15/SSM/1664981930027.png" alt="1664981930027"></p>
+<p><img src="/2022/10/15/SSM/1664981940202.png" alt="1664981940202"></p>
+<p><img src="/2022/10/15/SSM/1664982009440.png" alt="1664982009440"></p>
+<p><img src="/2022/10/15/SSM/1664982190198.png" alt="1664982190198"></p>
+<p><img src="/2022/10/15/SSM/1665031965634.png" alt="1665031965634"></p>
+<p><img src="/2022/10/15/SSM/1665031267456.png" alt="1665031267456"></p>
+<p><img src="/2022/10/15/SSM/1665031696303.png" alt="1665031696303"></p>
+<p><img src="/2022/10/15/SSM/1665031934615.png" alt="1665031934615"></p>
+<p><img src="/2022/10/15/SSM/1665032207110.png" alt="1665032207110"></p>
+<p><img src="/2022/10/15/SSM/1665033375690.png" alt="1665033375690"></p>
+<p>使用注解</p>
+<p><img src="/2022/10/15/SSM/1665033780738.png" alt="1665033780738"></p>
+<p><img src="/2022/10/15/SSM/1665033799554.png" alt="1665033799554"></p>
+<h1 id="三、Mybatis"><a href="#三、Mybatis" class="headerlink" title="三、Mybatis"></a>三、Mybatis</h1><p><img src="/2022/10/15/SSM/1665066378231.png" alt="1665066378231"></p>
+<p><img src="/2022/10/15/SSM/1665066545753.png" alt="1665066545753"></p>
+<p><img src="/2022/10/15/SSM/1665066993704.png" alt="1665066993704"></p>
+<p><img src="/2022/10/15/SSM/1665067162200.png" alt="1665067162200"></p>
+<p><img src="/2022/10/15/SSM/1665068443531.png" alt="1665068443531"></p>
+<p><img src="/2022/10/15/SSM/1665115892320.png" alt="1665115892320"></p>
+<p><img src="/2022/10/15/SSM/1665116172179.png" alt="1665116172179"></p>
+<p><img src="/2022/10/15/SSM/1665116277158.png" alt="1665116277158"></p>
+<p><img src="/2022/10/15/SSM/1665116318422.png" alt="1665116318422"></p>
+<p><img src="/2022/10/15/SSM/1665116367806.png" alt="1665116367806"></p>
+<p>sqlmapconfig核心配置文件需要安顺序</p>
+<p><img src="/2022/10/15/SSM/1665116552422.png" alt="1665116552422"></p>
+<p><img src="/2022/10/15/SSM/1665117472154.png" alt="1665117472154"></p>
+<p><img src="/2022/10/15/SSM/1665121525951.png" alt="1665121525951"></p>
+<p>通过反射 代理</p>
+<p><img src="/2022/10/15/SSM/1665121635168.png" alt="1665121635168"></p>
+<p>动态sql的标签应用</p>
+<p><img src="/2022/10/15/SSM/1665122854313.png" alt="1665122854313"></p>
+<p><img src="/2022/10/15/SSM/1665122779316.png" alt="1665122779316"></p>
+<p>sql语句的抽取</p>
+<p><img src="/2022/10/15/SSM/1665122956696.png" alt="1665122956696"></p>
+<p><img src="/2022/10/15/SSM/1665123033380.png" alt="1665123033380"></p>
+<p>自定义类型转化器 用于数据库类型和java类型的项目转换</p>
+<p><img src="/2022/10/15/SSM/1665154962243.png" alt="1665154962243"></p>
+<p>利用插件完成分页</p>
+<p><img src="/2022/10/15/SSM/1665155200078.png" alt="1665155200078"></p>
+<p><img src="/2022/10/15/SSM/1665155222475.png" alt="1665155222475"></p>
+<p><img src="/2022/10/15/SSM/1665155580987.png" alt="1665155580987"></p>
+<p><img src="/2022/10/15/SSM/1665155608406.png" alt="1665155608406"></p>
+<h2 id="多表查询"><a href="#多表查询" class="headerlink" title="多表查询"></a>多表查询</h2><p>java 的domain 要使用面向对象封装</p>
+<p><img src="/2022/10/15/SSM/1665156346205.png" alt="1665156346205"></p>
+<p>使用resultmap手动指定映射关系</p>
+<p><img src="/2022/10/15/SSM/1665156362662.png" alt="1665156362662"></p>
+<p>规范优化</p>
+<p><img src="/2022/10/15/SSM/1665156554906.png" alt="1665156554906"></p>
+<p>一对多 collection</p>
+<p><img src="/2022/10/15/SSM/1665156909239.png" alt="1665156909239"></p>
+<p><img src="/2022/10/15/SSM/1665157309893.png" alt="1665157309893"></p>
+<p>注解开发</p>
+<p><img src="/2022/10/15/SSM/1665241197809.png" alt="1665241197809"></p>
+<p>需要包扫描</p>
+<p>注解配置映射关系</p>
+<p><img src="/2022/10/15/SSM/1665241954548.png" alt="1665241954548"></p>
+<p>另外一种方法</p>
+<p><img src="/2022/10/15/SSM/1665242249691.png" alt="1665242249691"></p>
+<p><img src="/2022/10/15/SSM/1665243077025.png" alt="1665243077025"></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="https://m801.music.126.net/20221015001211/c15ed66ac1672c68633347fa6fd8481c/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14550490581/8fba/1680/7886/e3c12c9268d5987126d4e92727a1d71f.m4a"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o="Qimickey"
+        data-a="Qimickey"
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#SSM"><span class="toc-number">1.</span> <span class="toc-text">SSM*</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Spring"><span class="toc-number">2.</span> <span class="toc-text">一、Spring</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Spring-MVC"><span class="toc-number">3.</span> <span class="toc-text">二、Spring MVC</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#jdbcTemplate%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.</span> <span class="toc-text">jdbcTemplate基本使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sping-mvc%E6%8B%A6%E6%88%AA%E5%99%A8"><span class="toc-number">3.2.</span> <span class="toc-text">sping-mvc拦截器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#spring%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E6%9C%BA%E5%88%B6"><span class="toc-number">3.3.</span> <span class="toc-text">spring异常处理机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-AOP"><span class="toc-number">3.4.</span> <span class="toc-text">Spring AOP</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81Mybatis"><span class="toc-number">4.</span> <span class="toc-text">三、Mybatis</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2"><span class="toc-number">4.1.</span> <span class="toc-text">多表查询</span></a></li></ol></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
