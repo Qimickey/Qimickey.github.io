@@ -256,6 +256,90 @@
       </tags>
   </entry>
   <entry>
+    <title>linux</title>
+    <url>/2022/11/25/linux/</url>
+    <content><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p><img src="/2022/11/25/linux/1669193111029.png" alt="1669193111029"></p>
+<p><img src="/2022/11/25/linux/1669193204819.png" alt="1669193204819"></p>
+<p>设置网卡</p>
+<p><img src="/2022/11/25/linux/1669209460056.png" alt="1669209460056"></p>
+<p><img src="/2022/11/25/linux/1669209647513.png" alt="1669209647513"></p>
+<p><img src="/2022/11/25/linux/1669210755036.png" alt="1669210755036"></p>
+<p><img src="/2022/11/25/linux/1669210766728.png" alt="1669210766728"></p>
+<h2 id="1、Linux常用命令"><a href="#1、Linux常用命令" class="headerlink" title="1、Linux常用命令"></a>1、Linux常用命令</h2><p><img src="/2022/11/25/linux/1669210955878.png" alt="1669210955878"></p>
+<p><img src="/2022/11/25/linux/1669212050970.png" alt="1669212050970"></p>
+<p><img src="/2022/11/25/linux/1669212795667.png" alt="1669212795667"></p>
+<p><img src="/2022/11/25/linux/1669212825992.png" alt="1669212825992"></p>
+<p><img src="/2022/11/25/linux/1669212905867.png" alt="1669212905867"></p>
+<p><img src="/2022/11/25/linux/1669213154530.png" alt="1669213154530"></p>
+<p><img src="/2022/11/25/linux/1669213210434.png" alt="1669213210434"></p>
+<p>tail -f 文件   监控文件</p>
+<p><img src="/2022/11/25/linux/1669213477949.png" alt="1669213477949"></p>
+<p><img src="/2022/11/25/linux/1669213637358.png" alt="1669213637358"></p>
+<p><img src="/2022/11/25/linux/1669213891549.png" alt="1669213891549"></p>
+<p><img src="/2022/11/25/linux/1669215943384.png" alt="1669215943384"></p>
+<p><img src="/2022/11/25/linux/1669216853665.png" alt="1669216853665"></p>
+<p><img src="/2022/11/25/linux/1669217255279.png" alt="1669217255279"></p>
+<h2 id="2、常用组合"><a href="#2、常用组合" class="headerlink" title="2、常用组合"></a>2、常用组合</h2><p><img src="/2022/11/25/linux/1669217883051.png" alt="1669217883051"></p>
+<h2 id="3、文本编辑"><a href="#3、文本编辑" class="headerlink" title="3、文本编辑"></a>3、文本编辑</h2><p><img src="/2022/11/25/linux/1669217978571.png" alt="1669217978571"></p>
+<p><img src="/2022/11/25/linux/1669218101161.png" alt="1669218101161"></p>
+<h3 id="VIM三种模式："><a href="#VIM三种模式：" class="headerlink" title="VIM三种模式："></a>VIM三种模式：</h3><p><img src="/2022/11/25/linux/1669218134901.png" alt="1669218134901"></p>
+<p><img src="/2022/11/25/linux/1669218190699.png" alt="1669218190699"></p>
+<p><img src="/2022/11/25/linux/1669218208043.png" alt="1669218208043"></p>
+<p>查找</p>
+<p><img src="/2022/11/25/linux/1669218478584.png" alt="1669218478584"></p>
+<p><img src="/2022/11/25/linux/1669218547935.png" alt="1669218547935"></p>
+<p>gerp区分大小写</p>
+<h2 id="4、软件安装"><a href="#4、软件安装" class="headerlink" title="4、软件安装"></a>4、软件安装</h2><p><img src="/2022/11/25/linux/1669264602523.png" alt="1669264602523"></p>
+<h3 id="JDK"><a href="#JDK" class="headerlink" title="JDK"></a>JDK</h3><p><img src="/2022/11/25/linux/1669266284451.png" alt="1669266284451"></p>
+<h3 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h3><p><img src="/2022/11/25/linux/1669266602549.png" alt="1669266602549"></p>
+<p><img src="/2022/11/25/linux/1669266641667.png" alt="1669266641667"></p>
+<p>防火墙</p>
+<p><img src="/2022/11/25/linux/1669266990854.png" alt="1669266990854"></p>
+<p>firewall-cmd –zone&#x3D;public –add-port&#x3D;8080&#x2F;tcp –permanent</p>
+<p>firewall-cmd –reload</p>
+<p><img src="/2022/11/25/linux/1669267844661.png" alt="1669267844661"></p>
+<p>建议前者，实在不行杀死进程</p>
+<h3 id="MYSQL"><a href="#MYSQL" class="headerlink" title="MYSQL"></a>MYSQL</h3><p><img src="/2022/11/25/linux/1669297847497.png" alt="1669297847497"></p>
+<p> rpm -e –nodeps mariadb-libs-5.5.60-1.el7_5.x86_64</p>
+<p><img src="/2022/11/25/linux/1669298014104.png" alt="1669298014104"></p>
+<p><img src="/2022/11/25/linux/1669298224977.png" alt="1669298224977"></p>
+<p><img src="/2022/11/25/linux/1669298242901.png" alt="1669298242901"></p>
+<p><img src="/2022/11/25/linux/1669299443640.png" alt="1669299443640"></p>
+<p>临时密码在日志文件中，需要自己修改（uy.sCr-en4;p）</p>
+<p><img src="/2022/11/25/linux/1669299456497.png" alt="1669299456497"><img src="/2022/11/25/linux/1669299684638.png" alt="1669299684638"></p>
+<p><img src="/2022/11/25/linux/1669299948164.png" alt="1669299948164"></p>
+<p>外部链接需要开启防火墙</p>
+<p> firewall-cmd –zone&#x3D;public –add-port&#x3D;3306&#x2F;tcp –permanent</p>
+<p>firewall-cmd –reload</p>
+<h3 id="lrzsz"><a href="#lrzsz" class="headerlink" title="lrzsz"></a>lrzsz</h3><p>yum自动处理依赖关系</p>
+<p><img src="/2022/11/25/linux/1669300138296.png" alt="1669300138296"></p>
+<h2 id="5、项目部署"><a href="#5、项目部署" class="headerlink" title="5、项目部署"></a>5、项目部署</h2><h2 id="1、手工部署"><a href="#1、手工部署" class="headerlink" title="1、手工部署"></a>1、手工部署</h2><p><img src="/2022/11/25/linux/1669302279892.png" alt="1669302279892"></p>
+<p><img src="/2022/11/25/linux/1669302293367.png" alt="1669302293367"></p>
+<p><img src="/2022/11/25/linux/1669302412142.png" alt="1669302412142"></p>
+<p><img src="/2022/11/25/linux/1669302983690.png" alt="1669302983690"></p>
+<p>更改后台运行</p>
+<p><img src="/2022/11/25/linux/1669303161096.png" alt="1669303161096"></p>
+<p><img src="/2022/11/25/linux/1669303355846.png" alt="1669303355846"></p>
+<p>此操作会在当前目录生成hello.log</p>
+<p><img src="/2022/11/25/linux/1669303443696.png" alt="1669303443696"></p>
+<h2 id="2、通过shell自动部署"><a href="#2、通过shell自动部署" class="headerlink" title="2、通过shell自动部署"></a>2、通过shell自动部署</h2><p><img src="/2022/11/25/linux/1669303530021.png" alt="1669303530021"></p>
+<p><img src="/2022/11/25/linux/1669304228594.png" alt="1669304228594"></p>
+<p><img src="/2022/11/25/linux/1669304284169.png" alt="1669304284169"></p>
+<p><img src="/2022/11/25/linux/1669304400881.png" alt="1669304400881"></p>
+<p><img src="/2022/11/25/linux/1669304786023.png" alt="1669304786023"></p>
+<p><img src="/2022/11/25/linux/1669305144393.png" alt="1669305144393"></p>
+<p> <img src="/2022/11/25/linux/1669305384577.png" alt="1669305384577"> </p>
+<p><img src="/2022/11/25/linux/1669305582407.png" alt="1669305582407"></p>
+<p><img src="/2022/11/25/linux/1669306358120.png" alt="1669306358120"></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVAWEB</title>
     <url>/2022/07/15/javaweb/</url>
     <content><![CDATA[<blockquote>
