@@ -195,6 +195,53 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2099/12/15/gonggao/</url>
+    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git</title>
+    <url>/2022/11/25/git/</url>
+    <content><![CDATA[<h1 id="git课程"><a href="#git课程" class="headerlink" title="git课程"></a>git课程</h1><p><img src="/2022/11/25/git/1669126405128.png" alt="1669126405128"></p>
+<p><img src="/2022/11/25/git/1669126620512.png" alt="1669126620512"></p>
+<h2 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h2><p><img src="/2022/11/25/git/1669128574364.png" alt="1669128574364"></p>
+<p>git init 本地创建仓库</p>
+<p>git clone 克隆远程仓库地址</p>
+<p><img src="/2022/11/25/git/1669128847700.png" alt="1669128847700"></p>
+<p><img src="/2022/11/25/git/1669129052690.png" alt="1669129052690"></p>
+<p> <img src="/2022/11/25/git/1669129227574.png" alt="1669129227574"></p>
+<p><img src="/2022/11/25/git/1669129742960.png" alt="1669129742960"></p>
+<p>getlog查看日志 ， git reset –hard （版本号） </p>
+<p><img src="/2022/11/25/git/1669129800903.png" alt="1669129800903"></p>
+<p>git remote -v 详细一些</p>
+<p>git remote add origin (远程仓库地址)</p>
+<p>git clone （url）</p>
+<p><img src="/2022/11/25/git/1669130942979.png" alt="1669130942979"></p>
+<p>分支</p>
+<p><img src="/2022/11/25/git/1669131590761.png" alt="1669131590761"></p>
+<p><img src="/2022/11/25/git/1669131827194.png" alt="1669131827194"></p>
+<p>多分支，便于分模块开发 ，最后在合并</p>
+<p>分支合并产生冲突，手动解决</p>
+<p><img src="/2022/11/25/git/1669133377771.png" alt="1669133377771"></p>
+<p><img src="/2022/11/25/git/1669133461443.png" alt="1669133461443"></p>
+<p>标签等于是照片；静态   分支是动态</p>
+<h2 id="在IDEA中使用git"><a href="#在IDEA中使用git" class="headerlink" title="在IDEA中使用git"></a>在IDEA中使用git</h2><p>设置中配置一下git</p>
+<p><img src="/2022/11/25/git/1669134341213.png" alt="1669134341213"></p>
+<p><img src="/2022/11/25/git/1669134318845.png" alt="1669134318845"></p>
+<p>从远程克隆</p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVA</title>
     <url>/2022/04/15/hello-world/</url>
     <content><![CDATA[<p>Arrays 数组</p>
@@ -244,15 +291,6 @@
       </categories>
       <tags>
         <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2099/12/15/gonggao/</url>
-    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
-]]></content>
-      <tags>
-        <tag>公告</tag>
       </tags>
   </entry>
   <entry>
