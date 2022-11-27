@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>nginx - Qimi</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Qimickey个人博客,"> 
+    <meta name="description" content="个人博客,NginxNginx简介与安装
+
+
+
+yum install tree 展示当前目录结构
+Nginx命令
+
+在sbin目录下
+
+也可以使用绝对路径
+
+
+命令还是比较繁琐，配置一下环境变量即可简化开发,"> 
+    <meta name="author" content="Qimickey"> 
+    <link rel="alternative" href="atom.xml" title="Qimi" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="nginx - Qimi"/>
+    <meta name="twitter:description" content="个人博客,NginxNginx简介与安装
+
+
+
+yum install tree 展示当前目录结构
+Nginx命令
+
+在sbin目录下
+
+也可以使用绝对路径
+
+
+命令还是比较繁琐，配置一下环境变量即可简化开发,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Qimi"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="nginx - Qimi"/>
+    <meta property="og:description" content="个人博客,NginxNginx简介与安装
+
+
+
+yum install tree 展示当前目录结构
+Nginx命令
+
+在sbin目录下
+
+也可以使用绝对路径
+
+
+命令还是比较繁琐，配置一下环境变量即可简化开发,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Qimi</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://qimickey.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">nginx</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">nginx</h1>
+        <div class="stuff">
+            <span>十一月 28, 2022</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/JAVA%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/" rel="tag">JAVA后端开发</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1><h2 id="Nginx简介与安装"><a href="#Nginx简介与安装" class="headerlink" title="Nginx简介与安装"></a>Nginx简介与安装</h2><p><img src="/2022/11/28/nginx/1669555941507.png" alt="1669555941507"></p>
+<p><img src="/2022/11/28/nginx/1669556038627.png" alt="1669556038627"></p>
+<p><img src="/2022/11/28/nginx/1669556073259.png" alt="1669556073259"></p>
+<p><img src="/2022/11/28/nginx/1669556799267.png" alt="1669556799267"></p>
+<p>yum install tree 展示当前目录结构</p>
+<h2 id="Nginx命令"><a href="#Nginx命令" class="headerlink" title="Nginx命令"></a>Nginx命令</h2><p><img src="/2022/11/28/nginx/1669557498505.png" alt="1669557498505"></p>
+<p><img src="/2022/11/28/nginx/1669557558920.png" alt="1669557558920"></p>
+<p>在sbin目录下</p>
+<p><img src="/2022/11/28/nginx/1669557705402.png" alt="1669557705402"></p>
+<p>也可以使用绝对路径</p>
+<p><img src="/2022/11/28/nginx/1669558142053.png" alt="1669558142053"></p>
+<p><img src="/2022/11/28/nginx/1669558204161.png" alt="1669558204161"></p>
+<p>命令还是比较繁琐，配置一下环境变量即可简化开发</p>
+<p>vim  &#x2F;etc&#x2F;profile  path中 加入 &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin:</p>
+<p>需要重新加载一下配置文件 source &#x2F;etc&#x2F;profile</p>
+<h2 id="Nginx配置文件结构"><a href="#Nginx配置文件结构" class="headerlink" title="Nginx配置文件结构"></a>Nginx配置文件结构</h2><p><img src="/2022/11/28/nginx/1669558941716.png" alt="1669558941716"></p>
+<h2 id="Nginx具体应用"><a href="#Nginx具体应用" class="headerlink" title="Nginx具体应用"></a>Nginx具体应用</h2><h3 id="1、部署静态资源"><a href="#1、部署静态资源" class="headerlink" title="1、部署静态资源"></a>1、部署静态资源</h3><p><img src="/2022/11/28/nginx/1669561065279.png" alt="1669561065279"></p>
+<p>比tomcat高效  </p>
+<p>：set nu 显示行号<img src="/2022/11/28/nginx/1669561434177.png" alt="1669561434177"></p>
+<h3 id="2、反向代理"><a href="#2、反向代理" class="headerlink" title="2、反向代理"></a>2、反向代理</h3><p><img src="/2022/11/28/nginx/1669561471107.png" alt="1669561471107"></p>
+<p><img src="/2022/11/28/nginx/1669561737110.png" alt=" "></p>
+<p><strong>代理服务器</strong><br>代理服务器：一种部署于客户端与服务器之间的服务器，代替客户端与服务器对外部网络进行发送或接收消息。</p>
+<p><strong>正向代理</strong><br>正向代理：在客户端部署代理服务器，代替客户端对外部网络发送和接收消息。客户端发送一个指定目标的请求给代理服务器，代理服务器再发送给目标服务器，目标服务器收到请求后，将响应的内容发送给代理服务器，代理服务器发给客户端。</p>
+<p><img src="/2022/11/28/nginx/1669562339485.png" alt="1669562339485"></p>
+<p>在正向代理的过程中，代理服务器代替客户端向目标服务器发送请求，目标服务器不知道谁是真正的客户端，不知道访问自己的是一个代理服务器还是客户端。服务器只负责将响应包发送给请求方。</p>
+<p><strong>正向代理的用途</strong><br>1、突破访问控制<br>例如：VPN<br>国内用户不能直接访问国外的网站，需要通过代访问理服务器，代理服务器将我们的请求发送国外的目标服务器，目标服务器将请求的响应发送给代理服务器，代理服务器再发给用户。这样就实现了正向代理。<br>2、提高访问速度<br>代理服务器里有一个硬盘缓冲区，会将请求响应保存到缓冲区中。下次访问时会直接读取缓冲区中的数据返还给用户。<br>3、隐藏客户端真实的IP<br>因为访问目标服务器的是代理服务器，而不是用户，这样便能隐藏客户端的真实IP 。<br>例：暗网<br>在暗网里，我们访问一个目标时要通过几个代理服务器进行转发，目的就是为了防止被其他人查到自己真实的IP。</p>
+<p>反向代理<br>反向代理：在服务器端部署代理服务器（为了区分，将真正响应的服务器成为业务服务器），让代理服务器替业务服务器接收请求或发送响应。客户端发送一个请求给代理服务器，代理服务器接收请求并将请求发送给业务服务器，业务服务器将响应发送给代理服务器，代理服务器再将响应发送给客户端。</p>
+<p>在反向代理的过程中，客户端不知道自己请求的是代理服务器还是业务服务器。</p>
+<p><img src="/2022/11/28/nginx/1669562354038.png" alt="1669562354038"></p>
+<p><strong>反向代理用途：</strong><br>1、隐藏服务器真实IP<br>在服务器端配置代理服务器可以隐藏服务器的真实IP，防止恶意攻击者的攻击。<br>2、负载均衡<br>代理服务器可以将对业务服务器的请求根据预设算法分发到业务服务器上。<br>3、提高访问速度<br>对于静态页面的访问，代理服务器可以将数据存储到硬盘内，当出现有大量静态页面的访问时，可以直接从代理服务器获取响应。对于动态内容请求，代理服务器可以将缓存存在本地，提高访问响应速度。<br>4、提供安全障性<br>可以将代理服务器作为应用层的防火墙，拦截恶意的Web攻击。还可以为后端服务器统一提供加密和SSL加速（如SSL终端代理），提供HTTP访问认证等。</p>
+<p><strong>正向代理和反向代理的异同点</strong><br>同：<br>1、正向代理和反向代理中的服务器都是对请求和响应进行转发。<br>2、都能提高访问速度。<br>3、帮助客户端或业务服务器隐藏真实的IP。<br>异：<br>1、部署的位置不同<br>正向代理部署在客户端，反向代理部署在服务器端。<br>2、作用不同<br>正向代理是客户端的代理，帮助客户端突破访问控制；反向代理是服务器的代理，帮助服务器实现负载均衡，安全防护。</p>
+<p><strong>配置反向代理</strong></p>
+<p><img src="/2022/11/28/nginx/1669562405369.png" alt="1669562405369"></p>
+<h3 id="3、负载均衡"><a href="#3、负载均衡" class="headerlink" title="3、负载均衡"></a>3、负载均衡</h3><p>本质上就是反向代理</p>
+<p><img src="/2022/11/28/nginx/1669562518808.png" alt="1669562518808"></p>
+<p>配置负载均衡</p>
+<p><img src="/2022/11/28/nginx/1669562626974.png" alt="1669562626974"></p>
+<p><img src="/2022/11/28/nginx/1669562774947.png" alt="1669562774947"></p>
+<p>权重（如下图，并不是严格的2：1，请求数量多的时候接近于2：1）</p>
+<p><img src="/2022/11/28/nginx/1669562802568.png" alt="1669562802568"></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="https://dl.stream.qqmusic.qq.com/C400001E5qAq47jvE1.m4a?guid=1238999235&vkey=E02B84385BABFDBFFCC63FA9E22421532E8D6B4881C4E7B31088900385CE87C9C5D87E32F27534F330E85E4609BE4DF4362865C46432A602&uin=1445291022&fromtag=120032"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="true"
+        data-ae="true"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o="Qimickey"
+        data-a="Qimickey"
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Nginx"><span class="toc-number">1.</span> <span class="toc-text">Nginx</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85"><span class="toc-number">1.1.</span> <span class="toc-text">Nginx简介与安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx%E5%91%BD%E4%BB%A4"><span class="toc-number">1.2.</span> <span class="toc-text">Nginx命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.</span> <span class="toc-text">Nginx配置文件结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Nginx%E5%85%B7%E4%BD%93%E5%BA%94%E7%94%A8"><span class="toc-number">1.4.</span> <span class="toc-text">Nginx具体应用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90"><span class="toc-number">1.4.1.</span> <span class="toc-text">1、部署静态资源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86"><span class="toc-number">1.4.2.</span> <span class="toc-text">2、反向代理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1"><span class="toc-number">1.4.3.</span> <span class="toc-text">3、负载均衡</span></a></li></ol></li></ol></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
