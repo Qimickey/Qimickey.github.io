@@ -195,6 +195,15 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2099/12/15/gonggao/</url>
+    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git</title>
     <url>/2022/11/25/git/</url>
     <content><![CDATA[<h1 id="git课程"><a href="#git课程" class="headerlink" title="git课程"></a>git课程</h1><p><img src="/2022/11/25/git/1669126405128.png" alt="1669126405128"></p>
@@ -230,15 +239,6 @@
       </categories>
       <tags>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2099/12/15/gonggao/</url>
-    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
-]]></content>
-      <tags>
-        <tag>公告</tag>
       </tags>
   </entry>
   <entry>
@@ -691,6 +691,230 @@
 <p><img src="/2022/11/28/nginx/1669562774947.png" alt="1669562774947"></p>
 <p>权重（如下图，并不是严格的2：1，请求数量多的时候接近于2：1）</p>
 <p><img src="/2022/11/28/nginx/1669562802568.png" alt="1669562802568"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>springCache</title>
+    <url>/2022/11/28/springCache/</url>
+    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
+<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
+<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
+<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
+<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
+<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
+<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
+<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
+<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
+<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
+<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
+<p>show slave status\G;</p>
+<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
+<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
+<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
+<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
+<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
+<p>在spring配置文件下</p>
+<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
+<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>springboot</title>
+    <url>/2022/10/30/springboot/</url>
+    <content><![CDATA[<h1 id="Spring-boot"><a href="#Spring-boot" class="headerlink" title="Spring boot"></a>Spring boot</h1><h1 id="导读：课程前置知识"><a href="#导读：课程前置知识" class="headerlink" title="导读：课程前置知识"></a>导读：课程前置知识</h1><h2 id="1、基础篇"><a href="#1、基础篇" class="headerlink" title="1、基础篇"></a>1、基础篇</h2><p><img src="/2022/10/30/springboot/1666017794976.png" alt="1666017794976"></p>
+<h2 id="2、实用篇"><a href="#2、实用篇" class="headerlink" title="2、实用篇"></a>2、实用篇</h2><p><img src="/2022/10/30/springboot/1666018103488.png" alt="1666018103488"></p>
+<h2 id="3、原理篇"><a href="#3、原理篇" class="headerlink" title="3、原理篇"></a>3、原理篇</h2><p><img src="/2022/10/30/springboot/1666018111168.png" alt="1666018111168"></p>
+<h2 id="4、REST风格"><a href="#4、REST风格" class="headerlink" title="4、REST风格"></a>4、REST风格</h2><p>简介：描述的是资源描述形式</p>
+<p><img src="/2022/10/30/springboot/1666104369787.png" alt="1666104369787"></p>
+<p><img src="/2022/10/30/springboot/1666104438401.png" alt="1666104438401"></p>
+<p><img src="/2022/10/30/springboot/1666104781437.png" alt="1666104781437"></p>
+<p><img src="/2022/10/30/springboot/1666104810037.png" alt="1666104810037"></p>
+<p><img src="/2022/10/30/springboot/1666104852572.png" alt="1666104852572"></p>
+<p><img src="/2022/10/30/springboot/1666104873066.png" alt="1666104873066"></p>
+<p><img src="/2022/10/30/springboot/1666104909951.png" alt="1666104909951"></p>
+<p><strong>@ResponseBody&#x3D;@Controller   + @ResponseBody</strong></p>
+<p><img src="/2022/10/30/springboot/1666105171164.png" alt="1666105171164"></p>
+<p><img src="/2022/10/30/springboot/1666105181650.png" alt="1666105181650"></p>
+<h1 id="一、springboot基础篇"><a href="#一、springboot基础篇" class="headerlink" title="一、springboot基础篇"></a>一、springboot基础篇</h1><h2 id="1、创建springboot项目"><a href="#1、创建springboot项目" class="headerlink" title="1、创建springboot项目"></a>1、创建springboot项目</h2><p><img src="/2022/10/30/springboot/1666019489727.png" alt="1666019489727"></p>
+<p><img src="/2022/10/30/springboot/1666019600669.png" alt="1666019600669"></p>
+<p><img src="/2022/10/30/springboot/1666021098640.png" alt="1666021098640"></p>
+<p><strong>开发springboot需要在联网环境下</strong></p>
+<p><img src="/2022/10/30/springboot/1666021136190.png" alt="1666021136190"></p>
+<p>通过官网创建springboot工程（因为idea创建需要访问外网，有时候连接不上，此方法可解决此问题）</p>
+<p><img src="/2022/10/30/springboot/1666021593109.png" alt="1666021593109"></p>
+<p>国内使用阿里云</p>
+<p><a href="https://start.aliyun.com/">https://start.aliyun.com</a></p>
+<p><img src="/2022/10/30/springboot/1666021775356.png" alt="1666021775356"></p>
+<p>创建maven创建springboot工程</p>
+<p><img src="/2022/10/30/springboot/1666101432894.png" alt="1666101432894"></p>
+<p>文件隐藏的技巧</p>
+<p><img src="/2022/10/30/springboot/1666101762821.png" alt="1666101762821"></p>
+<h2 id="2、Springboot简介"><a href="#2、Springboot简介" class="headerlink" title="2、Springboot简介"></a>2、Springboot简介</h2><p><img src="/2022/10/30/springboot/1666101885698.png" alt="1666101885698"></p>
+<h3 id="parent"><a href="#parent" class="headerlink" title="parent"></a>parent</h3><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.7.4<span class="tag">&lt;/<span class="name">version</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">relativePath</span>/&gt;</span> <span class="comment">&lt;!-- lookup parent from repository --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>对坐标版本进行<strong>管理</strong>，自动指定版本</p>
+<p>阿里云直接选择继承</p>
+<p><img src="/2022/10/30/springboot/1666102529630.png" alt="1666102529630"></p>
+<p>ps：不同的parent版本不同，依赖管理的坐标版本也不同</p>
+<p>小结：</p>
+<p><img src="/2022/10/30/springboot/1666102645153.png" alt="1666102645153"></p>
+<h3 id="Starter"><a href="#Starter" class="headerlink" title="Starter"></a>Starter</h3><p>包含了若干个pom定义的依赖管理文件（套中套）</p>
+<p><img src="/2022/10/30/springboot/1666102998576.png" alt="1666102998576"></p>
+<p>小结：</p>
+<p><img src="/2022/10/30/springboot/1666103015368.png" alt="1666103015368"></p>
+<h3 id="引导类"><a href="#引导类" class="headerlink" title="引导类"></a>引导类</h3><p>SpringBootApplication注解里面有若干个注解，用于加载bean等</p>
+<p><img src="/2022/10/30/springboot/1666103321978.png" alt="1666103321978"></p>
+<p><img src="/2022/10/30/springboot/1666103375488.png" alt="1666103375488"></p>
+<h3 id="内嵌tomcat"><a href="#内嵌tomcat" class="headerlink" title="内嵌tomcat"></a>内嵌tomcat</h3><p>辅助功能 依赖替换</p>
+<p><img src="/2022/10/30/springboot/1666103940078.png" alt="1666103940078"></p>
+<p><img src="/2022/10/30/springboot/1666103992181.png" alt="1666103992181"></p>
+<p>小结：<img src="/2022/10/30/springboot/1666104012501.png" alt="1666104012501"></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h3><p><img src="/2022/10/30/springboot/1666104069068.png" alt="1666104069068"></p>
+<h2 id="3、基础配置"><a href="#3、基础配置" class="headerlink" title="3、基础配置"></a>3、基础配置</h2><p>复制工程</p>
+<p><img src="/2022/10/30/springboot/1666144809255.png" alt="1666144809255"></p>
+<p><img src="/2022/10/30/springboot/1666144755454.png" alt="1666144755454"></p>
+<p>属性配置</p>
+<p><img src="/2022/10/30/springboot/1666191423705.png" alt="1666191423705"></p>
+<p><img src="/2022/10/30/springboot/1666191864266.png" alt="1666191864266"></p>
+<p><img src="/2022/10/30/springboot/1666191992719.png" alt="1666191992719"></p>
+<p>三种配置文件格式</p>
+<p><img src="/2022/10/30/springboot/1666192122516.png" alt="1666192122516"></p>
+<p><em><strong>推荐使用yml（主流）</strong></em></p>
+<p><strong>优先级：properties&gt;yml&gt;yaml</strong> </p>
+<p><img src="/2022/10/30/springboot/1666192368943.png" alt="1666192368943"></p>
+<p><img src="/2022/10/30/springboot/1666192594645.png" alt="1666192594645"></p>
+<p>yml和yaml的代码提示</p>
+<p><img src="/2022/10/30/springboot/1666192607959.png" alt="1666192607959"></p>
+<p>yaml格式</p>
+<p><img src="/2022/10/30/springboot/1666192710585.png" alt="1666192710585"></p>
+<p><img src="/2022/10/30/springboot/1666192997385.png" alt="1666192997385"></p>
+<p>读取yml中数据</p>
+<p>@value注解 配合 el表达式</p>
+<p><img src="/2022/10/30/springboot/1666193349337.png" alt="1666193349337"></p>
+<p>el表达式引用属性名</p>
+<p><img src="/2022/10/30/springboot/1666193551478.png" alt="1666193551478"></p>
+<p>使用environment对象封装全部配置信息 使用autowired（自动装配）</p>
+<p><img src="/2022/10/30/springboot/1666193758692.png" alt="1666193758692"></p>
+<p><strong>局部数据封装</strong>（最为常用的方法）</p>
+<p><img src="/2022/10/30/springboot/1666194136375.png" alt="1666194136375"></p>
+<p><img src="/2022/10/30/springboot/1666194194845.png" alt="1666194194845"></p>
+<h2 id="4、lombok插件"><a href="#4、lombok插件" class="headerlink" title="4、lombok插件"></a>4、lombok插件</h2><p> <a href="https://blog.csdn.net/ThinkWon/article/details/101392808">(13条消息) Lombok简介、使用、工作原理、优缺点_ThinkWon的博客-CSDN博客_lombok</a> </p>
+<p><img src="/2022/10/30/springboot/1666454504457.png" alt="1666454504457"></p>
+<p><img src="/2022/10/30/springboot/1666454516975.png" alt="1666454516975"></p>
+<h2 id="5、整合第三方配置"><a href="#5、整合第三方配置" class="headerlink" title="5、整合第三方配置"></a>5、整合第三方配置</h2><h3 id="整合Junit"><a href="#整合Junit" class="headerlink" title="整合Junit"></a><strong>整合Junit</strong></h3><p><img src="/2022/10/30/springboot/1666273151479.png" alt="1666273151479"></p>
+<p><img src="/2022/10/30/springboot/1666273162907.png" alt="1666273162907"></p>
+<p><img src="/2022/10/30/springboot/1666272828528.png" alt="1666272828528"></p>
+<p><img src="/2022/10/30/springboot/1666273764592.png" alt="1666273764592"></p>
+<p><img src="/2022/10/30/springboot/1666273781832.png" alt="1666273781832"></p>
+<h3 id="整合mybatis"><a href="#整合mybatis" class="headerlink" title="整合mybatis"></a>整合mybatis</h3><p>导入相关maven坐标：</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span>    </span><br><span class="line">  	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.mybatis.spring.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis-spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.1.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>mysql<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mysql-connector-java<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>runtime<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>设置数据源信息</p>
+<p><img src="/2022/10/30/springboot/1666277348414.png" alt="1666277348414"></p>
+<p><img src="/2022/10/30/springboot/1666277418864.png" alt="1666277418864"></p>
+<p><img src="/2022/10/30/springboot/1666277445044.png" alt="1666277445044"></p>
+<p><img src="/2022/10/30/springboot/1666277461611.png" alt="1666277461611"></p>
+<p>常见错误（不同spring-boot-starter-parent 版本）mysql驱动不同</p>
+<p>解决方法如下</p>
+<p><img src="/2022/10/30/springboot/1666277065643.png" alt="1666277065643"></p>
+<h3 id="整合mybatis-plus"><a href="#整合mybatis-plus" class="headerlink" title="整合mybatis-plus"></a>整合mybatis-plus</h3><p><img src="/2022/10/30/springboot/1666451955381.png" alt="1666451955381"></p>
+<p><img src="/2022/10/30/springboot/1666451973023.png" alt="1666451973023"></p>
+<p>会自动映射解决命名规则问题</p>
+<p><img src="/2022/10/30/springboot/1666456253177.png" alt="1666456253177"></p>
+<p>相关配置</p>
+<p><img src="/2022/10/30/springboot/1666452018830.png" alt="1666452018830"></p>
+<p>mp开启调试日志：</p>
+<p><img src="/2022/10/30/springboot/1666498179234.png" alt="1666498179234"></p>
+<p><img src="/2022/10/30/springboot/1666451998867.png" alt="1666451998867"></p>
+<h3 id="整合Durid"><a href="#整合Durid" class="headerlink" title="整合Durid"></a>整合Durid</h3><p><img src="/2022/10/30/springboot/1666452850045.png" alt="1666452850045"></p>
+<p><img src="/2022/10/30/springboot/1666452901311.png" alt="1666452901311"></p>
+<p><img src="/2022/10/30/springboot/1666452882387.png" alt="1666452882387"></p>
+<h2 id="6、整合ssm案例"><a href="#6、整合ssm案例" class="headerlink" title="6、整合ssm案例"></a>6、整合ssm案例</h2><p>分页功能的实现：</p>
+<p><img src="/2022/10/30/springboot/1666499403491.png" alt="1666499403491"></p>
+<p><img src="/2022/10/30/springboot/1666499411602.png" alt="1666499411602"></p>
+<p><img src="/2022/10/30/springboot/1666499427854.png" alt="1666499427854"></p>
+<p>条件查询</p>
+<p><img src="/2022/10/30/springboot/1666499773512.png" alt="1666499773512"></p>
+<p>分页查询</p>
+<p><img src="/2022/10/30/springboot/1666499926340.png" alt="1666499926340"></p>
+<p><img src="/2022/10/30/springboot/1666499976430.png" alt="1666499976430"></p>
+<p><img src="/2022/10/30/springboot/1666499981805.png" alt="1666499981805"></p>
+<h3 id="业务层开发"><a href="#业务层开发" class="headerlink" title="业务层开发"></a>业务层开发</h3><p><img src="/2022/10/30/springboot/1666501487386.png" alt="1666501487386"></p>
+<p><img src="/2022/10/30/springboot/1666501495609.png" alt="1666501495609"> </p>
+<p>测试业务层</p>
+<p><img src="/2022/10/30/springboot/1666501520974.png" alt="1666501520974"></p>
+<p><img src="/2022/10/30/springboot/1666501532573.png" alt="1666501532573"></p>
+<h4 id="快速开发"><a href="#快速开发" class="headerlink" title="快速开发"></a><strong>快速开发</strong></h4><p><img src="/2022/10/30/springboot/1666501587294.png" alt="1666501587294"></p>
+<p><img src="/2022/10/30/springboot/1666502861928.png" alt="1666502861928"></p>
+<p><img src="/2022/10/30/springboot/1666502872777.png" alt="1666502872777"></p>
+<p><img src="/2022/10/30/springboot/1666502880383.png" alt="1666502880383"></p>
+<h3 id="表现层开发"><a href="#表现层开发" class="headerlink" title="表现层开发"></a>表现层开发</h3><p><img src="/2022/10/30/springboot/1666541232791.png" alt="1666541232791"></p>
+<p><img src="/2022/10/30/springboot/1666541819336.png" alt="1666541819336"></p>
+<p>手动完成分页功能</p>
+<p><img src="/2022/10/30/springboot/1666541845809.png" alt="1666541845809"></p>
+<p><img src="/2022/10/30/springboot/1666541865627.png" alt="1666541865627"></p>
+<p>基于restful<img src="/2022/10/30/springboot/1666541884212.png" alt="1666541884212"></p>
+<h4 id="表现层消息一致处理："><a href="#表现层消息一致处理：" class="headerlink" title="表现层消息一致处理："></a>表现层消息一致处理：</h4><p><img src="/2022/10/30/springboot/1666586731504.png" alt="1666586731504"></p>
+<p><img src="/2022/10/30/springboot/1666586748046.png" alt="1666586748046"></p>
+<p><img src="/2022/10/30/springboot/1666586776480.png" alt="1666586776480"></p>
+<h3 id="前端页面"><a href="#前端页面" class="headerlink" title="前端页面"></a>前端页面</h3><p><img src="/2022/10/30/springboot/1666588370979.png" alt="1666588370979"></p>
+<p><img src="/2022/10/30/springboot/1666588388118.png" alt="1666588388118"></p>
+<p><img src="/2022/10/30/springboot/1666600154363.png" alt="1666600154363"></p>
+<p>添加功能</p>
+<p><img src="/2022/10/30/springboot/1666604183532.png" alt="1666604183532"></p>
+<p><img src="/2022/10/30/springboot/1666604189188.png" alt="1666604189188"></p>
+<p><img src="/2022/10/30/springboot/1666604217941.png" alt="1666604217941"></p>
+<p>删除功能</p>
+<p>表格中绑定当前行数据</p>
+<p><img src="/2022/10/30/springboot/1666604820480.png" alt="1666604820480"></p>
+<p><img src="/2022/10/30/springboot/1666604778504.png" alt="1666604778504"></p>
+<p>使用confirm提示框 防止误操作</p>
+<p><img src="/2022/10/30/springboot/1666604841966.png" alt="1666604841966"></p>
+<p><img src="/2022/10/30/springboot/1666604934067.png" alt="1666604934067"></p>
+<p><img src="/2022/10/30/springboot/1666628521379.png" alt="1666628521379"></p>
+<p><img src="/2022/10/30/springboot/1666628525556.png" alt="1666628525556"></p>
+<p><img src="/2022/10/30/springboot/1666628666525.png" alt="1666628666525"></p>
+<p><img src="/2022/10/30/springboot/1666628671125.png" alt="1666628671125"></p>
+<p>和新增基本一样</p>
+<p>异常处理</p>
+<p><img src="/2022/10/30/springboot/1666665108101.png" alt="1666665108101"></p>
+<p><img src="/2022/10/30/springboot/1666665125908.png" alt="1666665125908"></p>
+<p><img src="/2022/10/30/springboot/1666665144844.png" alt="1666665144844"></p>
+<p><img src="/2022/10/30/springboot/1666665239383.png" alt="1666665239383"></p>
+<p>分页功能</p>
+<p><img src="/2022/10/30/springboot/1666678314086.png" alt="1666678314086"></p>
+<p><img src="/2022/10/30/springboot/1666678319509.png" alt="1666678319509"></p>
+<p><img src="/2022/10/30/springboot/1666678329741.png" alt="1666678329741"></p>
+<p><img src="/2022/10/30/springboot/1666678335742.png" alt="1666678335742"></p>
+<p><img src="/2022/10/30/springboot/1666678342987.png" alt="1666678342987"></p>
+<p><img src="/2022/10/30/springboot/1666678659920.png" alt="1666678659920"></p>
+<p>查询功能</p>
+<p><img src="/2022/10/30/springboot/1666712465826.png" alt="1666712465826"></p>
+<p>双向绑定</p>
+<p><img src="/2022/10/30/springboot/1666712479328.png" alt="1666712479328"></p>
+<p>获取url</p>
+<p><img src="/2022/10/30/springboot/1666712489704.png" alt="1666712489704"></p>
+<p><img src="/2022/10/30/springboot/1666712519818.png" alt="1666712519818"></p>
+<p>动态操作拼接</p>
+<p><img src="/2022/10/30/springboot/1666712525972.png" alt="1666712525972"></p>
+<h2 id="7、总结"><a href="#7、总结" class="headerlink" title="7、总结"></a>7、总结</h2><p><img src="/2022/10/30/springboot/1666712573054.png" alt="1666712573054"></p>
+<p><img src="/2022/10/30/springboot/1666712617934.png" alt="1666712617934"></p>
+<p>![1666712651406](Spring boot.assets&#x2F;1666712651406.png)</p>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
@@ -1184,230 +1408,6 @@
 <p>重新启动01  情况如下：数据片迁移回去了 主节点变了</p>
 <p><img src="/2023/03/05/springcloud/1675581410370.png" alt="1675581410370"></p>
 <p>![1675581458070](Spring Cloud.assets&#x2F;1675581458070.png)</p>
-]]></content>
-      <categories>
-        <category>JAVA后端</category>
-      </categories>
-      <tags>
-        <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>springboot</title>
-    <url>/2022/10/30/springboot/</url>
-    <content><![CDATA[<h1 id="Spring-boot"><a href="#Spring-boot" class="headerlink" title="Spring boot"></a>Spring boot</h1><h1 id="导读：课程前置知识"><a href="#导读：课程前置知识" class="headerlink" title="导读：课程前置知识"></a>导读：课程前置知识</h1><h2 id="1、基础篇"><a href="#1、基础篇" class="headerlink" title="1、基础篇"></a>1、基础篇</h2><p><img src="/2022/10/30/springboot/1666017794976.png" alt="1666017794976"></p>
-<h2 id="2、实用篇"><a href="#2、实用篇" class="headerlink" title="2、实用篇"></a>2、实用篇</h2><p><img src="/2022/10/30/springboot/1666018103488.png" alt="1666018103488"></p>
-<h2 id="3、原理篇"><a href="#3、原理篇" class="headerlink" title="3、原理篇"></a>3、原理篇</h2><p><img src="/2022/10/30/springboot/1666018111168.png" alt="1666018111168"></p>
-<h2 id="4、REST风格"><a href="#4、REST风格" class="headerlink" title="4、REST风格"></a>4、REST风格</h2><p>简介：描述的是资源描述形式</p>
-<p><img src="/2022/10/30/springboot/1666104369787.png" alt="1666104369787"></p>
-<p><img src="/2022/10/30/springboot/1666104438401.png" alt="1666104438401"></p>
-<p><img src="/2022/10/30/springboot/1666104781437.png" alt="1666104781437"></p>
-<p><img src="/2022/10/30/springboot/1666104810037.png" alt="1666104810037"></p>
-<p><img src="/2022/10/30/springboot/1666104852572.png" alt="1666104852572"></p>
-<p><img src="/2022/10/30/springboot/1666104873066.png" alt="1666104873066"></p>
-<p><img src="/2022/10/30/springboot/1666104909951.png" alt="1666104909951"></p>
-<p><strong>@ResponseBody&#x3D;@Controller   + @ResponseBody</strong></p>
-<p><img src="/2022/10/30/springboot/1666105171164.png" alt="1666105171164"></p>
-<p><img src="/2022/10/30/springboot/1666105181650.png" alt="1666105181650"></p>
-<h1 id="一、springboot基础篇"><a href="#一、springboot基础篇" class="headerlink" title="一、springboot基础篇"></a>一、springboot基础篇</h1><h2 id="1、创建springboot项目"><a href="#1、创建springboot项目" class="headerlink" title="1、创建springboot项目"></a>1、创建springboot项目</h2><p><img src="/2022/10/30/springboot/1666019489727.png" alt="1666019489727"></p>
-<p><img src="/2022/10/30/springboot/1666019600669.png" alt="1666019600669"></p>
-<p><img src="/2022/10/30/springboot/1666021098640.png" alt="1666021098640"></p>
-<p><strong>开发springboot需要在联网环境下</strong></p>
-<p><img src="/2022/10/30/springboot/1666021136190.png" alt="1666021136190"></p>
-<p>通过官网创建springboot工程（因为idea创建需要访问外网，有时候连接不上，此方法可解决此问题）</p>
-<p><img src="/2022/10/30/springboot/1666021593109.png" alt="1666021593109"></p>
-<p>国内使用阿里云</p>
-<p><a href="https://start.aliyun.com/">https://start.aliyun.com</a></p>
-<p><img src="/2022/10/30/springboot/1666021775356.png" alt="1666021775356"></p>
-<p>创建maven创建springboot工程</p>
-<p><img src="/2022/10/30/springboot/1666101432894.png" alt="1666101432894"></p>
-<p>文件隐藏的技巧</p>
-<p><img src="/2022/10/30/springboot/1666101762821.png" alt="1666101762821"></p>
-<h2 id="2、Springboot简介"><a href="#2、Springboot简介" class="headerlink" title="2、Springboot简介"></a>2、Springboot简介</h2><p><img src="/2022/10/30/springboot/1666101885698.png" alt="1666101885698"></p>
-<h3 id="parent"><a href="#parent" class="headerlink" title="parent"></a>parent</h3><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.7.4<span class="tag">&lt;/<span class="name">version</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">relativePath</span>/&gt;</span> <span class="comment">&lt;!-- lookup parent from repository --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>对坐标版本进行<strong>管理</strong>，自动指定版本</p>
-<p>阿里云直接选择继承</p>
-<p><img src="/2022/10/30/springboot/1666102529630.png" alt="1666102529630"></p>
-<p>ps：不同的parent版本不同，依赖管理的坐标版本也不同</p>
-<p>小结：</p>
-<p><img src="/2022/10/30/springboot/1666102645153.png" alt="1666102645153"></p>
-<h3 id="Starter"><a href="#Starter" class="headerlink" title="Starter"></a>Starter</h3><p>包含了若干个pom定义的依赖管理文件（套中套）</p>
-<p><img src="/2022/10/30/springboot/1666102998576.png" alt="1666102998576"></p>
-<p>小结：</p>
-<p><img src="/2022/10/30/springboot/1666103015368.png" alt="1666103015368"></p>
-<h3 id="引导类"><a href="#引导类" class="headerlink" title="引导类"></a>引导类</h3><p>SpringBootApplication注解里面有若干个注解，用于加载bean等</p>
-<p><img src="/2022/10/30/springboot/1666103321978.png" alt="1666103321978"></p>
-<p><img src="/2022/10/30/springboot/1666103375488.png" alt="1666103375488"></p>
-<h3 id="内嵌tomcat"><a href="#内嵌tomcat" class="headerlink" title="内嵌tomcat"></a>内嵌tomcat</h3><p>辅助功能 依赖替换</p>
-<p><img src="/2022/10/30/springboot/1666103940078.png" alt="1666103940078"></p>
-<p><img src="/2022/10/30/springboot/1666103992181.png" alt="1666103992181"></p>
-<p>小结：<img src="/2022/10/30/springboot/1666104012501.png" alt="1666104012501"></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h3><p><img src="/2022/10/30/springboot/1666104069068.png" alt="1666104069068"></p>
-<h2 id="3、基础配置"><a href="#3、基础配置" class="headerlink" title="3、基础配置"></a>3、基础配置</h2><p>复制工程</p>
-<p><img src="/2022/10/30/springboot/1666144809255.png" alt="1666144809255"></p>
-<p><img src="/2022/10/30/springboot/1666144755454.png" alt="1666144755454"></p>
-<p>属性配置</p>
-<p><img src="/2022/10/30/springboot/1666191423705.png" alt="1666191423705"></p>
-<p><img src="/2022/10/30/springboot/1666191864266.png" alt="1666191864266"></p>
-<p><img src="/2022/10/30/springboot/1666191992719.png" alt="1666191992719"></p>
-<p>三种配置文件格式</p>
-<p><img src="/2022/10/30/springboot/1666192122516.png" alt="1666192122516"></p>
-<p><em><strong>推荐使用yml（主流）</strong></em></p>
-<p><strong>优先级：properties&gt;yml&gt;yaml</strong> </p>
-<p><img src="/2022/10/30/springboot/1666192368943.png" alt="1666192368943"></p>
-<p><img src="/2022/10/30/springboot/1666192594645.png" alt="1666192594645"></p>
-<p>yml和yaml的代码提示</p>
-<p><img src="/2022/10/30/springboot/1666192607959.png" alt="1666192607959"></p>
-<p>yaml格式</p>
-<p><img src="/2022/10/30/springboot/1666192710585.png" alt="1666192710585"></p>
-<p><img src="/2022/10/30/springboot/1666192997385.png" alt="1666192997385"></p>
-<p>读取yml中数据</p>
-<p>@value注解 配合 el表达式</p>
-<p><img src="/2022/10/30/springboot/1666193349337.png" alt="1666193349337"></p>
-<p>el表达式引用属性名</p>
-<p><img src="/2022/10/30/springboot/1666193551478.png" alt="1666193551478"></p>
-<p>使用environment对象封装全部配置信息 使用autowired（自动装配）</p>
-<p><img src="/2022/10/30/springboot/1666193758692.png" alt="1666193758692"></p>
-<p><strong>局部数据封装</strong>（最为常用的方法）</p>
-<p><img src="/2022/10/30/springboot/1666194136375.png" alt="1666194136375"></p>
-<p><img src="/2022/10/30/springboot/1666194194845.png" alt="1666194194845"></p>
-<h2 id="4、lombok插件"><a href="#4、lombok插件" class="headerlink" title="4、lombok插件"></a>4、lombok插件</h2><p> <a href="https://blog.csdn.net/ThinkWon/article/details/101392808">(13条消息) Lombok简介、使用、工作原理、优缺点_ThinkWon的博客-CSDN博客_lombok</a> </p>
-<p><img src="/2022/10/30/springboot/1666454504457.png" alt="1666454504457"></p>
-<p><img src="/2022/10/30/springboot/1666454516975.png" alt="1666454516975"></p>
-<h2 id="5、整合第三方配置"><a href="#5、整合第三方配置" class="headerlink" title="5、整合第三方配置"></a>5、整合第三方配置</h2><h3 id="整合Junit"><a href="#整合Junit" class="headerlink" title="整合Junit"></a><strong>整合Junit</strong></h3><p><img src="/2022/10/30/springboot/1666273151479.png" alt="1666273151479"></p>
-<p><img src="/2022/10/30/springboot/1666273162907.png" alt="1666273162907"></p>
-<p><img src="/2022/10/30/springboot/1666272828528.png" alt="1666272828528"></p>
-<p><img src="/2022/10/30/springboot/1666273764592.png" alt="1666273764592"></p>
-<p><img src="/2022/10/30/springboot/1666273781832.png" alt="1666273781832"></p>
-<h3 id="整合mybatis"><a href="#整合mybatis" class="headerlink" title="整合mybatis"></a>整合mybatis</h3><p>导入相关maven坐标：</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span>    </span><br><span class="line">  	<span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.mybatis.spring.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis-spring-boot-starter<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span>    </span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.1.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>mysql<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mysql-connector-java<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">scope</span>&gt;</span>runtime<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>设置数据源信息</p>
-<p><img src="/2022/10/30/springboot/1666277348414.png" alt="1666277348414"></p>
-<p><img src="/2022/10/30/springboot/1666277418864.png" alt="1666277418864"></p>
-<p><img src="/2022/10/30/springboot/1666277445044.png" alt="1666277445044"></p>
-<p><img src="/2022/10/30/springboot/1666277461611.png" alt="1666277461611"></p>
-<p>常见错误（不同spring-boot-starter-parent 版本）mysql驱动不同</p>
-<p>解决方法如下</p>
-<p><img src="/2022/10/30/springboot/1666277065643.png" alt="1666277065643"></p>
-<h3 id="整合mybatis-plus"><a href="#整合mybatis-plus" class="headerlink" title="整合mybatis-plus"></a>整合mybatis-plus</h3><p><img src="/2022/10/30/springboot/1666451955381.png" alt="1666451955381"></p>
-<p><img src="/2022/10/30/springboot/1666451973023.png" alt="1666451973023"></p>
-<p>会自动映射解决命名规则问题</p>
-<p><img src="/2022/10/30/springboot/1666456253177.png" alt="1666456253177"></p>
-<p>相关配置</p>
-<p><img src="/2022/10/30/springboot/1666452018830.png" alt="1666452018830"></p>
-<p>mp开启调试日志：</p>
-<p><img src="/2022/10/30/springboot/1666498179234.png" alt="1666498179234"></p>
-<p><img src="/2022/10/30/springboot/1666451998867.png" alt="1666451998867"></p>
-<h3 id="整合Durid"><a href="#整合Durid" class="headerlink" title="整合Durid"></a>整合Durid</h3><p><img src="/2022/10/30/springboot/1666452850045.png" alt="1666452850045"></p>
-<p><img src="/2022/10/30/springboot/1666452901311.png" alt="1666452901311"></p>
-<p><img src="/2022/10/30/springboot/1666452882387.png" alt="1666452882387"></p>
-<h2 id="6、整合ssm案例"><a href="#6、整合ssm案例" class="headerlink" title="6、整合ssm案例"></a>6、整合ssm案例</h2><p>分页功能的实现：</p>
-<p><img src="/2022/10/30/springboot/1666499403491.png" alt="1666499403491"></p>
-<p><img src="/2022/10/30/springboot/1666499411602.png" alt="1666499411602"></p>
-<p><img src="/2022/10/30/springboot/1666499427854.png" alt="1666499427854"></p>
-<p>条件查询</p>
-<p><img src="/2022/10/30/springboot/1666499773512.png" alt="1666499773512"></p>
-<p>分页查询</p>
-<p><img src="/2022/10/30/springboot/1666499926340.png" alt="1666499926340"></p>
-<p><img src="/2022/10/30/springboot/1666499976430.png" alt="1666499976430"></p>
-<p><img src="/2022/10/30/springboot/1666499981805.png" alt="1666499981805"></p>
-<h3 id="业务层开发"><a href="#业务层开发" class="headerlink" title="业务层开发"></a>业务层开发</h3><p><img src="/2022/10/30/springboot/1666501487386.png" alt="1666501487386"></p>
-<p><img src="/2022/10/30/springboot/1666501495609.png" alt="1666501495609"> </p>
-<p>测试业务层</p>
-<p><img src="/2022/10/30/springboot/1666501520974.png" alt="1666501520974"></p>
-<p><img src="/2022/10/30/springboot/1666501532573.png" alt="1666501532573"></p>
-<h4 id="快速开发"><a href="#快速开发" class="headerlink" title="快速开发"></a><strong>快速开发</strong></h4><p><img src="/2022/10/30/springboot/1666501587294.png" alt="1666501587294"></p>
-<p><img src="/2022/10/30/springboot/1666502861928.png" alt="1666502861928"></p>
-<p><img src="/2022/10/30/springboot/1666502872777.png" alt="1666502872777"></p>
-<p><img src="/2022/10/30/springboot/1666502880383.png" alt="1666502880383"></p>
-<h3 id="表现层开发"><a href="#表现层开发" class="headerlink" title="表现层开发"></a>表现层开发</h3><p><img src="/2022/10/30/springboot/1666541232791.png" alt="1666541232791"></p>
-<p><img src="/2022/10/30/springboot/1666541819336.png" alt="1666541819336"></p>
-<p>手动完成分页功能</p>
-<p><img src="/2022/10/30/springboot/1666541845809.png" alt="1666541845809"></p>
-<p><img src="/2022/10/30/springboot/1666541865627.png" alt="1666541865627"></p>
-<p>基于restful<img src="/2022/10/30/springboot/1666541884212.png" alt="1666541884212"></p>
-<h4 id="表现层消息一致处理："><a href="#表现层消息一致处理：" class="headerlink" title="表现层消息一致处理："></a>表现层消息一致处理：</h4><p><img src="/2022/10/30/springboot/1666586731504.png" alt="1666586731504"></p>
-<p><img src="/2022/10/30/springboot/1666586748046.png" alt="1666586748046"></p>
-<p><img src="/2022/10/30/springboot/1666586776480.png" alt="1666586776480"></p>
-<h3 id="前端页面"><a href="#前端页面" class="headerlink" title="前端页面"></a>前端页面</h3><p><img src="/2022/10/30/springboot/1666588370979.png" alt="1666588370979"></p>
-<p><img src="/2022/10/30/springboot/1666588388118.png" alt="1666588388118"></p>
-<p><img src="/2022/10/30/springboot/1666600154363.png" alt="1666600154363"></p>
-<p>添加功能</p>
-<p><img src="/2022/10/30/springboot/1666604183532.png" alt="1666604183532"></p>
-<p><img src="/2022/10/30/springboot/1666604189188.png" alt="1666604189188"></p>
-<p><img src="/2022/10/30/springboot/1666604217941.png" alt="1666604217941"></p>
-<p>删除功能</p>
-<p>表格中绑定当前行数据</p>
-<p><img src="/2022/10/30/springboot/1666604820480.png" alt="1666604820480"></p>
-<p><img src="/2022/10/30/springboot/1666604778504.png" alt="1666604778504"></p>
-<p>使用confirm提示框 防止误操作</p>
-<p><img src="/2022/10/30/springboot/1666604841966.png" alt="1666604841966"></p>
-<p><img src="/2022/10/30/springboot/1666604934067.png" alt="1666604934067"></p>
-<p><img src="/2022/10/30/springboot/1666628521379.png" alt="1666628521379"></p>
-<p><img src="/2022/10/30/springboot/1666628525556.png" alt="1666628525556"></p>
-<p><img src="/2022/10/30/springboot/1666628666525.png" alt="1666628666525"></p>
-<p><img src="/2022/10/30/springboot/1666628671125.png" alt="1666628671125"></p>
-<p>和新增基本一样</p>
-<p>异常处理</p>
-<p><img src="/2022/10/30/springboot/1666665108101.png" alt="1666665108101"></p>
-<p><img src="/2022/10/30/springboot/1666665125908.png" alt="1666665125908"></p>
-<p><img src="/2022/10/30/springboot/1666665144844.png" alt="1666665144844"></p>
-<p><img src="/2022/10/30/springboot/1666665239383.png" alt="1666665239383"></p>
-<p>分页功能</p>
-<p><img src="/2022/10/30/springboot/1666678314086.png" alt="1666678314086"></p>
-<p><img src="/2022/10/30/springboot/1666678319509.png" alt="1666678319509"></p>
-<p><img src="/2022/10/30/springboot/1666678329741.png" alt="1666678329741"></p>
-<p><img src="/2022/10/30/springboot/1666678335742.png" alt="1666678335742"></p>
-<p><img src="/2022/10/30/springboot/1666678342987.png" alt="1666678342987"></p>
-<p><img src="/2022/10/30/springboot/1666678659920.png" alt="1666678659920"></p>
-<p>查询功能</p>
-<p><img src="/2022/10/30/springboot/1666712465826.png" alt="1666712465826"></p>
-<p>双向绑定</p>
-<p><img src="/2022/10/30/springboot/1666712479328.png" alt="1666712479328"></p>
-<p>获取url</p>
-<p><img src="/2022/10/30/springboot/1666712489704.png" alt="1666712489704"></p>
-<p><img src="/2022/10/30/springboot/1666712519818.png" alt="1666712519818"></p>
-<p>动态操作拼接</p>
-<p><img src="/2022/10/30/springboot/1666712525972.png" alt="1666712525972"></p>
-<h2 id="7、总结"><a href="#7、总结" class="headerlink" title="7、总结"></a>7、总结</h2><p><img src="/2022/10/30/springboot/1666712573054.png" alt="1666712573054"></p>
-<p><img src="/2022/10/30/springboot/1666712617934.png" alt="1666712617934"></p>
-<p>![1666712651406](Spring boot.assets&#x2F;1666712651406.png)</p>
-]]></content>
-      <categories>
-        <category>JAVA后端</category>
-      </categories>
-      <tags>
-        <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>springCache</title>
-    <url>/2022/11/28/springCache/</url>
-    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
-<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
-<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
-<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
-<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
-<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
-<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
-<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
-<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
-<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
-<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
-<p>show slave status\G;</p>
-<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
-<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
-<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
-<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
-<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
-<p>在spring配置文件下</p>
-<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
-<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
