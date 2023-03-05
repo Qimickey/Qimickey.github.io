@@ -233,6 +233,15 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2099/12/15/gonggao/</url>
+    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVAWEB</title>
     <url>/2022/07/15/javaweb/</url>
     <content><![CDATA[<blockquote>
@@ -556,15 +565,6 @@
       </tags>
   </entry>
   <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2099/12/15/gonggao/</url>
-    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
-]]></content>
-      <tags>
-        <tag>公告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>linux</title>
     <url>/2022/11/25/linux/</url>
     <content><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p><img src="/2022/11/25/linux/1669193111029.png" alt="1669193111029"></p>
@@ -700,29 +700,490 @@
       </tags>
   </entry>
   <entry>
-    <title>springCache</title>
-    <url>/2022/11/28/springCache/</url>
-    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
-<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
-<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
-<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
-<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
-<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
-<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
-<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
-<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
-<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
-<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
-<p>show slave status\G;</p>
-<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
-<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
-<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
-<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
-<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
-<p>在spring配置文件下</p>
-<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
-<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
+    <title>springCloud</title>
+    <url>/2023/03/05/springcloud/</url>
+    <content><![CDATA[<h1 id="Spring-Cloud"><a href="#Spring-Cloud" class="headerlink" title="Spring Cloud"></a>Spring Cloud</h1><h2 id="技术栈导学"><a href="#技术栈导学" class="headerlink" title="技术栈导学"></a>技术栈导学</h2><p><img src="/2023/03/05/springcloud/1674646128621.png" alt="1674646128621"></p>
+<p><img src="/2023/03/05/springcloud/1674646163345.png" alt="1674646163345"></p>
+<p><img src="/2023/03/05/springcloud/1674646247483.png" alt="1674646247483"></p>
+<p><img src="/2023/03/05/springcloud/1674646675483.png" alt="1674646675483"></p>
+<p><img src="/2023/03/05/springcloud/1674646715115.png" alt="1674646715115"></p>
+<h1 id="day1：微服务框架"><a href="#day1：微服务框架" class="headerlink" title="day1：微服务框架"></a>day1：微服务框架</h1><h3 id="1、认识微服务"><a href="#1、认识微服务" class="headerlink" title="1、认识微服务"></a>1、认识微服务</h3><p><img src="/2023/03/05/springcloud/1674647065197.png" alt="1674647065197"></p>
+<p><img src="/2023/03/05/springcloud/1674647127921.png" alt="1674647127921"></p>
+<p><img src="/2023/03/05/springcloud/1674647213559.png" alt="1674647213559"></p>
+<p><img src="/2023/03/05/springcloud/1674647595782.png" alt="1674647595782"></p>
+<p><img src="/2023/03/05/springcloud/1674647629763.png" alt="1674647629763"></p>
+<p><strong>微服务是分布式架构的最佳实践方案！</strong></p>
+<p><img src="/2023/03/05/springcloud/1674647784093.png" alt="1674647784093"></p>
+<p><img src="/2023/03/05/springcloud/1674648371814.png" alt="1674648371814"></p>
+<p><img src="/2023/03/05/springcloud/1674648481423.png" alt="1674648481423"></p>
+<p>官网： <a href="https://spring.io/projects/spring-cloud">Spring Cloud</a> </p>
+<p><img src="/2023/03/05/springcloud/1674648653059.png" alt="1674648653059"></p>
+<p>版本需要兼容</p>
+<p><img src="/2023/03/05/springcloud/1674648705038.png" alt="1674648705038"></p>
+<h3 id="2、分布式服务框架案例"><a href="#2、分布式服务框架案例" class="headerlink" title="2、分布式服务框架案例"></a>2、分布式服务框架案例</h3><p><img src="/2023/03/05/springcloud/1674648858891.png" alt="1674648858891"></p>
+<p><img src="/2023/03/05/springcloud/1674650522156.png" alt="1674650522156"></p>
+<p><img src="/2023/03/05/springcloud/1674650498909.png" alt="1674650498909"></p>
+<p>远程调用</p>
+<p><img src="/2023/03/05/springcloud/1674650596896.png" alt="1674650596896"></p>
+<p>如何在JAVA代码当中发http请求？</p>
+<p><img src="/2023/03/05/springcloud/1674650664410.png" alt="1674650664410"></p>
+<p>RestTemplate</p>
+<p><img src="/2023/03/05/springcloud/1674651157529.png" alt="1674651157529"></p>
+<p><img src="/2023/03/05/springcloud/1674651185508.png" alt="1674651185508"></p>
+<p><img src="/2023/03/05/springcloud/1674651197585.png" alt="1674651197585"></p>
+<p><img src="/2023/03/05/springcloud/1674651449094.png" alt="1674651449094"></p>
+<p><img src="/2023/03/05/springcloud/1674651528732.png" alt="1674651528732"></p>
+<h3 id="3、eureka注册中心"><a href="#3、eureka注册中心" class="headerlink" title="3、eureka注册中心"></a>3、eureka注册中心</h3><p><img src="/2023/03/05/springcloud/1674653408783.png" alt="1674653408783"></p>
+<p><img src="/2023/03/05/springcloud/1674653763919.png" alt="1674653763919"></p>
+<p><img src="/2023/03/05/springcloud/1674653840823.png" alt="1674653840823"></p>
+<p><img src="/2023/03/05/springcloud/1674653854437.png" alt="1674653854437"></p>
+<p>实践</p>
+<p><img src="/2023/03/05/springcloud/1674653900723.png" alt="1674653900723"></p>
+<p>服务端</p>
+<p><img src="/2023/03/05/springcloud/1674655471952.png" alt="1674655471952"></p>
+<p><img src="/2023/03/05/springcloud/1674655549170.png" alt="1674655549170"></p>
+<p>客户端注册</p>
+<p><img src="/2023/03/05/springcloud/1674656036060.png" alt="1674656036060"></p>
+<p><img src="/2023/03/05/springcloud/1674656063187.png" alt="1674656063187"></p>
+<p><img src="/2023/03/05/springcloud/1674656108274.png" alt="1674656108274"></p>
+<p><img src="/2023/03/05/springcloud/1674657696039.png" alt="1674657696039"></p>
+<p><img src="/2023/03/05/springcloud/1674658089577.png" alt="1674658089577"></p>
+<h3 id="4、Ribbon负载均衡"><a href="#4、Ribbon负载均衡" class="headerlink" title="4、Ribbon负载均衡"></a>4、Ribbon负载均衡</h3><p>Ribbon拦截虚拟地址去eureka中拉取真实地址</p>
+<p><img src="/2023/03/05/springcloud/1674732090282.png" alt="1674732090282"></p>
+<p>具体工作流程</p>
+<p><img src="/2023/03/05/springcloud/1674732462146.png" alt="1674732462146"></p>
+<p>IRule决定了负载均衡的策略</p>
+<p><img src="/2023/03/05/springcloud/1674732545061.png" alt="1674732545061"></p>
+<p><img src="/2023/03/05/springcloud/1674732568714.png" alt="1674732568714"></p>
+<p>修改负载均衡策略的方法</p>
+<p>定义Bean的作用范围是全体，配置文件可对单个微服务进行配置</p>
+<p><img src="/2023/03/05/springcloud/1674732754120.png" alt="1674732754120"></p>
+<p>饥饿加载 </p>
+<p><img src="/2023/03/05/springcloud/1674733053887.png" alt="1674733053887"></p>
+<p><img src="/2023/03/05/springcloud/1674733121342.png" alt="1674733121342"></p>
+<h3 id="5、nacos注册中心"><a href="#5、nacos注册中心" class="headerlink" title="5、nacos注册中心"></a>5、nacos注册中心</h3><p><img src="/2023/03/05/springcloud/1674735440258.png" alt="1674735440258"></p>
+<p>首先下载启动nacos（此处省略）</p>
+<p><img src="/2023/03/05/springcloud/1674735464106.png" alt="1674735464106"></p>
+<p><img src="/2023/03/05/springcloud/1674735513968.png" alt="1674735513968"></p>
+<p><img src="/2023/03/05/springcloud/1674735525063.png" alt="1674735525063"></p>
+<p>分级存储模型</p>
+<p><img src="/2023/03/05/springcloud/1674735609823.png" alt="1674735609823"></p>
+<p><img src="/2023/03/05/springcloud/1674735673155.png" alt="1674735673155"></p>
+<p>修改集群</p>
+<p><img src="/2023/03/05/springcloud/1674735786974.png" alt="1674735786974"></p>
+<p><img src="/2023/03/05/springcloud/1674735808774.png" alt="1674735808774"></p>
+<p><img src="/2023/03/05/springcloud/1674735913936.png" alt="1674735913936"></p>
+<p>修改负载均衡规则：优先访问本地集群</p>
+<p><img src="/2023/03/05/springcloud/1674735937147.png" alt="1674735937147"></p>
+<p><img src="/2023/03/05/springcloud/1674736129510.png" alt="1674736129510"></p>
+<p>设置权重</p>
+<p><img src="/2023/03/05/springcloud/1674746606190.png" alt="1674746606190"></p>
+<p><img src="/2023/03/05/springcloud/1674746733970.png" alt="1674746733970"></p>
+<p><img src="/2023/03/05/springcloud/1674746838838.png" alt="1674746838838"></p>
+<p><img src="/2023/03/05/springcloud/1674746904223.png" alt="1674746904223"></p>
+<p><img src="/2023/03/05/springcloud/1674746914394.png" alt="1674746914394"></p>
+<p><img src="/2023/03/05/springcloud/1674746920289.png" alt="1674746920289"></p>
+<p><img src="/2023/03/05/springcloud/1674747008101.png" alt="1674747008101"></p>
+<p><img src="/2023/03/05/springcloud/1674747023506.png" alt="1674747023506"></p>
+<p><img src="/2023/03/05/springcloud/1674747233985.png" alt="1674747233985"></p>
+<p><img src="/2023/03/05/springcloud/1674747365325.png" alt="1674747365325"></p>
+<p><img src="/2023/03/05/springcloud/1674747374055.png" alt="1674747374055"></p>
+<h1 id="day2：微服务框架"><a href="#day2：微服务框架" class="headerlink" title="day2：微服务框架"></a>day2：微服务框架</h1><h3 id="1、Nacos配置管理"><a href="#1、Nacos配置管理" class="headerlink" title="1、Nacos配置管理"></a>1、Nacos配置管理</h3><p><img src="/2023/03/05/springcloud/1674747708816.png" alt="1674747708816"></p>
+<p>配置创建</p>
+<p><img src="/2023/03/05/springcloud/1674789029717.png" alt="1674789029717"></p>
+<p><img src="/2023/03/05/springcloud/1674789039058.png" alt="1674789039058"></p>
+<p>配置获取</p>
+<p><img src="/2023/03/05/springcloud/1674789297367.png" alt="1674789297367"></p>
+<p><img src="/2023/03/05/springcloud/1674789391868.png" alt="1674789391868"></p>
+<p><img src="/2023/03/05/springcloud/1674789560798.png" alt="1674789560798"></p>
+<p><img src="/2023/03/05/springcloud/1674789572346.png" alt="1674789572346"></p>
+<p>配置热更新</p>
+<p><img src="/2023/03/05/springcloud/1674790271344.png" alt="1674790271344"></p>
+<p><img src="/2023/03/05/springcloud/1674790378260.png" alt="1674790378260"></p>
+<p><img src="/2023/03/05/springcloud/1674790539484.png" alt="1674790539484"></p>
+<p>多环境共享配置</p>
+<p><img src="/2023/03/05/springcloud/1674792984966.png" alt="1674792984966"></p>
+<p><img src="/2023/03/05/springcloud/1674793253191.png" alt="1674793253191"></p>
+<p><img src="/2023/03/05/springcloud/1674793263487.png" alt="1674793263487"></p>
+<p><strong>Nacos集群搭建</strong></p>
+<p><img src="/2023/03/05/springcloud/1674796010888.png" alt="1674796010888"></p>
+<p><img src="/2023/03/05/springcloud/1674796021398.png" alt="1674796021398"></p>
+<h3 id="2、Feign远程调用"><a href="#2、Feign远程调用" class="headerlink" title="2、Feign远程调用"></a>2、Feign远程调用</h3><p>restTemplate存在的问题</p>
+<p><img src="/2023/03/05/springcloud/1674796399064.png" alt="1674796399064"></p>
+<p>Feign</p>
+<p><img src="/2023/03/05/springcloud/1674796466884.png" alt="1674796466884"></p>
+<p><img src="/2023/03/05/springcloud/1674796516480.png" alt="1674796516480"></p>
+<p><img src="/2023/03/05/springcloud/1674796528951.png" alt="1674796528951"></p>
+<p><img src="/2023/03/05/springcloud/1674796818528.png" alt="1674796818528"></p>
+<p>Feign内部集成了ribbon</p>
+<p><img src="/2023/03/05/springcloud/1674796825299.png" alt="1674796825299"></p>
+<p><img src="/2023/03/05/springcloud/1674811397053.png" alt="1674811397053"></p>
+<p><img src="/2023/03/05/springcloud/1674811439303.png" alt="1674811439303"></p>
+<p><img src="/2023/03/05/springcloud/1674811500861.png" alt="1674811500861"></p>
+<p><img src="/2023/03/05/springcloud/1674811732378.png" alt="1674811732378"></p>
+<p><img src="/2023/03/05/springcloud/1674811830292.png" alt="1674811830292">	<img src="/2023/03/05/springcloud/1674811855453.png" alt="1674811855453"></p>
+<p><img src="/2023/03/05/springcloud/1674811982782.png" alt="1674811982782"></p>
+<p><strong>Feign的最佳实践方案</strong></p>
+<p><img src="/2023/03/05/springcloud/1674812638099.png" alt="1674812638099"></p>
+<p><img src="/2023/03/05/springcloud/1674812740244.png" alt="1674812740244"></p>
+<p><img src="/2023/03/05/springcloud/1674812756343.png" alt="1674812756343"></p>
+<p>抽取FeignClient</p>
+<p><img src="/2023/03/05/springcloud/1674812803338.png" alt="1674812803338"></p>
+<p>方法一：全部加载</p>
+<p>方法二：精确拿</p>
+<p><img src="/2023/03/05/springcloud/1674813214387.png" alt="1674813214387"></p>
+<p><img src="/2023/03/05/springcloud/1674814328749.png" alt="1674814328749"></p>
+<p><img src="/2023/03/05/springcloud/1674813313090.png" alt="1674813313090"></p>
+<h3 id="3、Gateway服务网关"><a href="#3、Gateway服务网关" class="headerlink" title="3、Gateway服务网关"></a>3、Gateway服务网关</h3><p><img src="/2023/03/05/springcloud/1674814725075.png" alt="1674814725075"></p>
+<p><img src="/2023/03/05/springcloud/1674814764772.png" alt="1674814764772"></p>
+<p><img src="/2023/03/05/springcloud/1674814769109.png" alt="1674814769109"></p>
+<p>搭建网关</p>
+<p><img src="/2023/03/05/springcloud/1674879428846.png" alt="1674879428846"></p>
+<p><img src="/2023/03/05/springcloud/1674879978586.png" alt="1674879978586"><img src="/2023/03/05/springcloud/1674880184440.png" alt="1674880184440"></p>
+<p><img src="/2023/03/05/springcloud/1674880218206.png" alt="1674880218206"></p>
+<p>路由</p>
+<p><img src="/2023/03/05/springcloud/1674880826424.png" alt="1674880826424"></p>
+<p>路由断言工厂</p>
+<p><img src="/2023/03/05/springcloud/1674881026141.png" alt="1674881026141"></p>
+<p><img src="/2023/03/05/springcloud/1674881089199.png" alt="1674881089199"></p>
+<p><img src="/2023/03/05/springcloud/1674881200126.png" alt="1674881200126"></p>
+<p>路由过滤器</p>
+<p><img src="/2023/03/05/springcloud/1674881283073.png" alt="1674881283073"></p>
+<p><img src="/2023/03/05/springcloud/1674881306762.png" alt="1674881306762"></p>
+<p><img src="/2023/03/05/springcloud/1674881619421.png" alt="1674881619421"></p>
+<p>默认过滤器</p>
+<p><img src="/2023/03/05/springcloud/1674881652653.png" alt="1674881652653"></p>
+<p><img src="/2023/03/05/springcloud/1674881725803.png" alt="1674881725803"></p>
+<p>全局过滤器（自定义过滤器）</p>
+<p><img src="/2023/03/05/springcloud/1674882107265.png" alt="1674882107265"></p>
+<p>案例：</p>
+<p><img src="/2023/03/05/springcloud/1674882137123.png" alt="1674882137123"></p>
+<p><img src="/2023/03/05/springcloud/1674883002418.png" alt="1674883002418"></p>
+<p><img src="/2023/03/05/springcloud/1674883013060.png" alt="1674883013060"></p>
+<p>三种过滤器执行顺序</p>
+<p><img src="/2023/03/05/springcloud/1674898892344.png" alt="1674898892344"></p>
+<p><img src="/2023/03/05/springcloud/1674899614258.png" alt="1674899614258"></p>
+<p><img src="/2023/03/05/springcloud/1674899634245.png" alt="1674899634245"></p>
+<p>网关跨域问题：</p>
+<p><img src="/2023/03/05/springcloud/1674900277731.png" alt="1674900277731"></p>
+<p><img src="/2023/03/05/springcloud/1674900295458.png" alt="1674900295458"></p>
+<p><img src="/2023/03/05/springcloud/1674900320319.png" alt="1674900320319"></p>
+<h1 id="day3：Docker"><a href="#day3：Docker" class="headerlink" title="day3：Docker"></a>day3：Docker</h1><h3 id="1、Docker简介"><a href="#1、Docker简介" class="headerlink" title="1、Docker简介"></a>1、Docker简介</h3><p><img src="/2023/03/05/springcloud/1674901108700.png" alt="1674901108700"></p>
+<p><img src="/2023/03/05/springcloud/1674901177657.png" alt="1674901177657"></p>
+<p><img src="/2023/03/05/springcloud/1674901326711.png" alt="1674901326711"></p>
+<p>不同的系统 函数库不同 不能直接迁移打包好的程序，而Docker直接打包系统的函数库然后直接操作内核</p>
+<p><img src="/2023/03/05/springcloud/1674901406552.png" alt="1674901406552"></p>
+<p><img src="/2023/03/05/springcloud/1674901521896.png" alt="1674901521896"></p>
+<p><img src="/2023/03/05/springcloud/1674901550671.png" alt="1674901550671"></p>
+<p><strong>Docker与虚拟机的差别</strong></p>
+<p><img src="/2023/03/05/springcloud/1674901932840.png" alt="1674901932840"></p>
+<p><img src="/2023/03/05/springcloud/1674901993880.png" alt="1674901993880"></p>
+<p><img src="/2023/03/05/springcloud/1674902016426.png" alt="1674902016426"></p>
+<p>镜像只允许读数据 </p>
+<p><img src="/2023/03/05/springcloud/1674902171463.png" alt="1674902171463"></p>
+<p>DockerHub 镜像托管平台</p>
+<p><img src="/2023/03/05/springcloud/1674902346272.png" alt="1674902346272"></p>
+<p><img src="/2023/03/05/springcloud/1674914267118.png" alt="1674914267118"><img src="/2023/03/05/springcloud/1674914330497.png" alt="1674914330497"></p>
+<p>安装Docker</p>
+<p><img src="/2023/03/05/springcloud/1674914684840.png" alt="1674914684840"></p>
+<h3 id="2、Docker的基本操作"><a href="#2、Docker的基本操作" class="headerlink" title="2、Docker的基本操作"></a>2、Docker的基本操作</h3><p><img src="/2023/03/05/springcloud/1674915117908.png" alt="1674915117908"></p>
+<p><img src="/2023/03/05/springcloud/1674915200775.png" alt="1674915200775"></p>
+<p><img src="/2023/03/05/springcloud/1674915712162.png" alt="1674915712162"></p>
+<p><img src="/2023/03/05/springcloud/1674915877240.png" alt="1674915877240"></p>
+<p><img src="/2023/03/05/springcloud/1674917895363.png" alt="1674917895363"></p>
+<p><img src="/2023/03/05/springcloud/1674918151264.png" alt="1674918151264"></p>
+<p><img src="/2023/03/05/springcloud/1674918603094.png" alt="1674918603094"></p>
+<p><img src="/2023/03/05/springcloud/1674968690781.png" alt="1674968690781"></p>
+<p><img src="/2023/03/05/springcloud/1674968791665.png" alt="1674968791665"></p>
+<p>数据卷 解决容器和数据耦合问题</p>
+<p><img src="/2023/03/05/springcloud/1674969484047.png" alt="1674969484047"></p>
+<p><img src="/2023/03/05/springcloud/1674969651453.png" alt="1674969651453"></p>
+<p><img src="/2023/03/05/springcloud/1674969697722.png" alt="1674969697722"></p>
+<p><img src="/2023/03/05/springcloud/1674969835838.png" alt="1674969835838"></p>
+<p><img src="/2023/03/05/springcloud/1674969857964.png" alt="1674969857964"></p>
+<p>挂载数据卷</p>
+<p><img src="/2023/03/05/springcloud/1674970030341.png" alt="1674970030341"></p>
+<p><img src="/2023/03/05/springcloud/1674972029127.png" alt="1674972029127"></p>
+<p><img src="/2023/03/05/springcloud/1674972038767.png" alt="1674972038767"></p>
+<p><img src="/2023/03/05/springcloud/1674972492891.png" alt="1674972492891"></p>
+<p><img src="/2023/03/05/springcloud/1674973851798.png" alt="1674973851798"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">docker run \</span><br><span class="line">--name mysql \</span><br><span class="line">-e MYSQL_ROOT_PASSWORD=<span class="number">123</span> \</span><br><span class="line">-p <span class="number">3306</span>:<span class="number">3306</span> \</span><br><span class="line">-v /tmp/mysql/conf/hmy.cnf:/etc/mysql/conf.d/hmy.cnf \</span><br><span class="line">-v /tmp/mysql/data:/<span class="keyword">var</span>/lib/mysql \</span><br><span class="line">-d \</span><br><span class="line">mysql:<span class="number">5.7</span><span class="number">.25</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/2023/03/05/springcloud/1674973874774.png" alt="1674973874774"></p>
+<h3 id="3、Dockerfile自定义镜像"><a href="#3、Dockerfile自定义镜像" class="headerlink" title="3、Dockerfile自定义镜像"></a>3、Dockerfile自定义镜像</h3><p>镜像结构</p>
+<p><img src="/2023/03/05/springcloud/1675007201958.png" alt="1675007201958"></p>
+<p><img src="/2023/03/05/springcloud/1675007327975.png" alt="1675007327975"></p>
+<p><img src="/2023/03/05/springcloud/1675007356099.png" alt="1675007356099"></p>
+<p>Dockerfile</p>
+<p><img src="/2023/03/05/springcloud/1675007640881.png" alt="1675007640881"></p>
+<p><img src="/2023/03/05/springcloud/1675007666139.png" alt="1675007666139"></p>
+<p>java项目镜像在java：8-alpine的基础上  （此镜像已经完成了java基本配置）我们只需copy项目即可</p>
+<p><img src="/2023/03/05/springcloud/1675008334295.png" alt="1675008334295"></p>
+<p><img src="/2023/03/05/springcloud/1675008388701.png" alt="1675008388701"></p>
+<h3 id="4、Docker-Compose"><a href="#4、Docker-Compose" class="headerlink" title="4、Docker-Compose"></a>4、Docker-Compose</h3><p><img src="/2023/03/05/springcloud/1675008611114.png" alt="1675008611114"></p>
+<p>参考资料安装dockerCompose</p>
+<p><img src="/2023/03/05/springcloud/1675008741438.png" alt="1675008741438"></p>
+<p>集群部署</p>
+<p><img src="/2023/03/05/springcloud/1675010411523.png" alt="1675010411523"></p>
+<h3 id="5、Docker镜像服务"><a href="#5、Docker镜像服务" class="headerlink" title="5、Docker镜像服务"></a>5、Docker镜像服务</h3><p><img src="/2023/03/05/springcloud/1675010815592.png" alt="1675010815592"></p>
+<p>根据资料完成配置</p>
+<p><img src="/2023/03/05/springcloud/1675011026512.png"></p>
+<p><img src="/2023/03/05/springcloud/1675011064346.png" alt="1675011064346"></p>
+<h1 id="day4：服务异步通讯"><a href="#day4：服务异步通讯" class="headerlink" title="day4：服务异步通讯"></a>day4：服务异步通讯</h1><h3 id="1、MQ简介"><a href="#1、MQ简介" class="headerlink" title="1、MQ简介"></a>1、MQ简介</h3><p>同步通讯</p>
+<p><img src="/2023/03/05/springcloud/1675066199971.png" alt="1675066199971"></p>
+<p><img src="/2023/03/05/springcloud/1675066439414.png" alt="1675066439414"></p>
+<p><img src="/2023/03/05/springcloud/1675066476663.png" alt="1675066476663"></p>
+<p><img src="/2023/03/05/springcloud/1675066496237.png" alt="1675066496237"></p>
+<p>异步通讯</p>
+<p><img src="/2023/03/05/springcloud/1675066578461.png" alt="1675066578461"></p>
+<p><img src="/2023/03/05/springcloud/1675066851531.png" alt="1675066851531"></p>
+<p><img src="/2023/03/05/springcloud/1675066903029.png" alt="1675066903029"></p>
+<h3 id="2、RabbitMQ快速入门"><a href="#2、RabbitMQ快速入门" class="headerlink" title="2、RabbitMQ快速入门"></a>2、RabbitMQ快速入门</h3><p><img src="/2023/03/05/springcloud/1675067240292.png" alt="1675067240292"></p>
+<p><img src="/2023/03/05/springcloud/1675067687779.png" alt="1675067687779"></p>
+<p><img src="/2023/03/05/springcloud/1675067710027.png" alt="1675067710027"></p>
+<p><img src="/2023/03/05/springcloud/1675068076474.png" alt="1675068076474"></p>
+<p>案例</p>
+<p><img src="/2023/03/05/springcloud/1675068111106.png" alt="1675068111106"></p>
+<p><img src="/2023/03/05/springcloud/1675068802676.png" alt="1675068802676"></p>
+<p><img src="/2023/03/05/springcloud/1675068826629.png" alt="1675068826629"></p>
+<h3 id="3、SpringAMQP"><a href="#3、SpringAMQP" class="headerlink" title="3、SpringAMQP"></a>3、SpringAMQP</h3><p><img src="/2023/03/05/springcloud/1675069002520.png" alt="1675069002520"></p>
+<p><img src="/2023/03/05/springcloud/1675069017551.png" alt="1675069017551"></p>
+<p>SpringAMQP基础使用</p>
+<p>发送消息</p>
+<p><img src="/2023/03/05/springcloud/1675070311279.png" alt="1675070311279"></p>
+<p><img src="/2023/03/05/springcloud/1675070335867.png" alt="1675070335867"></p>
+<p><img src="/2023/03/05/springcloud/1675070285618.png" alt="1675070285618"></p>
+<p><img src="/2023/03/05/springcloud/1675070371142.png" alt="1675070371142"></p>
+<p>监听消息</p>
+<p><img src="/2023/03/05/springcloud/1675070400892.png" alt="1675070400892"></p>
+<p><img src="/2023/03/05/springcloud/1675070728861.png" alt="1675070728861"></p>
+<p>工作队列：</p>
+<p><img src="/2023/03/05/springcloud/1675141895051.png" alt="1675141895051"></p>
+<p><img src="/2023/03/05/springcloud/1675142208080.png" alt="1675142208080"></p>
+<p><img src="/2023/03/05/springcloud/1675142215091.png" alt="1675142215091"></p>
+<p><img src="/2023/03/05/springcloud/1675142220544.png" alt="1675142220544"></p>
+<p>结果：消费者1 完成25条 消费者2完成25条     ———————消息预取</p>
+<p><img src="/2023/03/05/springcloud/1675142236326.png" alt="1675142236326"></p>
+<p><img src="/2023/03/05/springcloud/1675142227072.png" alt="1675142227072"></p>
+<p><img src="/2023/03/05/springcloud/1675142862890.png" alt="1675142862890"></p>
+<p><img src="/2023/03/05/springcloud/1675142856458.png" alt="1675142856458"></p>
+<p><strong>发布订阅模型</strong></p>
+<p><img src="/2023/03/05/springcloud/1675142990520.png" alt="1675142990520"></p>
+<p>Fanout广播</p>
+<p><img src="/2023/03/05/springcloud/1675143062658.png" alt="1675143062658"></p>
+<p><img src="/2023/03/05/springcloud/1675143112209.png" alt="1675143112209"></p>
+<p><img src="/2023/03/05/springcloud/1675143138497.png" alt="1675143138497"></p>
+<p><img src="/2023/03/05/springcloud/1675143188370.png" alt="1675143188370"></p>
+<p><img src="/2023/03/05/springcloud/1675173572189.png" alt="1675173572189"></p>
+<p><img src="/2023/03/05/springcloud/1675173580069.png" alt="1675173580069"></p>
+<p><img src="/2023/03/05/springcloud/1675173626265.png" alt="1675173626265"></p>
+<p>路由 可实现广播 </p>
+<p><img src="/2023/03/05/springcloud/1675174024182.png" alt="1675174024182"></p>
+<p><img src="/2023/03/05/springcloud/1675174124225.png" alt="1675174124225"></p>
+<p><img src="/2023/03/05/springcloud/1675174136068.png" alt="1675174136068"></p>
+<p><img src="/2023/03/05/springcloud/1675174762830.png"></p>
+<p><img src="/2023/03/05/springcloud/1675175491587.png" alt="1675175491587"></p>
+<p><img src="/2023/03/05/springcloud/1675175517978.png" alt="1675175517978"></p>
+<p><img src="/2023/03/05/springcloud/1675175659027.png" alt="1675175659027"></p>
+<p><img src="/2023/03/05/springcloud/1675175679242.png" alt="1675175679242"></p>
+<p>消息转换器</p>
+<p><img src="/2023/03/05/springcloud/1675175913317.png" alt="1675175913317"></p>
+<p><img src="/2023/03/05/springcloud/1675175925360.png" alt="1675175925360"></p>
+<p><img src="/2023/03/05/springcloud/1675175945522.png" alt="1675175945522"></p>
+<p>运行后结果</p>
+<p><img src="/2023/03/05/springcloud/1675176016394.png" alt="1675176016394"></p>
+<p>接收消息</p>
+<p><img src="/2023/03/05/springcloud/1675176038763.png" alt="1675176038763"></p>
+<p><img src="/2023/03/05/springcloud/1675176133731.png" alt="1675176133731"></p>
+<h1 id="day5：分布式搜索"><a href="#day5：分布式搜索" class="headerlink" title="day5：分布式搜索"></a>day5：分布式搜索</h1><h3 id="1、elasticsearch"><a href="#1、elasticsearch" class="headerlink" title="1、elasticsearch"></a>1、elasticsearch</h3><p><img src="/2023/03/05/springcloud/1675226331605.png" alt="1675226331605"></p>
+<p><img src="/2023/03/05/springcloud/1675226386136.png" alt="1675226386136"></p>
+<p><img src="/2023/03/05/springcloud/1675226437684.png" alt="1675226437684"></p>
+<p>Es的底层是Lucene</p>
+<p><img src="/2023/03/05/springcloud/1675226512318.png" alt="1675226512318"></p>
+<p><img src="/2023/03/05/springcloud/1675226632205.png" alt="1675226632205"></p>
+<p>ES占比最高 开源</p>
+<p><img src="/2023/03/05/springcloud/1675226714062.png" alt="1675226714062"></p>
+<p>倒排索引</p>
+<p>模糊搜索 会逐一比对数据库里面每条数据</p>
+<p>正向索引</p>
+<p><img src="/2023/03/05/springcloud/1675226874173.png" alt="1675226874173"></p>
+<p>倒排索引    分词</p>
+<p><img src="/2023/03/05/springcloud/1675227179285.png" alt="1675227179285"></p>
+<p><img src="/2023/03/05/springcloud/1675227336319.png" alt="1675227336319"></p>
+<p>文档 数据存储格式为json</p>
+<p><img src="/2023/03/05/springcloud/1675227390364.png" alt="1675227390364"></p>
+<p><img src="/2023/03/05/springcloud/1675227497083.png" alt="1675227497083"></p>
+<p><img src="/2023/03/05/springcloud/1675227568690.png" alt="1675227568690"></p>
+<p>mysql和es共存 优化性能</p>
+<p><img src="/2023/03/05/springcloud/1675227683890.png" alt="1675227683890"></p>
+<p><img src="/2023/03/05/springcloud/1675227706354.png" alt="1675227706354"></p>
+<p>安装ES</p>
+<p><img src="/2023/03/05/springcloud/1675227746103.png" alt="1675227746103"></p>
+<p>es和kibana版本必须一致，kibana是可视化工具</p>
+<p><strong>分词器</strong></p>
+<p><img src="/2023/03/05/springcloud/1675228704561.png" alt="1675228704561"></p>
+<p><img src="/2023/03/05/springcloud/1675229430755.png" alt="1675229430755"></p>
+<p>对底层字典的拓展</p>
+<p><img src="/2023/03/05/springcloud/1675229483416.png" alt="1675229483416"></p>
+<p><img src="/2023/03/05/springcloud/1675229504737.png" alt="1675229504737"></p>
+<p><img src="/2023/03/05/springcloud/1675229788381.png" alt="1675229788381"></p>
+<h3 id="2、索引库操作"><a href="#2、索引库操作" class="headerlink" title="2、索引库操作"></a>2、索引库操作</h3><p><img src="/2023/03/05/springcloud/1675245272298.png" alt="1675245272298"></p>
+<p><img src="/2023/03/05/springcloud/1675245302039.png" alt="1675245302039"></p>
+<p><img src="/2023/03/05/springcloud/1675245378352.png" alt="1675245378352"></p>
+<p><img src="/2023/03/05/springcloud/1675247294333.png" alt="1675247294333"></p>
+<p>索引库只能在原来基础添加字段  不能修改</p>
+<p><img src="/2023/03/05/springcloud/1675247451900.png" alt="1675247451900"></p>
+<p><img src="/2023/03/05/springcloud/1675247599485.png" alt="1675247599485"></p>
+<h3 id="3、文档操作"><a href="#3、文档操作" class="headerlink" title="3、文档操作"></a>3、文档操作</h3><p>文档相当于mysql中的数据</p>
+<p><img src="/2023/03/05/springcloud/1675247839110.png" alt="1675247839110"></p>
+<p><img src="/2023/03/05/springcloud/1675247861362.png" alt="1675247861362"></p>
+<p>修改文档</p>
+<p>全量修改 有id就修改  找不到id 等于新增</p>
+<p><img src="/2023/03/05/springcloud/1675248249078.png" alt="1675248249078"></p>
+<p><img src="/2023/03/05/springcloud/1675248343626.png" alt="1675248343626"></p>
+<h3 id="4、RestClient操作索引库"><a href="#4、RestClient操作索引库" class="headerlink" title="4、RestClient操作索引库"></a>4、RestClient操作索引库</h3><p><img src="/2023/03/05/springcloud/1675265541384.png" alt="1675265541384"></p>
+<p><img src="/2023/03/05/springcloud/1675265581110.png" alt="1675265581110"></p>
+<p><img src="/2023/03/05/springcloud/1675265735902.png" alt="1675265735902"><img src="/2023/03/05/springcloud/1675266313709.png" alt="1675266313709"></p>
+<p><img src="/2023/03/05/springcloud/1675266861143.png" alt="1675266861143"></p>
+<p><img src="/2023/03/05/springcloud/1675267564039.png" alt="1675267564039"></p>
+<p><img src="/2023/03/05/springcloud/1675267813162.png" alt="1675267813162"></p>
+<p><img src="/2023/03/05/springcloud/1675268156458.png" alt="1675268156458"></p>
+<h3 id="5、RestClient操作文档"><a href="#5、RestClient操作文档" class="headerlink" title="5、RestClient操作文档"></a>5、RestClient操作文档</h3><p><img src="/2023/03/05/springcloud/1675268829879.png" alt="1675268829879"></p>
+<p><img src="/2023/03/05/springcloud/1675313647508.png" alt="1675313647508"></p>
+<p><img src="/2023/03/05/springcloud/1675313805816.png" alt="1675313805816"></p>
+<p><img src="/2023/03/05/springcloud/1675314127856.png" alt="1675314127856"></p>
+<p><img src="/2023/03/05/springcloud/1675314401655.png" alt="1675314401655"></p>
+<p><img src="/2023/03/05/springcloud/1675314446721.png" alt="1675314446721"></p>
+<p><img src="/2023/03/05/springcloud/1675314566607.png" alt="1675314566607"></p>
+<p>GET hotel&#x2F;_search  批量查询</p>
+<p><img src="/2023/03/05/springcloud/1675315204807.png" alt="1675315204807"></p>
+<h1 id="day6：分布式搜索引擎"><a href="#day6：分布式搜索引擎" class="headerlink" title="day6：分布式搜索引擎"></a>day6：分布式搜索引擎</h1><h3 id="1、DSL查询文档"><a href="#1、DSL查询文档" class="headerlink" title="1、DSL查询文档"></a>1、DSL查询文档</h3><p><img src="/2023/03/05/springcloud/1675315751417.png" alt="1675315751417"></p>
+<p><img src="/2023/03/05/springcloud/1675315913466.png" alt="1675315913466"></p>
+<p><img src="/2023/03/05/springcloud/1675315921620.png" alt="1675315921620"></p>
+<p>全文检索查询</p>
+<p><img src="/2023/03/05/springcloud/1675315972089.png" alt="1675315972089"></p>
+<p><img src="/2023/03/05/springcloud/1675316877980.png" alt="1675316877980"></p>
+<p>multi_match 查询字段越多性能越差， 推荐使用copy_to</p>
+<p><img src="/2023/03/05/springcloud/1675316944802.png" alt="1675316944802"></p>
+<p>精确查询</p>
+<p><img src="/2023/03/05/springcloud/1675317072294.png" alt="1675317072294"></p>
+<p><img src="/2023/03/05/springcloud/1675317998432.png" alt="1675317998432"></p>
+<p><img src="/2023/03/05/springcloud/1675318012405.png" alt="1675318012405"></p>
+<p><img src="/2023/03/05/springcloud/1675318243091.png" alt="1675318243091"></p>
+<p>根据两个点</p>
+<p><img src="/2023/03/05/springcloud/1675318325739.png" alt="1675318325739"></p>
+<p>根据自己位置和半径</p>
+<p><img src="/2023/03/05/springcloud/1675318486117.png" alt="1675318486117"></p>
+<p>es会自动进行相关性打分 </p>
+<p><img src="/2023/03/05/springcloud/1675319295970.png" alt="1675319295970"></p>
+<p><img src="/2023/03/05/springcloud/1675319463682.png" alt="1675319463682"></p>
+<p>BM25算法词频高的情况下不会出现分数很高的情况</p>
+<p><img src="/2023/03/05/springcloud/1675319517240.png" alt="1675319517240"></p>
+<p><img src="/2023/03/05/springcloud/1675319544895.png" alt="1675319544895"></p>
+<p><strong>修改文档的相关性算分</strong></p>
+<p><img src="/2023/03/05/springcloud/1675319805569.png" alt="1675319805569"></p>
+<p><img src="/2023/03/05/springcloud/1675320302986.png" alt="1675320302986"></p>
+<p><img src="/2023/03/05/springcloud/1675320590345.png" alt="1675320590345"></p>
+<p><img src="/2023/03/05/springcloud/1675320859078.png" alt="1675320859078"></p>
+<p><img src="/2023/03/05/springcloud/1675321633345.png" alt="1675321633345"></p>
+<p><img src="/2023/03/05/springcloud/1675321660941.png" alt="1675321660941"></p>
+<h3 id="2、搜索结果处理"><a href="#2、搜索结果处理" class="headerlink" title="2、搜索结果处理"></a>2、搜索结果处理</h3><p><strong>排序</strong> </p>
+<p><img src="/2023/03/05/springcloud/1675352335945.png" alt="1675352335945"></p>
+<p><img src="/2023/03/05/springcloud/1675352446136.png" alt="1675352446136"></p>
+<p><img src="/2023/03/05/springcloud/1675352453963.png" alt="1675352453963"></p>
+<p><a href="https://lbs.amap.com/demo/jsapi-v2/example/map/click-to-get-lnglat/">https://lbs.amap.com/demo/jsapi-v2/example/map/click-to-get-lnglat/</a></p>
+<p><img src="/2023/03/05/springcloud/1675352593468.png" alt="1675352593468"></p>
+<p><img src="/2023/03/05/springcloud/1675352742974.png" alt="1675352742974"></p>
+<p><strong>分页</strong></p>
+<p><img src="/2023/03/05/springcloud/1675352932077.png" alt="1675352932077"></p>
+<p>es最多只能查询出10000条数据 </p>
+<p><img src="/2023/03/05/springcloud/1675353093692.png" alt="1675353093692"></p>
+<p><img src="/2023/03/05/springcloud/1675353199228.png" alt="1675353199228"></p>
+<p><img src="/2023/03/05/springcloud/1675353411480.png" alt="1675353411480"></p>
+<p><strong>高亮</strong>  </p>
+<p><img src="/2023/03/05/springcloud/1675354010140.png" alt="1675354010140"></p>
+<p><img src="/2023/03/05/springcloud/1675354176149.png" alt="1675354176149"><img src="/2023/03/05/springcloud/1675354207134.png" alt="1675354207134"></p>
+<h3 id="3、RestClient查询文档"><a href="#3、RestClient查询文档" class="headerlink" title="3、RestClient查询文档"></a>3、RestClient查询文档</h3><p><img src="/2023/03/05/springcloud/1675354308579.png" alt="1675354308579"></p>
+<p><img src="/2023/03/05/springcloud/1675354477573.png" alt="1675354477573"></p>
+<p><img src="/2023/03/05/springcloud/1675354926063.png" alt="1675354926063"></p>
+<p><img src="/2023/03/05/springcloud/1675354933994.png" alt="1675354933994"></p>
+<p><img src="/2023/03/05/springcloud/1675354957482.png" alt="1675354957482"></p>
+<p>ctrl+alt+m 代码的抽取</p>
+<p><img src="/2023/03/05/springcloud/1675355247180.png" alt="1675355247180"></p>
+<p><img src="/2023/03/05/springcloud/1675355299690.png" alt="1675355299690"></p>
+<p><img src="/2023/03/05/springcloud/1675355305149.png" alt="1675355305149"></p>
+<p>boolean query</p>
+<p><img src="/2023/03/05/springcloud/1675355459612.png" alt="1675355459612"></p>
+<p><img src="/2023/03/05/springcloud/1675355495748.png" alt="1675355495748"></p>
+<p><img src="/2023/03/05/springcloud/1675355557106.png" alt="1675355557106"></p>
+<p><img src="/2023/03/05/springcloud/1675355724800.png" alt="1675355724800"></p>
+<p>高亮结果的解析</p>
+<p><img src="/2023/03/05/springcloud/1675355879132.png" alt="1675355879132"></p>
+<p><img src="/2023/03/05/springcloud/1675356366947.png" alt="1675356366947"></p>
+<h3 id="4、黑马旅游案例"><a href="#4、黑马旅游案例" class="headerlink" title="4、黑马旅游案例"></a>4、黑马旅游案例</h3><p><img src="/2023/03/05/springcloud/1675404022612.png" alt="1675404022612"></p>
+<h1 id="day7：分布式搜索引擎"><a href="#day7：分布式搜索引擎" class="headerlink" title="day7：分布式搜索引擎"></a>day7：分布式搜索引擎</h1><h3 id="1、数据聚合"><a href="#1、数据聚合" class="headerlink" title="1、数据聚合"></a>1、数据聚合</h3><p>聚合的分类</p>
+<p><img src="/2023/03/05/springcloud/1675489435017.png" alt="1675489435017"></p>
+<p>聚合字段必须是 不分词的结构化的</p>
+<p><img src="/2023/03/05/springcloud/1675489471677.png" alt="1675489471677"></p>
+<p><img src="/2023/03/05/springcloud/1675489785305.png" alt="1675489785305"></p>
+<p><img src="/2023/03/05/springcloud/1675489830023.png" alt="1675489830023"></p>
+<p><img src="/2023/03/05/springcloud/1675490062148.png" alt="1675490062148"></p>
+<p><img src="/2023/03/05/springcloud/1675490096681.png" alt="1675490096681"></p>
+<p><img src="/2023/03/05/springcloud/1675490451741.png" alt="1675490451741"></p>
+<p>RestClient中的实现</p>
+<p><img src="/2023/03/05/springcloud/1675490527218.png" alt="1675490527218"></p>
+<p>结果解析</p>
+<p><img src="/2023/03/05/springcloud/1675490749574.png" alt="1675490749574"></p>
+<p><img src="/2023/03/05/springcloud/1675491602323.png" alt="1675491602323"></p>
+<h3 id="2、自动补全"><a href="#2、自动补全" class="headerlink" title="2、自动补全"></a>2、自动补全</h3><p>拼音分词器</p>
+<p><img src="/2023/03/05/springcloud/1675494239549.png" alt="1675494239549"></p>
+<p><img src="/2023/03/05/springcloud/1675494228554.png" alt="1675494228554"></p>
+<p><img src="/2023/03/05/springcloud/1675494489696.png" alt="1675494489696"></p>
+<p><img src="/2023/03/05/springcloud/1675494502082.png" alt="1675494502082"></p>
+<p>拼音分词器存在问题功能不全故用如下方法解决</p>
+<p><img src="/2023/03/05/springcloud/1675494619824.png" alt="1675494619824"></p>
+<p><img src="/2023/03/05/springcloud/1675494860011.png" alt="1675494860011"></p>
+<p><img src="/2023/03/05/springcloud/1675494920980.png" alt="1675494920980"></p>
+<p><img src="/2023/03/05/springcloud/1675494959370.png" alt="1675494959370"></p>
+<p><img src="/2023/03/05/springcloud/1675495231973.png" alt="1675495231973"></p>
+<p><img src="/2023/03/05/springcloud/1675495712721.png" alt="1675495712721"></p>
+<p><img src="/2023/03/05/springcloud/1675495878795.png" alt="1675495878795"></p>
+<p><img src="/2023/03/05/springcloud/1675495889328.png" alt="1675495889328"></p>
+<p><img src="/2023/03/05/springcloud/1675495942624.png" alt="1675495942624"></p>
+<p><img src="/2023/03/05/springcloud/1675497110432.png" alt="1675497110432"></p>
+<p>结果解析</p>
+<p><img src="/2023/03/05/springcloud/1675497383939.png" alt="1675497383939"></p>
+<p><img src="/2023/03/05/springcloud/1675497669316.png" alt="1675497669316"></p>
+<h3 id="3、数据同步"><a href="#3、数据同步" class="headerlink" title="3、数据同步"></a>3、数据同步</h3><p><img src="/2023/03/05/springcloud/1675573980044.png" alt="1675573980044"></p>
+<p>解决此问题的三种方案</p>
+<p><img src="/2023/03/05/springcloud/1675574129802.png" alt="1675574129802"></p>
+<p><img src="/2023/03/05/springcloud/1675574192691.png" alt="1675574192691"></p>
+<p><img src="/2023/03/05/springcloud/1675574259654.png" alt="1675574259654"></p>
+<p><img src="/2023/03/05/springcloud/1675574319353.png" alt="1675574319353"></p>
+<p>演示第二种 MQ的异步通知</p>
+<p><img src="/2023/03/05/springcloud/1675575318861.png" alt="1675575318861"></p>
+<p><img src="/2023/03/05/springcloud/1675576535135.png" alt="1675576535135"></p>
+<p><img src="/2023/03/05/springcloud/1675576544686.png" alt="1675576544686"></p>
+<p>详细见代码</p>
+<h3 id="4、集群"><a href="#4、集群" class="headerlink" title="4、集群"></a>4、集群</h3><p>ES集群</p>
+<p><img src="/2023/03/05/springcloud/1675580094937.png" alt="1675580094937"></p>
+<p><img src="/2023/03/05/springcloud/1675580421148.png" alt="1675580421148"></p>
+<p><img src="/2023/03/05/springcloud/1675580430340.png" alt="1675580430340"></p>
+<p><img src="/2023/03/05/springcloud/1675580511124.png" alt="1675580511124"></p>
+<p><img src="/2023/03/05/springcloud/1675580681739.png" alt="1675580681739"></p>
+<p>网络故障出现脑裂，出现了两个老大</p>
+<p><img src="/2023/03/05/springcloud/1675580794202.png" alt="1675580794202"></p>
+<p><img src="/2023/03/05/springcloud/1675580825536.png" alt="1675580825536"></p>
+<p><img src="/2023/03/05/springcloud/1675581014397.png" alt="1675581014397"></p>
+<p><img src="/2023/03/05/springcloud/1675581089045.png" alt="1675581089045"></p>
+<p><img src="/2023/03/05/springcloud/1675581201588.png" alt="1675581201588"></p>
+<p><img src="/2023/03/05/springcloud/1675581221840.png" alt="1675581221840"></p>
+<p><img src="/2023/03/05/springcloud/1675581298634.png" alt="1675581298634"></p>
+<p><img src="/2023/03/05/springcloud/1675581355409.png" alt="1675581355409"></p>
+<p><img src="/2023/03/05/springcloud/1675581361099.png" alt="1675581361099"></p>
+<p>重新启动01  情况如下：数据片迁移回去了 主节点变了</p>
+<p><img src="/2023/03/05/springcloud/1675581410370.png" alt="1675581410370"></p>
+<p>![1675581458070](Spring Cloud.assets&#x2F;1675581458070.png)</p>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
@@ -915,6 +1376,38 @@
 <h2 id="7、总结"><a href="#7、总结" class="headerlink" title="7、总结"></a>7、总结</h2><p><img src="/2022/10/30/springboot/1666712573054.png" alt="1666712573054"></p>
 <p><img src="/2022/10/30/springboot/1666712617934.png" alt="1666712617934"></p>
 <p>![1666712651406](Spring boot.assets&#x2F;1666712651406.png)</p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>springCache</title>
+    <url>/2022/11/28/springCache/</url>
+    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
+<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
+<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
+<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
+<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
+<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
+<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
+<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
+<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
+<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
+<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
+<p>show slave status\G;</p>
+<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
+<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
+<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
+<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
+<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
+<p>在spring配置文件下</p>
+<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
+<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
