@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>算法笔记 - Qimi</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Qimickey个人博客,"> 
+    <meta name="description" content="个人博客,算法[TOC]
+1、图论有向（有环）图、有向（无环）图 、无向图
+力扣207  210 课程表
+广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
+2、统计每,"> 
+    <meta name="author" content="Qimickey"> 
+    <link rel="alternative" href="atom.xml" title="Qimi" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="算法笔记 - Qimi"/>
+    <meta name="twitter:description" content="个人博客,算法[TOC]
+1、图论有向（有环）图、有向（无环）图 、无向图
+力扣207  210 课程表
+广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
+2、统计每,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Qimi"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="算法笔记 - Qimi"/>
+    <meta property="og:description" content="个人博客,算法[TOC]
+1、图论有向（有环）图、有向（无环）图 、无向图
+力扣207  210 课程表
+广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
+2、统计每,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Qimi</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://qimickey.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">算法笔记</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">算法笔记</h1>
+        <div class="stuff">
+            <span>二月 06, 2024</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/JAVA%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/" rel="tag">JAVA后端开发</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><p>[TOC]</p>
+<h1 id="1、图论"><a href="#1、图论" class="headerlink" title="1、图论"></a><strong>1、图论</strong></h1><p>有向（有环）图、有向（无环）图 、无向图</p>
+<p>力扣207  210 课程表</p>
+<h2 id="广度优先搜索"><a href="#广度优先搜索" class="headerlink" title="广度优先搜索"></a><strong>广度</strong>优先搜索</h2><p>1、统计每个点的入度数量    List&lt;List<Integer>&gt; edges；</Integer></p>
+<p>2、统计每个点的出度节点   int[] indeg；</p>
+<p>3、队列 填入入度节点为0的节点</p>
+<p>4、对队列进行为空判定……………</p>
+<h2 id="深度优先搜索"><a href="#深度优先搜索" class="headerlink" title="深度优先搜索"></a><strong>深度</strong>优先搜索</h2><h1 id="2、动态规划"><a href="#2、动态规划" class="headerlink" title="2、动态规划"></a><strong>2、动态规划</strong></h1><p><strong>思想：</strong></p>
+<p>考察01背包和完全背包较多 </p>
+<h2 id><a href="#" class="headerlink" title></a><img src="https://img-blog.csdnimg.cn/8765b9f6db9546218a3dc7371b2b8c41.png" alt="img"></h2><h2 id="01背包"><a href="#01背包" class="headerlink" title="01背包"></a><strong>01背包</strong></h2><p><strong>递推公式</strong>  ：w为重量 v为价值  dp[i] [j]  代表 容量为j的时候，0-i个物品的最大价值<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i-1][j-w[i]]+v[i])<br>$$</p>
+<h2 id="完全背包"><a href="#完全背包" class="headerlink" title="完全背包"></a><strong>完全背包</strong></h2><p><strong>递推公式</strong>     区别在于dp[i] [j-w[i]]  </p>
+<p> 在原来的01背包中，第二项用的是dp[i-1] [j-w[i]]，代表的是用上一行，也就是上一个物品的数据。<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i][j-w[i]]+v[i])<br>$$<br> <strong>而第i个物品我们希望可以使用多次，也就是说假如这一行前面使用过了第i件物品，而后面我们希望还可以使用，并且我们希望接下来是基于前面使用过了第i件物品的情况下的最大利益，后续可以继续添加第i件物品，所以此时我们就是以当前这行来计算后续的最大利益。</strong> </p>
+<p><strong>优化</strong>：使用滚动数据进行压缩</p>
+<p>由递推公式看出 <strong>dp[i] [j]的取值只与dp[i-1] [j]这一层相关</strong>，故可以优化滚动数组，降低维度。<br>$$<br>dp[j]&#x3D;Math.max(dp[j],dp[j-w[i]]+v[i])<br>$$<br>01背包和完全背包的优化思路、递推公式都相同。</p>
+<p><strong>区别</strong>在于，<strong>第二层循环的遍历顺序</strong>，由于01背包的一行需要保证由上一行决定，不受当前行影响，第二次for循环应该<strong>从后往前</strong>遍历，而完全背包需要考虑到当前行的影响，所以<strong>从前往后</strong>遍历。</p>
+<h1 id="3、单调栈"><a href="#3、单调栈" class="headerlink" title="3、单调栈"></a><strong>3、单调栈</strong></h1><p> 从名字上就听的出来，单调栈中存放的数据应该是有序的，所以单调栈也分为<strong>单调递增栈</strong>和<strong>单调递减栈</strong> </p>
+<ul>
+<li>单调递增栈：单调递增栈就是从栈底到栈顶数据是从大到小</li>
+<li>单调递减栈：单调递减栈就是从栈底到栈顶数据是从小到大</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> temperatures.length;</span><br><span class="line"><span class="type">int</span>[] answer = <span class="keyword">new</span> <span class="title class_">int</span>[n];</span><br><span class="line">ArrayDeque&lt;Integer&gt; stack = <span class="keyword">new</span> <span class="title class_">ArrayDeque</span>&lt;&gt;();</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">while</span> (!stack.isEmpty() &amp;&amp; temperatures[i] &gt; temperatures[stack.peek()]) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> stack.pop();</span><br><span class="line">        answer[pop] = i - pop;</span><br><span class="line">    &#125;</span><br><span class="line">    stack.push(i);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> answer;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="4、堆（优先队列）"><a href="#4、堆（优先队列）" class="headerlink" title="4、堆（优先队列）"></a>4、堆（优先队列）</h1><p> <strong>堆的定义</strong>：n个元素的序列{k1 , k2 , … , kn}称之为堆，当且仅当满足以下条件时： </p>
+<p> （1）ki &gt;&#x3D; k2i 且 ki &gt;&#x3D; k(2i+1) ——大根堆<br>（2） ki &lt;&#x3D; k2i 且 ki &lt;&#x3D; k(2i+1) ——小根堆 </p>
+<p>简单来说如图：	</p>
+<p><img src="/2024/02/06/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/1707184376947.png" alt="1707184376947"></p>
+<p><strong>优先级队列</strong></p>
+<p>普通的队列是一种先进先出的数据结构，元素在队列尾追加，而从队列头删除。在优先队列中，元素被赋予优先级。当访问元素时，具有最高优先级的元素最先删除。优先队列具有最高级先出（first in, largest out）的行为特征。通常采用堆数据结构来实现。 </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PriorityQueue&lt;Integer&gt; pq = <span class="keyword">new</span> <span class="title class_">PriorityQueue</span>&lt;&gt;();</span><br></pre></td></tr></table></figure>
+
+<p>常见api</p>
+<table>
+<thead>
+<tr>
+<th>函数名</th>
+<th>功能介绍</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>boolean offer(E e)</td>
+<td>插入元素e，成功返回true，如果e为空，抛出NullPointerException异常时间复杂度O ( log2N )</td>
+</tr>
+<tr>
+<td>E peek()</td>
+<td>获取优先级最高的元素，如果优先级队列为空，返回null</td>
+</tr>
+<tr>
+<td>E poll()</td>
+<td>移除优先级最高的元素并返回，如果优先级队列为空，返回null</td>
+</tr>
+<tr>
+<td>int size()</td>
+<td>获取有效元素的个数</td>
+</tr>
+<tr>
+<td>void clear()</td>
+<td>清空</td>
+</tr>
+<tr>
+<td>boolean isEmpty()</td>
+<td>检测优先级队列是否为空</td>
+</tr>
+</tbody></table>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="https://dl.stream.qqmusic.qq.com/C400001E5qAq47jvE1.m4a?guid=1238999235&vkey=E02B84385BABFDBFFCC63FA9E22421532E8D6B4881C4E7B31088900385CE87C9C5D87E32F27534F330E85E4609BE4DF4362865C46432A602&uin=1445291022&fromtag=120032"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="true"
+        data-ae="true"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o="Qimickey"
+        data-a="Qimickey"
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%97%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">算法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1%E3%80%81%E5%9B%BE%E8%AE%BA"><span class="toc-number">2.</span> <span class="toc-text">1、图论</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2"><span class="toc-number">2.1.</span> <span class="toc-text">广度优先搜索</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2"><span class="toc-number">2.2.</span> <span class="toc-text">深度优先搜索</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2%E3%80%81%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">3.</span> <span class="toc-text">2、动态规划</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">3.1.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#01%E8%83%8C%E5%8C%85"><span class="toc-number">3.2.</span> <span class="toc-text">01背包</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85"><span class="toc-number">3.3.</span> <span class="toc-text">完全背包</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3%E3%80%81%E5%8D%95%E8%B0%83%E6%A0%88"><span class="toc-number">4.</span> <span class="toc-text">3、单调栈</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4%E3%80%81%E5%A0%86%EF%BC%88%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">4、堆（优先队列）</span></a></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>

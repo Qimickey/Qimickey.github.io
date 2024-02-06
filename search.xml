@@ -195,6 +195,53 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2099/12/15/gonggao/</url>
+    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
+]]></content>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git</title>
+    <url>/2022/11/25/git/</url>
+    <content><![CDATA[<h1 id="git课程"><a href="#git课程" class="headerlink" title="git课程"></a>git课程</h1><p><img src="/2022/11/25/git/1669126405128.png" alt="1669126405128"></p>
+<p><img src="/2022/11/25/git/1669126620512.png" alt="1669126620512"></p>
+<h2 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h2><p><img src="/2022/11/25/git/1669128574364.png" alt="1669128574364"></p>
+<p>git init 本地创建仓库</p>
+<p>git clone 克隆远程仓库地址</p>
+<p><img src="/2022/11/25/git/1669128847700.png" alt="1669128847700"></p>
+<p><img src="/2022/11/25/git/1669129052690.png" alt="1669129052690"></p>
+<p> <img src="/2022/11/25/git/1669129227574.png" alt="1669129227574"></p>
+<p><img src="/2022/11/25/git/1669129742960.png" alt="1669129742960"></p>
+<p>getlog查看日志 ， git reset –hard （版本号） </p>
+<p><img src="/2022/11/25/git/1669129800903.png" alt="1669129800903"></p>
+<p>git remote -v 详细一些</p>
+<p>git remote add origin (远程仓库地址)</p>
+<p>git clone （url）</p>
+<p><img src="/2022/11/25/git/1669130942979.png" alt="1669130942979"></p>
+<p>分支</p>
+<p><img src="/2022/11/25/git/1669131590761.png" alt="1669131590761"></p>
+<p><img src="/2022/11/25/git/1669131827194.png" alt="1669131827194"></p>
+<p>多分支，便于分模块开发 ，最后在合并</p>
+<p>分支合并产生冲突，手动解决</p>
+<p><img src="/2022/11/25/git/1669133377771.png" alt="1669133377771"></p>
+<p><img src="/2022/11/25/git/1669133461443.png" alt="1669133461443"></p>
+<p>标签等于是照片；静态   分支是动态</p>
+<h2 id="在IDEA中使用git"><a href="#在IDEA中使用git" class="headerlink" title="在IDEA中使用git"></a>在IDEA中使用git</h2><p>设置中配置一下git</p>
+<p><img src="/2022/11/25/git/1669134341213.png" alt="1669134341213"></p>
+<p><img src="/2022/11/25/git/1669134318845.png" alt="1669134318845"></p>
+<p>从远程克隆</p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVA</title>
     <url>/2022/04/15/hello-world/</url>
     <content><![CDATA[<p>Arrays 数组</p>
@@ -244,53 +291,6 @@
       </categories>
       <tags>
         <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git</title>
-    <url>/2022/11/25/git/</url>
-    <content><![CDATA[<h1 id="git课程"><a href="#git课程" class="headerlink" title="git课程"></a>git课程</h1><p><img src="/2022/11/25/git/1669126405128.png" alt="1669126405128"></p>
-<p><img src="/2022/11/25/git/1669126620512.png" alt="1669126620512"></p>
-<h2 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h2><p><img src="/2022/11/25/git/1669128574364.png" alt="1669128574364"></p>
-<p>git init 本地创建仓库</p>
-<p>git clone 克隆远程仓库地址</p>
-<p><img src="/2022/11/25/git/1669128847700.png" alt="1669128847700"></p>
-<p><img src="/2022/11/25/git/1669129052690.png" alt="1669129052690"></p>
-<p> <img src="/2022/11/25/git/1669129227574.png" alt="1669129227574"></p>
-<p><img src="/2022/11/25/git/1669129742960.png" alt="1669129742960"></p>
-<p>getlog查看日志 ， git reset –hard （版本号） </p>
-<p><img src="/2022/11/25/git/1669129800903.png" alt="1669129800903"></p>
-<p>git remote -v 详细一些</p>
-<p>git remote add origin (远程仓库地址)</p>
-<p>git clone （url）</p>
-<p><img src="/2022/11/25/git/1669130942979.png" alt="1669130942979"></p>
-<p>分支</p>
-<p><img src="/2022/11/25/git/1669131590761.png" alt="1669131590761"></p>
-<p><img src="/2022/11/25/git/1669131827194.png" alt="1669131827194"></p>
-<p>多分支，便于分模块开发 ，最后在合并</p>
-<p>分支合并产生冲突，手动解决</p>
-<p><img src="/2022/11/25/git/1669133377771.png" alt="1669133377771"></p>
-<p><img src="/2022/11/25/git/1669133461443.png" alt="1669133461443"></p>
-<p>标签等于是照片；静态   分支是动态</p>
-<h2 id="在IDEA中使用git"><a href="#在IDEA中使用git" class="headerlink" title="在IDEA中使用git"></a>在IDEA中使用git</h2><p>设置中配置一下git</p>
-<p><img src="/2022/11/25/git/1669134341213.png" alt="1669134341213"></p>
-<p><img src="/2022/11/25/git/1669134318845.png" alt="1669134318845"></p>
-<p>从远程克隆</p>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2099/12/15/gonggao/</url>
-    <content><![CDATA[<p>欢迎来到我的博客，此博客将记录日常遇到的问题以及笔记，布局尽力了，欢迎加微信交流。</p>
-]]></content>
-      <tags>
-        <tag>公告</tag>
       </tags>
   </entry>
   <entry>
@@ -649,57 +649,6 @@
       </tags>
   </entry>
   <entry>
-    <title>nginx</title>
-    <url>/2022/11/28/nginx/</url>
-    <content><![CDATA[<h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1><h2 id="Nginx简介与安装"><a href="#Nginx简介与安装" class="headerlink" title="Nginx简介与安装"></a>Nginx简介与安装</h2><p><img src="/2022/11/28/nginx/1669555941507.png" alt="1669555941507"></p>
-<p><img src="/2022/11/28/nginx/1669556038627.png" alt="1669556038627"></p>
-<p><img src="/2022/11/28/nginx/1669556073259.png" alt="1669556073259"></p>
-<p><img src="/2022/11/28/nginx/1669556799267.png" alt="1669556799267"></p>
-<p>yum install tree 展示当前目录结构</p>
-<h2 id="Nginx命令"><a href="#Nginx命令" class="headerlink" title="Nginx命令"></a>Nginx命令</h2><p><img src="/2022/11/28/nginx/1669557498505.png" alt="1669557498505"></p>
-<p><img src="/2022/11/28/nginx/1669557558920.png" alt="1669557558920"></p>
-<p>在sbin目录下</p>
-<p><img src="/2022/11/28/nginx/1669557705402.png" alt="1669557705402"></p>
-<p>也可以使用绝对路径</p>
-<p><img src="/2022/11/28/nginx/1669558142053.png" alt="1669558142053"></p>
-<p><img src="/2022/11/28/nginx/1669558204161.png" alt="1669558204161"></p>
-<p>命令还是比较繁琐，配置一下环境变量即可简化开发</p>
-<p>vim  &#x2F;etc&#x2F;profile  path中 加入 &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin:</p>
-<p>需要重新加载一下配置文件 source &#x2F;etc&#x2F;profile</p>
-<h2 id="Nginx配置文件结构"><a href="#Nginx配置文件结构" class="headerlink" title="Nginx配置文件结构"></a>Nginx配置文件结构</h2><p><img src="/2022/11/28/nginx/1669558941716.png" alt="1669558941716"></p>
-<h2 id="Nginx具体应用"><a href="#Nginx具体应用" class="headerlink" title="Nginx具体应用"></a>Nginx具体应用</h2><h3 id="1、部署静态资源"><a href="#1、部署静态资源" class="headerlink" title="1、部署静态资源"></a>1、部署静态资源</h3><p><img src="/2022/11/28/nginx/1669561065279.png" alt="1669561065279"></p>
-<p>比tomcat高效  </p>
-<p>：set nu 显示行号<img src="/2022/11/28/nginx/1669561434177.png" alt="1669561434177"></p>
-<h3 id="2、反向代理"><a href="#2、反向代理" class="headerlink" title="2、反向代理"></a>2、反向代理</h3><p><img src="/2022/11/28/nginx/1669561471107.png" alt="1669561471107"></p>
-<p><img src="/2022/11/28/nginx/1669561737110.png" alt=" "></p>
-<p><strong>代理服务器</strong><br>代理服务器：一种部署于客户端与服务器之间的服务器，代替客户端与服务器对外部网络进行发送或接收消息。</p>
-<p><strong>正向代理</strong><br>正向代理：在客户端部署代理服务器，代替客户端对外部网络发送和接收消息。客户端发送一个指定目标的请求给代理服务器，代理服务器再发送给目标服务器，目标服务器收到请求后，将响应的内容发送给代理服务器，代理服务器发给客户端。</p>
-<p><img src="/2022/11/28/nginx/1669562339485.png" alt="1669562339485"></p>
-<p>在正向代理的过程中，代理服务器代替客户端向目标服务器发送请求，目标服务器不知道谁是真正的客户端，不知道访问自己的是一个代理服务器还是客户端。服务器只负责将响应包发送给请求方。</p>
-<p><strong>正向代理的用途</strong><br>1、突破访问控制<br>例如：VPN<br>国内用户不能直接访问国外的网站，需要通过代访问理服务器，代理服务器将我们的请求发送国外的目标服务器，目标服务器将请求的响应发送给代理服务器，代理服务器再发给用户。这样就实现了正向代理。<br>2、提高访问速度<br>代理服务器里有一个硬盘缓冲区，会将请求响应保存到缓冲区中。下次访问时会直接读取缓冲区中的数据返还给用户。<br>3、隐藏客户端真实的IP<br>因为访问目标服务器的是代理服务器，而不是用户，这样便能隐藏客户端的真实IP 。<br>例：暗网<br>在暗网里，我们访问一个目标时要通过几个代理服务器进行转发，目的就是为了防止被其他人查到自己真实的IP。</p>
-<p>反向代理<br>反向代理：在服务器端部署代理服务器（为了区分，将真正响应的服务器成为业务服务器），让代理服务器替业务服务器接收请求或发送响应。客户端发送一个请求给代理服务器，代理服务器接收请求并将请求发送给业务服务器，业务服务器将响应发送给代理服务器，代理服务器再将响应发送给客户端。</p>
-<p>在反向代理的过程中，客户端不知道自己请求的是代理服务器还是业务服务器。</p>
-<p><img src="/2022/11/28/nginx/1669562354038.png" alt="1669562354038"></p>
-<p><strong>反向代理用途：</strong><br>1、隐藏服务器真实IP<br>在服务器端配置代理服务器可以隐藏服务器的真实IP，防止恶意攻击者的攻击。<br>2、负载均衡<br>代理服务器可以将对业务服务器的请求根据预设算法分发到业务服务器上。<br>3、提高访问速度<br>对于静态页面的访问，代理服务器可以将数据存储到硬盘内，当出现有大量静态页面的访问时，可以直接从代理服务器获取响应。对于动态内容请求，代理服务器可以将缓存存在本地，提高访问响应速度。<br>4、提供安全障性<br>可以将代理服务器作为应用层的防火墙，拦截恶意的Web攻击。还可以为后端服务器统一提供加密和SSL加速（如SSL终端代理），提供HTTP访问认证等。</p>
-<p><strong>正向代理和反向代理的异同点</strong><br>同：<br>1、正向代理和反向代理中的服务器都是对请求和响应进行转发。<br>2、都能提高访问速度。<br>3、帮助客户端或业务服务器隐藏真实的IP。<br>异：<br>1、部署的位置不同<br>正向代理部署在客户端，反向代理部署在服务器端。<br>2、作用不同<br>正向代理是客户端的代理，帮助客户端突破访问控制；反向代理是服务器的代理，帮助服务器实现负载均衡，安全防护。</p>
-<p><strong>配置反向代理</strong></p>
-<p><img src="/2022/11/28/nginx/1669562405369.png" alt="1669562405369"></p>
-<h3 id="3、负载均衡"><a href="#3、负载均衡" class="headerlink" title="3、负载均衡"></a>3、负载均衡</h3><p>本质上就是反向代理</p>
-<p><img src="/2022/11/28/nginx/1669562518808.png" alt="1669562518808"></p>
-<p>配置负载均衡</p>
-<p><img src="/2022/11/28/nginx/1669562626974.png" alt="1669562626974"></p>
-<p><img src="/2022/11/28/nginx/1669562774947.png" alt="1669562774947"></p>
-<p>权重（如下图，并不是严格的2：1，请求数量多的时候接近于2：1）</p>
-<p><img src="/2022/11/28/nginx/1669562802568.png" alt="1669562802568"></p>
-]]></content>
-      <categories>
-        <category>JAVA后端</category>
-      </categories>
-      <tags>
-        <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mysql</title>
     <url>/2023/03/28/mysql/</url>
     <content><![CDATA[<p>Mysql索引</p>
@@ -791,6 +740,89 @@
       </categories>
       <tags>
         <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nginx</title>
+    <url>/2022/11/28/nginx/</url>
+    <content><![CDATA[<h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1><h2 id="Nginx简介与安装"><a href="#Nginx简介与安装" class="headerlink" title="Nginx简介与安装"></a>Nginx简介与安装</h2><p><img src="/2022/11/28/nginx/1669555941507.png" alt="1669555941507"></p>
+<p><img src="/2022/11/28/nginx/1669556038627.png" alt="1669556038627"></p>
+<p><img src="/2022/11/28/nginx/1669556073259.png" alt="1669556073259"></p>
+<p><img src="/2022/11/28/nginx/1669556799267.png" alt="1669556799267"></p>
+<p>yum install tree 展示当前目录结构</p>
+<h2 id="Nginx命令"><a href="#Nginx命令" class="headerlink" title="Nginx命令"></a>Nginx命令</h2><p><img src="/2022/11/28/nginx/1669557498505.png" alt="1669557498505"></p>
+<p><img src="/2022/11/28/nginx/1669557558920.png" alt="1669557558920"></p>
+<p>在sbin目录下</p>
+<p><img src="/2022/11/28/nginx/1669557705402.png" alt="1669557705402"></p>
+<p>也可以使用绝对路径</p>
+<p><img src="/2022/11/28/nginx/1669558142053.png" alt="1669558142053"></p>
+<p><img src="/2022/11/28/nginx/1669558204161.png" alt="1669558204161"></p>
+<p>命令还是比较繁琐，配置一下环境变量即可简化开发</p>
+<p>vim  &#x2F;etc&#x2F;profile  path中 加入 &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin:</p>
+<p>需要重新加载一下配置文件 source &#x2F;etc&#x2F;profile</p>
+<h2 id="Nginx配置文件结构"><a href="#Nginx配置文件结构" class="headerlink" title="Nginx配置文件结构"></a>Nginx配置文件结构</h2><p><img src="/2022/11/28/nginx/1669558941716.png" alt="1669558941716"></p>
+<h2 id="Nginx具体应用"><a href="#Nginx具体应用" class="headerlink" title="Nginx具体应用"></a>Nginx具体应用</h2><h3 id="1、部署静态资源"><a href="#1、部署静态资源" class="headerlink" title="1、部署静态资源"></a>1、部署静态资源</h3><p><img src="/2022/11/28/nginx/1669561065279.png" alt="1669561065279"></p>
+<p>比tomcat高效  </p>
+<p>：set nu 显示行号<img src="/2022/11/28/nginx/1669561434177.png" alt="1669561434177"></p>
+<h3 id="2、反向代理"><a href="#2、反向代理" class="headerlink" title="2、反向代理"></a>2、反向代理</h3><p><img src="/2022/11/28/nginx/1669561471107.png" alt="1669561471107"></p>
+<p><img src="/2022/11/28/nginx/1669561737110.png" alt=" "></p>
+<p><strong>代理服务器</strong><br>代理服务器：一种部署于客户端与服务器之间的服务器，代替客户端与服务器对外部网络进行发送或接收消息。</p>
+<p><strong>正向代理</strong><br>正向代理：在客户端部署代理服务器，代替客户端对外部网络发送和接收消息。客户端发送一个指定目标的请求给代理服务器，代理服务器再发送给目标服务器，目标服务器收到请求后，将响应的内容发送给代理服务器，代理服务器发给客户端。</p>
+<p><img src="/2022/11/28/nginx/1669562339485.png" alt="1669562339485"></p>
+<p>在正向代理的过程中，代理服务器代替客户端向目标服务器发送请求，目标服务器不知道谁是真正的客户端，不知道访问自己的是一个代理服务器还是客户端。服务器只负责将响应包发送给请求方。</p>
+<p><strong>正向代理的用途</strong><br>1、突破访问控制<br>例如：VPN<br>国内用户不能直接访问国外的网站，需要通过代访问理服务器，代理服务器将我们的请求发送国外的目标服务器，目标服务器将请求的响应发送给代理服务器，代理服务器再发给用户。这样就实现了正向代理。<br>2、提高访问速度<br>代理服务器里有一个硬盘缓冲区，会将请求响应保存到缓冲区中。下次访问时会直接读取缓冲区中的数据返还给用户。<br>3、隐藏客户端真实的IP<br>因为访问目标服务器的是代理服务器，而不是用户，这样便能隐藏客户端的真实IP 。<br>例：暗网<br>在暗网里，我们访问一个目标时要通过几个代理服务器进行转发，目的就是为了防止被其他人查到自己真实的IP。</p>
+<p>反向代理<br>反向代理：在服务器端部署代理服务器（为了区分，将真正响应的服务器成为业务服务器），让代理服务器替业务服务器接收请求或发送响应。客户端发送一个请求给代理服务器，代理服务器接收请求并将请求发送给业务服务器，业务服务器将响应发送给代理服务器，代理服务器再将响应发送给客户端。</p>
+<p>在反向代理的过程中，客户端不知道自己请求的是代理服务器还是业务服务器。</p>
+<p><img src="/2022/11/28/nginx/1669562354038.png" alt="1669562354038"></p>
+<p><strong>反向代理用途：</strong><br>1、隐藏服务器真实IP<br>在服务器端配置代理服务器可以隐藏服务器的真实IP，防止恶意攻击者的攻击。<br>2、负载均衡<br>代理服务器可以将对业务服务器的请求根据预设算法分发到业务服务器上。<br>3、提高访问速度<br>对于静态页面的访问，代理服务器可以将数据存储到硬盘内，当出现有大量静态页面的访问时，可以直接从代理服务器获取响应。对于动态内容请求，代理服务器可以将缓存存在本地，提高访问响应速度。<br>4、提供安全障性<br>可以将代理服务器作为应用层的防火墙，拦截恶意的Web攻击。还可以为后端服务器统一提供加密和SSL加速（如SSL终端代理），提供HTTP访问认证等。</p>
+<p><strong>正向代理和反向代理的异同点</strong><br>同：<br>1、正向代理和反向代理中的服务器都是对请求和响应进行转发。<br>2、都能提高访问速度。<br>3、帮助客户端或业务服务器隐藏真实的IP。<br>异：<br>1、部署的位置不同<br>正向代理部署在客户端，反向代理部署在服务器端。<br>2、作用不同<br>正向代理是客户端的代理，帮助客户端突破访问控制；反向代理是服务器的代理，帮助服务器实现负载均衡，安全防护。</p>
+<p><strong>配置反向代理</strong></p>
+<p><img src="/2022/11/28/nginx/1669562405369.png" alt="1669562405369"></p>
+<h3 id="3、负载均衡"><a href="#3、负载均衡" class="headerlink" title="3、负载均衡"></a>3、负载均衡</h3><p>本质上就是反向代理</p>
+<p><img src="/2022/11/28/nginx/1669562518808.png" alt="1669562518808"></p>
+<p>配置负载均衡</p>
+<p><img src="/2022/11/28/nginx/1669562626974.png" alt="1669562626974"></p>
+<p><img src="/2022/11/28/nginx/1669562774947.png" alt="1669562774947"></p>
+<p>权重（如下图，并不是严格的2：1，请求数量多的时候接近于2：1）</p>
+<p><img src="/2022/11/28/nginx/1669562802568.png" alt="1669562802568"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>springCache</title>
+    <url>/2022/11/28/springCache/</url>
+    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
+<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
+<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
+<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
+<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
+<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
+<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
+<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
+<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
+<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
+<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
+<p>show slave status\G;</p>
+<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
+<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
+<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
+<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
+<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
+<p>在spring配置文件下</p>
+<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
+<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
       </tags>
   </entry>
   <entry>
@@ -977,38 +1009,6 @@
 <h2 id="7、总结"><a href="#7、总结" class="headerlink" title="7、总结"></a>7、总结</h2><p><img src="/2022/10/30/springboot/1666712573054.png" alt="1666712573054"></p>
 <p><img src="/2022/10/30/springboot/1666712617934.png" alt="1666712617934"></p>
 <p>![1666712651406](Spring boot.assets&#x2F;1666712651406.png)</p>
-]]></content>
-      <categories>
-        <category>JAVA后端</category>
-      </categories>
-      <tags>
-        <tag>JAVA后端开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>springCache</title>
-    <url>/2022/11/28/springCache/</url>
-    <content><![CDATA[<h1 id="Spring-Cache"><a href="#Spring-Cache" class="headerlink" title="Spring Cache"></a>Spring Cache</h1><p><img src="/2022/11/28/springCache/1669471247516.png" alt="1669471247516"></p>
-<p><img src="/2022/11/28/springCache/1669471263738.png" alt="1669471263738"></p>
-<h1 id="mysql主从复制"><a href="#mysql主从复制" class="headerlink" title="mysql主从复制"></a>mysql主从复制</h1><h2 id="主库基本配置"><a href="#主库基本配置" class="headerlink" title="主库基本配置"></a>主库基本配置</h2><p><img src="/2022/11/28/springCache/1669524798636.png" alt="1669524798636"></p>
-<p><img src="/2022/11/28/springCache/1669524773429.png" alt="1669524773429"></p>
-<p><img src="/2022/11/28/springCache/1669524945025.png" alt="1669524945025"></p>
-<p><img src="/2022/11/28/springCache/1669524954602.png" alt="1669524954602"><img src="/2022/11/28/springCache/1669525050425.png" alt="1669525050425"></p>
-<h2 id="从库基本配置"><a href="#从库基本配置" class="headerlink" title="从库基本配置"></a>从库基本配置</h2><p><img src="/2022/11/28/springCache/1669525119981.png" alt="1669525119981"></p>
-<p><img src="/2022/11/28/springCache/1669525241172.png" alt="1669525241172"></p>
-<p><img src="/2022/11/28/springCache/1669525263313.png" alt="1669525263313"></p>
-<p> change master to<br>master_host&#x3D;’192.168.199.100’,master_user&#x3D;’xiaoming’,master_password&#x3D;‘Root@123456’,                    master_log_file&#x3D;’mysql-bin.000001’,master_log_pos&#x3D;441;<br>start slave;</p>
-<p><img src="/2022/11/28/springCache/1669525532981.png" alt="1669525532981"></p>
-<p>show slave status\G;</p>
-<h2 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h2><p><img src="/2022/11/28/springCache/1669525976778.png" alt="1669525976778"></p>
-<p><img src="/2022/11/28/springCache/1669526070068.png" alt="1669526070068"></p>
-<p><img src="/2022/11/28/springCache/1669526967383.png" alt="1669526967383"></p>
-<p><img src="/2022/11/28/springCache/1669526977339.png" alt="1669526977339"></p>
-<p><img src="/2022/11/28/springCache/1669527006790.png" alt="1669527006790"></p>
-<p>在spring配置文件下</p>
-<p><img src="/2022/11/28/springCache/1669527301537.png" alt="1669527301537"></p>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>如果从服务器是克隆的主服务器，那么server-<a href="https://so.csdn.net/so/search?q=uuid&spm=1001.2101.3001.7020">uuid</a>的值肯定是一样的，不然后面主从复制报错误1593，修改以后重启mysql</p>
-<p><img src="/2022/11/28/springCache/1669525791997.png" alt="1669525791997"></p>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
@@ -1577,6 +1577,331 @@
 <li>可重入的Redis分布式锁：<br>原理：利用hash结构，记录线程标示和重入次数；利用watchDog延续锁时间；利用信号量控制锁重试等待<br>缺陷：redis宕机引起锁失效问题</li>
 <li>Redisson的multiLock：<br>原理：多个独立的Redis节点，必须在所有节点都获取重入锁，才算获取锁成功<br>缺陷：运维成本高、实现复杂</li>
 </ul>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>并发编程juc</title>
+    <url>/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/</url>
+    <content><![CDATA[<h1 id="JUC"><a href="#JUC" class="headerlink" title="JUC"></a>JUC</h1><h2 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a><strong>进程和线程</strong></h2><p>进程是程序的实例。大部分程序可以运行多个实例进程。</p>
+<p>一个进程之内可以分为一到多个线程，一个线程就是一个指令流，将一条条指令交给cpu执行</p>
+<p>在java中线程是最小的调度单位</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704961043012.png" alt="1704961043012"></p>
+<h2 id="并发和并行"><a href="#并发和并行" class="headerlink" title="并发和并行"></a>并发和并行</h2><p>并发：线程轮流使用cpu，同一时间应对多件事情的能力</p>
+<p>并行：同一时间动手做多件事情的能力</p>
+<h2 id="线程的创建"><a href="#线程的创建" class="headerlink" title="线程的创建"></a>线程的创建</h2><p>三种方式</p>
+<p> <strong>new Thread() 重写run方法</strong></p>
+<p><strong>使用Ru’nnable 配合Thread</strong>    把线程和任务分开</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Runnable</span> <span class="variable">runnable</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Runnable</span>() &#123;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span>&#123;</span><br><span class="line"> <span class="comment">// 要执行的任务</span></span><br><span class="line"> &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">// 创建线程对象</span></span><br><span class="line"><span class="type">Thread</span> <span class="variable">t</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>( runnable );</span><br><span class="line"><span class="comment">// 启动线程</span></span><br><span class="line">t.start();</span><br></pre></td></tr></table></figure>
+
+<p><strong>FutureTask</strong> <strong>配合</strong> <strong>Thread</strong> </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 创建任务对象</span></span><br><span class="line">FutureTask&lt;Integer&gt; task3 = <span class="keyword">new</span> <span class="title class_">FutureTask</span>&lt;&gt;(() -&gt; &#123;</span><br><span class="line"> log.debug(<span class="string">&quot;hello&quot;</span>);</span><br><span class="line"> <span class="keyword">return</span> <span class="number">100</span>;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// 参数1 是任务对象; 参数2 是线程名字，推荐</span></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Thread</span>(task3, <span class="string">&quot;t3&quot;</span>).start();</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="sleep和-yield"><a href="#sleep和-yield" class="headerlink" title="sleep和 yield"></a>sleep和 yield</h2><p><strong>sleep：</strong></p>
+<p>1、sleep会让线程从running进入<strong>阻塞状态</strong></p>
+<p>2、sleep被interrupt方法<strong>打断后，会抛出异常</strong></p>
+<p>3、睡眠结束后的线程<strong>未必会</strong>立刻得到执行</p>
+<p>4、被打断的interrupt会 <strong>清空打断状态</strong>current.isInterrupted();</p>
+<p><strong>yield：</strong></p>
+<p>会让线程  从running进入<strong>runable就绪状态</strong>，然后调度其他线程</p>
+<p>线程的优先级setPriority 并<strong>不能保证</strong>优先级高的先执行</p>
+<p> join（）等待线程运行结束</p>
+<p>join（time）最多等待时间</p>
+<h2 id="线程状态"><a href="#线程状态" class="headerlink" title="线程状态"></a>线程状态</h2><p>从操作系统层面来说  <strong>五种</strong></p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704962310423.png" alt="1704962310423"></p>
+<p>从javaApi层面来说 <strong>六种</strong></p>
+<p>根据 Thread.State 枚举，分为六种状态 </p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704962420984.png" alt="1704962420984"></p>
+<ul>
+<li>NEW 线程刚被创建，但是还没有调用 start() 方法 </li>
+<li>RUNNABLE 当调用了 start() 方法之后，注意，<strong>Java API</strong> 层面的 RUNNABLE 状态涵盖了 <strong>操作系统</strong> 层面的 【可运行状态】、【运行状态】和【阻塞状态】（由于 BIO 导致的线程阻塞，在 Java 里无法区分，仍然认为 是可运行） </li>
+<li>BLOCKED ， WAITING ， TIMED_WAITING 都是 <strong>Java API</strong> 层面对【阻塞状态】的细分，后面会在状态转换一节 </li>
+<li>TERMINATED 当线程代码运行结束</li>
+</ul>
+<h2 id="临界区"><a href="#临界区" class="headerlink" title="临界区"></a>临界区</h2><p>1、存在<strong>多个线程访问共享变量</strong>（本身没有问题，其实是<strong>读写</strong>操作<strong>指令发生交错</strong>，就会出现问题）</p>
+<p>2、如果一个代码块中存在对<strong>共享资源</strong>的<strong>多线程读写操作</strong>，则这段代码为<strong>临界区</strong></p>
+<p>多个线程在临界区内执行，由于代码的<strong>执行序列不同</strong>而导致结果无法预测，称之为发生了<strong>竞态条件</strong></p>
+<h2 id="常见的线程安全类"><a href="#常见的线程安全类" class="headerlink" title="常见的线程安全类"></a>常见的线程安全类</h2><ul>
+<li>String    里面的replace，substring改变了值，但是查看源码会发现每次都会<strong>新建一个string，不存在共享变量</strong></li>
+<li>Integer </li>
+<li>StringBuffer </li>
+<li>Random </li>
+<li>Vector </li>
+<li>Hashtable </li>
+<li>java.util.concurrent 包下的类</li>
+</ul>
+<p>注意：<strong>他们的每个方法都是原子的</strong>，但是<strong>多个方法的组合</strong>不是原子    例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">Hashtable</span> <span class="variable">table</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Hashtable</span>();</span><br><span class="line"><span class="comment">// 线程1，线程2</span></span><br><span class="line"><span class="keyword">if</span>( table.get(<span class="string">&quot;key&quot;</span>) == <span class="literal">null</span>) &#123;</span><br><span class="line"> table.put(<span class="string">&quot;key&quot;</span>, value);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>就不是线程安全的</p>
+<h2 id="synchronized"><a href="#synchronized" class="headerlink" title="synchronized"></a><strong>synchronized</strong></h2><p>sy是重量级锁，锁的是对象</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">synchronized</span>(对象)</span><br><span class="line">&#123;</span><br><span class="line"> 临界区</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>加在普通方法上的 sy 等价于锁住的是 this</p>
+<p>加在静态方法上的 sy 等价于锁住的是 这个类对象Test.class</p>
+<h2 id="Monitor-概念"><a href="#Monitor-概念" class="headerlink" title="Monitor 概念"></a><strong>Monitor</strong> <strong>概念</strong></h2><p>java对象头 以32位虚拟机为例   </p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704963482391.png" alt="1704963482391"></p>
+<p>其中 Mark Word 结构为 </p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704963522057.png" alt="1704963522057"></p>
+<p>Normal是普通对象拥有hashcode，age（迭代年龄） biased_lock 偏向锁开关，0 1 状态</p>
+<p>Biased是偏向锁，</p>
+<p>Lightweight Locked   <strong>轻量级</strong>锁  会在<strong>栈帧中创建锁记录</strong></p>
+<p>Heavyweight Locked <strong>重量级锁</strong>  每个重量级锁都会创建一个<strong>Monitor</strong></p>
+<h2 id="Monitor-工作原理"><a href="#Monitor-工作原理" class="headerlink" title="Monitor 工作原理"></a>Monitor 工作原理</h2><p>每一个java对象都可以关联一个monitor对象。如果使用sy给对象上了（重量级）锁后，该对象的对象头，就会设置指向Monitor对象的指针。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704965301887.png" alt="1704965301887"></p>
+<p>如果不加sy，则根本不回去检查你的Mark Word 。</p>
+<h2 id="sy锁的优化原理"><a href="#sy锁的优化原理" class="headerlink" title="sy锁的优化原理"></a>sy锁的优化原理</h2><p>对使用者都是透明的，语法仍然是sy</p>
+<h3 id="重量级锁"><a href="#重量级锁" class="headerlink" title="重量级锁"></a>重量级锁</h3><h4 id="自旋优化"><a href="#自旋优化" class="headerlink" title="自旋优化"></a>自旋优化</h4><p>当对象已经被上锁之后，线程并不会马上进入阻塞状态，而是会进行自旋重试，这样是为了避免进入阻塞队列后，进行上下文切换。</p>
+<p>在多核cpu下自旋才能发挥优势，单核自旋就是浪费。java7之后不能控制自旋开关。默认开启。</p>
+<h3 id="轻量级锁"><a href="#轻量级锁" class="headerlink" title="轻量级锁"></a>轻量级锁</h3><p>有<strong>多线程</strong>的访问，但是时间上是<strong>错开的 无竞争</strong></p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704965824731.png" alt="1704965824731"></p>
+<p>通过在<strong>栈帧上创建锁记录</strong>（Lock Record）对象,内部可以存储对象的Mark Word。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704965987777.png" alt="1704965987777"></p>
+<p>Object reference指向锁对象，并尝试使用<strong>cas</strong>替换object中的Mark word，将其存入锁对象</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704966092430.png" alt="1704966092430"></p>
+<p>如果cas替换成功，对象头中就会存储 锁记录的地址和状态 00，表示该对象已经被上锁</p>
+<p>如果cas替换失败：</p>
+<ul>
+<li><p>如果是其他锁持有了该对象的轻量级锁，这表明有竞争，进入<strong>锁膨胀过程</strong></p>
+</li>
+<li><p>如果是自己执行了sy锁重入，则再添加一条LockRecord作为重入计数，取值为null</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704966273857.png" alt="1704966273857"></p>
+</li>
+</ul>
+<p>当退出sy锁的时候，如果是取值为null，则证明是重入，这时重置锁记录，表示重入计数减一。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704966398647.png" alt="1704966398647"></p>
+<p>当退出的时候，锁记录不为null，这时使用cas将mark Word的值恢复给对象头</p>
+<p>成功，则解锁成功</p>
+<p>失败，说明进行了<strong>锁膨胀</strong>（升级为重量级锁），此时进入重量级锁的解锁流程</p>
+<h4 id="锁膨胀"><a href="#锁膨胀" class="headerlink" title="锁膨胀"></a>锁膨胀</h4><p>当给对象加轻量级锁的时候，发现已经被其他线程上锁了，此时进行锁膨胀。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704966866214.png" alt="1704966866214"></p>
+<p>为对象申请Monitor对象 owner指向lockRecord地址，让Object指向重量级锁地址，然后自己进入Monitor的EntryList Blocked</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1704966887053.png" alt="1704966887053"></p>
+<p>当轻量级锁的线程退出同步块解锁的时候，使用cas恢复失败。此时进入重量级锁解锁流程，按照Monitor地址找到Monitor对象，自身解锁完成。设置Owner为null，唤醒EntryList中的BLOCKED线程</p>
+<h3 id="偏向锁（独占锁）"><a href="#偏向锁（独占锁）" class="headerlink" title="偏向锁（独占锁）"></a>偏向锁（独占锁）</h3><p>轻量级锁在没有竞争的情况下，（只有单个线程使用）每次都重入仍然需要进行cas操作。此时引入了偏向锁进行优化。</p>
+<p>用thread id 替换markword。之后如果发送了锁重入，就不用cas进行检查，直接看thread id即可</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705047645570.png" alt="1705047645570"></p>
+<h4 id="偏向状态"><a href="#偏向状态" class="headerlink" title="偏向状态"></a>偏向状态</h4><p>minitor对象头格式 </p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/../../../../OneDrive/%E6%A1%8C%E9%9D%A2/%E7%AC%94%E8%AE%B0/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.assets/1704963522057.png" alt="1704963522057"></p>
+<ol>
+<li>，如果开启了偏向锁（默认开启）当一个对象创建的时候，markword后三位会变成<strong>101</strong>，这是thread、epoch、age都为0</li>
+<li>偏向锁开启有延迟，可以加VM参数 -XX:BiasedLockingStartupDelay&#x3D;0 禁用延迟</li>
+<li>如果没有开启偏向锁，此时就是Normal，后三位001，前面都为0，hashcode第一次被用到才会赋值</li>
+</ol>
+<h4 id="撤销"><a href="#撤销" class="headerlink" title="撤销"></a>撤销</h4><ol>
+<li><strong>调用hashcode 则会禁用这个对象的偏向锁，因为偏向锁的状态没有位置存储hashcode</strong>（轻量级锁在锁记录中存储hashcode，重量级锁在monitor中记录hashcode）</li>
+<li><strong>当有其他对象调用偏向锁的时候，会将锁升级成轻量级锁</strong><ul>
+<li>​	批量重偏向：如果没有竞争，偏向了t1的线程有机会重新偏向t2，当只有一个线程访问20次后（撤销偏向锁阈值超过20次）jvm会认为是不是自己偏向错了，于是jvm会将对象重新偏向该线程</li>
+<li>当超过40次的时候，jvm会认为这个对象本来就不该偏向，于是整个类的所有对象，都会变成不可偏向的，新建的也不可偏向</li>
+</ul>
+</li>
+</ol>
+<h3 id="锁消除"><a href="#锁消除" class="headerlink" title="锁消除"></a>锁消除</h3><p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705048893172.png" alt="1705048893172"></p>
+<p>JIT即时编译器 会进行优化，比如上图中第二个，object不可能被共享，给他上锁没有意义，会优化</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705048905943.png" alt="1705048905943"></p>
+<p>-EliminateLocks就是取消锁消除 如图，可见性能差距。</p>
+<h2 id="wait-x2F-notifiy"><a href="#wait-x2F-notifiy" class="headerlink" title="wait&#x2F;notifiy"></a>wait&#x2F;notifiy</h2><p><strong>原理</strong></p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705303909809.png" alt="1705303909809"></p>
+<p>1、调用wait方法，即让线程进入monitor中的waitSet变为WAITING状态</p>
+<p>2、WAITING线程会在owner线程调用<strong>notify或notifyAll时唤醒</strong>，但唤醒后并不意味着立刻获得锁，仍需要进入EntryList重新竞争</p>
+<p>notify在waitSet中<strong>随机挑选一个</strong>唤醒，而notifyAll则唤醒在waitSet中<strong>所有等待的线程</strong></p>
+<p><strong>wait、notify、notifyAll</strong>属于object对象的方法，必须<strong>获得此对象的锁</strong>，才能调用此方法</p>
+<h3 id="wait和sleep的区别"><a href="#wait和sleep的区别" class="headerlink" title="wait和sleep的区别"></a><strong>wait和sleep的区别</strong></h3><p>1、sleep是Thread方法，wait是Object的方法</p>
+<p>2、sleep不需要强制和synchronized配合使用，但是wait需要和sy配合使用</p>
+<p>3、sleep睡眠不会释放对象锁，wait在等待的时候，会释放对象锁</p>
+<p><strong>正确使用姿势</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">synchronized</span> (lock)&#123;</span><br><span class="line">	<span class="keyword">while</span>(条件不成立)&#123;</span><br><span class="line">		lock.wait();</span><br><span class="line">	&#125;</span><br><span class="line">     <span class="comment">//干活</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//另一个线程</span></span><br><span class="line"><span class="keyword">synchronized</span> (lock)&#123;</span><br><span class="line">	<span class="comment">//修改条件</span></span><br><span class="line">	lock.notifyAll();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="保护性暂停模式"><a href="#保护性暂停模式" class="headerlink" title="保护性暂停模式"></a>保护性暂停模式</h2><p>即Guarded Suspension，用在一个线程等待另一个线程的执行结果</p>
+<p>要点：</p>
+<ul>
+<li>有一个<strong>结果</strong>需要从<strong>一个线程</strong>传递到<strong>另一个线程</strong>，让他们<strong>关联同一个GuardedObject</strong></li>
+<li><strong>如果有结果不断从一个线程到另一个线程那么可以使用消息队列（见生产者&#x2F;消费者）</strong></li>
+<li>JDK 中，<strong>join</strong> 的实现、<strong>Future</strong> 的实现，采用的就是此模式</li>
+<li>因为要等待另一方的结果，因此归类到<strong>同步模式</strong></li>
+</ul>
+<h3 id="join原理"><a href="#join原理" class="headerlink" title="join原理"></a>join原理</h3><p>在t1线程调用t2.join，则t1需要等待t2运行结束后，才会继续执行</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">join</span><span class="params">(<span class="type">long</span> millis)</span></span><br><span class="line"><span class="keyword">throws</span> InterruptedException &#123;</span><br><span class="line">    <span class="type">long</span> <span class="variable">base</span> <span class="operator">=</span> System.currentTimeMillis();</span><br><span class="line">    <span class="type">long</span> <span class="variable">now</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (millis &lt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;timeout value is negative&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (millis == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">while</span> (isAlive()) &#123;</span><br><span class="line">            wait(<span class="number">0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">while</span> (isAlive()) &#123;</span><br><span class="line">            <span class="type">long</span> <span class="variable">delay</span> <span class="operator">=</span> millis - now;</span><br><span class="line">            <span class="keyword">if</span> (delay &lt;= <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            wait(delay);</span><br><span class="line">            now = System.currentTimeMillis() - base;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p> <strong>join的实现就是调用wait()方法</strong> 。其中的 wait(delay)的等待时间<strong>不是由传入的等待时间决定</strong>，而是记录了当前时间进行了处理，<strong>避免虚假唤醒</strong>。</p>
+<p>exit（）方法会在run()方法执行后调用，他又会调用threadTerminated方法。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">threadTerminated</span><span class="params">(Thread t)</span> &#123;</span><br><span class="line">    <span class="keyword">synchronized</span> (<span class="built_in">this</span>) &#123;</span><br><span class="line">        remove(t);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (nthreads == <span class="number">0</span>) &#123;</span><br><span class="line">            notifyAll();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (daemon &amp;&amp; (nthreads == <span class="number">0</span>) &amp;&amp;</span><br><span class="line">            (nUnstartedThreads == <span class="number">0</span>) &amp;&amp; (ngroups == <span class="number">0</span>))</span><br><span class="line">        &#123;</span><br><span class="line">            destroy();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>此方法会进行notifyAll（）唤醒所有等待的线程。</p>
+<h2 id="park-amp-unpark"><a href="#park-amp-unpark" class="headerlink" title="park&amp;unpark"></a>park&amp;unpark</h2><p>它们是 LockSupport 类中的方法</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 暂停当前线程</span></span><br><span class="line">LockSupport.park(); </span><br><span class="line"><span class="comment">// 恢复某个线程的运行</span></span><br><span class="line">LockSupport.unpark(暂停线程对象)</span><br></pre></td></tr></table></figure>
+
+<p><strong>如果先执行了unpark，那么下次当线程park的时候，会直接运行，不会暂停。</strong></p>
+<p><strong>原理：</strong></p>
+<p><strong>先park后unpark</strong></p>
+<p>当调用了park方法后，会检查__counter的值,如果为0，则进入 _cond阻塞，然后设置 _counter&#x3D;0;</p>
+<p>当调用unpark方法后，先把counter&#x3D;1；唤醒cond中的阻塞线程，线程恢复运行，把counter&#x3D;0 </p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705483978787.png" alt="1705483978787"></p>
+<p>先unpark再park</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1705484201196.png" alt="1705484201196"></p>
+<p>调用unpark，把counter&#x3D;1；当线程调用park的时候，发现counter&#x3D;1,则无需阻塞，继续运行，将counter&#x3D;0；</p>
+<h2 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h2><p><strong>使用jconsole工具查看，需要保证idea运行的jdk版本和jconsole版本一致</strong></p>
+<p>死锁产生的四个条件：</p>
+<p>1、<strong>互斥</strong>：一个资源同一时间只能被一个线程访问</p>
+<p>2、<strong>不可剥夺</strong>：当一个线程占用时，其他线程不可以抢夺该资源</p>
+<p>3、<strong>请求与等待</strong>：当资源被一个线程占用时，其他线程只能等待资源的释放再去拥有</p>
+<p>4、<strong>循环等待</strong>：多个线程形成环，都在等在其他线程释放</p>
+<h2 id="活锁"><a href="#活锁" class="headerlink" title="活锁"></a>活锁</h2><p>活锁出现在<strong>两个线程互相改变对方的结束条件</strong>，最后谁也无法结束</p>
+<p>例如:游泳池一边放水，一边添水。谁都无法结束。</p>
+<p>会造成<strong>饥饿</strong>：某个线程优先级太低，一直得不到cpu的调度执行</p>
+<h2 id="ReentrantLock"><a href="#ReentrantLock" class="headerlink" title="ReentrantLock"></a>ReentrantLock</h2><ul>
+<li>可中断</li>
+<li>可以设置超时时间</li>
+<li>可以设置为公平锁</li>
+<li>支持多个条件变量</li>
+</ul>
+<p>与sy锁一样，都支持重入</p>
+<p><strong>基本语法</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">ReentrantLock</span> <span class="variable">reentrantLock</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ReentrantLock</span>();</span><br><span class="line">reentrantLock.lock();</span><br><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="comment">//临界区</span></span><br><span class="line">&#125;<span class="keyword">finally</span> &#123;</span><br><span class="line">    <span class="comment">//释放锁</span></span><br><span class="line">    reentrantLock.unlock();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>可重入</strong></p>
+<p>一个线程如果首次获得了这把锁，那么可以再次获取这把锁。</p>
+<p><strong>可打断</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">reentrantLock.lockInterruptibly();</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在等待获取锁的时候，可以被打断。避免死等（被动）</p>
+<p><strong>锁超时</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">boolean b = reentrantLock.tryLock();</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>获取锁的时候，设置超时时间，最多等待xx时间，成功就获取锁，失败了就获取不了。</p>
+<p><strong>公平锁</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">ReentrantLock</span> <span class="variable">reentrantLock</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ReentrantLock</span>(<span class="literal">true</span>);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>默认是flase，公平锁是按照先入先出。谁先到谁先执行</p>
+<p><strong>条件变量</strong></p>
+<p>sy也有条件变量，就是waitSet休息室，不满足都会进入这个waitSet。但是他只有一个休息室，搭配notifyAll使用的话，会存在虚假唤醒的情况。</p>
+<p>reentranLock比sy强大，可以支持多个条件变量。就要不reentrantLock 有多个休息室，锁的粒度更小。</p>
+<p>await前需要获得锁</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建条件变量</span></span><br><span class="line"><span class="type">Condition</span> <span class="variable">condition1</span> <span class="operator">=</span> reentrantLock.newCondition();</span><br><span class="line"><span class="type">Condition</span> <span class="variable">condition2</span> <span class="operator">=</span> reentrantLock.newCondition();</span><br><span class="line"><span class="comment">//condition1进入等待</span></span><br><span class="line">condition1.await();</span><br><span class="line"><span class="comment">//condition2进入等待</span></span><br><span class="line">condition2.await();</span><br><span class="line"><span class="comment">//唤醒condition1</span></span><br><span class="line">condition1.signal();</span><br><span class="line"><span class="comment">//唤醒所有condition</span></span><br><span class="line">condition1.signalAll();</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="JMM内存模型"><a href="#JMM内存模型" class="headerlink" title="JMM内存模型"></a><strong>JMM内存模型</strong></h2><p>java定义的一套概念，底层对应着 CPU 寄存器、缓存、硬件内存、 CPU 指令优化等。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1706089978826.png" alt="1706089978826"></p>
+<p><strong>三大特性：</strong></p>
+<ul>
+<li><strong>原子性：</strong>保证指令不会受到线程上下文切换的影响</li>
+<li><strong>可见性：</strong>保证指令不会受 cpu 缓存的影响</li>
+<li><strong>有序性：</strong>保证指令不会受 cpu 指令并行优化的影响</li>
+</ul>
+<p><strong>可见性：</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="type">boolean</span> <span class="variable">run</span> <span class="operator">=</span> <span class="literal">true</span>;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> InterruptedException &#123;</span><br><span class="line"> 	<span class="type">Thread</span> <span class="variable">t</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(()-&gt;&#123;</span><br><span class="line"> 	<span class="keyword">while</span>(run)&#123;</span><br><span class="line"> 	<span class="comment">// ....</span></span><br><span class="line"> 	&#125;</span><br><span class="line">	 &#125;);</span><br><span class="line">	t.start();</span><br><span class="line"> 	sleep(<span class="number">1</span>);</span><br><span class="line"> 	run = <span class="literal">false</span>; <span class="comment">// 线程t不会如预想的停下来</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>主线程尝试打断t线程。此时会发现，打断不了。<strong>因为 t 线程要频繁从主内存中读取 run 的值，JIT 编译器会将 run 的值缓存至自己工作内存中的高速缓存中，</strong> 减少对主存中 run 的访问，提高效率。</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1706153099015.png" alt="1706153099015"></p>
+<p><strong>虽然主线程1秒后修改了这个值</strong>，但是<strong>t线程永远从缓存中读取</strong>，所以无法停下来。</p>
+<p>如果在前面示例的死循环中加入 System.out.println() 会发现即使不加 volatile 修饰符，线程 t 也能正确看到 </p>
+<p>对 run 变量的修改了，因为 System.out.println()底层使用sy锁的。</p>
+<p><strong>注意</strong> synchronized 语句块既可以保证代码块的原子性，也同时保证代码块内变量的可见性。但缺点是 </p>
+<p>synchronized 是属于重量级操作，性能相对更低 </p>
+<p><strong>有序性：</strong></p>
+<p>JVM会在不影响正确性的前提下，可以调整语句的执行顺序。</p>
+<p>这种特性称之为『指令重排』，多线程下『指令重排』会影响正确性。</p>
+<p>cpu指令重排原理–为了提高效率</p>
+<p><img src="/2024/02/06/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8Bjuc/1706153776902.png" alt="1706153776902"></p>
+<h2 id="Volatile"><a href="#Volatile" class="headerlink" title="Volatile"></a>Volatile</h2><p><strong>能保证可见性、有序性</strong>，无法保证原子性。</p>
+<p>底层原理是<strong>内存屏障</strong>，Memory Barrier</p>
+<ul>
+<li>对volatile变量的<strong>写指令后会加入写屏障</strong>，保证在该屏障<strong>之前</strong>，对<strong>共享变量的修改，同步到主存中</strong></li>
+<li>对volatile变量的<strong>读指令后会加入度屏障</strong>，保证在该屏障<strong>之后</strong>，对<strong>共享变量的读取，加载主存中最新数据</strong></li>
+</ul>
+<p><strong>写屏障会确保指令重排时，不会把屏障之前的代码排在写屏障之后</strong></p>
+<p>读<strong>屏障会确保指令重排时，不会把屏障之后的代码排在读屏障之前</strong></p>
+<p><strong>dcl（double-checked-locking）问题</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">	<span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123;&#125;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="literal">null</span>; </span><br><span class="line">     <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//实例没创建,才会进入内部的 synchronized代码块</span></span><br><span class="line">        <span class="keyword">if</span> (INSTANCE == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">synchronized</span> (Singleton.class) &#123;</span><br><span class="line">                <span class="comment">// 也许有其它线程已经创建实例，所以再判断一次</span></span><br><span class="line">        		<span class="keyword">if</span> (INSTANCE == <span class="literal">null</span>) &#123; </span><br><span class="line">           	    	INSTANCE = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">                &#125; </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> INSTANCE; </span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>懒汉式，dcl。关键在于两次if判断和volatile</p>
+<h2 id="CAS"><a href="#CAS" class="headerlink" title="CAS"></a>CAS</h2><p>比较并交换</p>
+]]></content>
+      <categories>
+        <category>JAVA后端</category>
+      </categories>
+      <tags>
+        <tag>JAVA后端开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法笔记</title>
+    <url>/2024/02/06/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><p>[TOC]</p>
+<h1 id="1、图论"><a href="#1、图论" class="headerlink" title="1、图论"></a><strong>1、图论</strong></h1><p>有向（有环）图、有向（无环）图 、无向图</p>
+<p>力扣207  210 课程表</p>
+<h2 id="广度优先搜索"><a href="#广度优先搜索" class="headerlink" title="广度优先搜索"></a><strong>广度</strong>优先搜索</h2><p>1、统计每个点的入度数量    List&lt;List<Integer>&gt; edges；</Integer></p>
+<p>2、统计每个点的出度节点   int[] indeg；</p>
+<p>3、队列 填入入度节点为0的节点</p>
+<p>4、对队列进行为空判定……………</p>
+<h2 id="深度优先搜索"><a href="#深度优先搜索" class="headerlink" title="深度优先搜索"></a><strong>深度</strong>优先搜索</h2><h1 id="2、动态规划"><a href="#2、动态规划" class="headerlink" title="2、动态规划"></a><strong>2、动态规划</strong></h1><p><strong>思想：</strong></p>
+<p>考察01背包和完全背包较多 </p>
+<h2 id><a href="#" class="headerlink" title></a><img src="https://img-blog.csdnimg.cn/8765b9f6db9546218a3dc7371b2b8c41.png" alt="img"></h2><h2 id="01背包"><a href="#01背包" class="headerlink" title="01背包"></a><strong>01背包</strong></h2><p><strong>递推公式</strong>  ：w为重量 v为价值  dp[i] [j]  代表 容量为j的时候，0-i个物品的最大价值<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i-1][j-w[i]]+v[i])<br>$$</p>
+<h2 id="完全背包"><a href="#完全背包" class="headerlink" title="完全背包"></a><strong>完全背包</strong></h2><p><strong>递推公式</strong>     区别在于dp[i] [j-w[i]]  </p>
+<p> 在原来的01背包中，第二项用的是dp[i-1] [j-w[i]]，代表的是用上一行，也就是上一个物品的数据。<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i][j-w[i]]+v[i])<br>$$<br> <strong>而第i个物品我们希望可以使用多次，也就是说假如这一行前面使用过了第i件物品，而后面我们希望还可以使用，并且我们希望接下来是基于前面使用过了第i件物品的情况下的最大利益，后续可以继续添加第i件物品，所以此时我们就是以当前这行来计算后续的最大利益。</strong> </p>
+<p><strong>优化</strong>：使用滚动数据进行压缩</p>
+<p>由递推公式看出 <strong>dp[i] [j]的取值只与dp[i-1] [j]这一层相关</strong>，故可以优化滚动数组，降低维度。<br>$$<br>dp[j]&#x3D;Math.max(dp[j],dp[j-w[i]]+v[i])<br>$$<br>01背包和完全背包的优化思路、递推公式都相同。</p>
+<p><strong>区别</strong>在于，<strong>第二层循环的遍历顺序</strong>，由于01背包的一行需要保证由上一行决定，不受当前行影响，第二次for循环应该<strong>从后往前</strong>遍历，而完全背包需要考虑到当前行的影响，所以<strong>从前往后</strong>遍历。</p>
+<h1 id="3、单调栈"><a href="#3、单调栈" class="headerlink" title="3、单调栈"></a><strong>3、单调栈</strong></h1><p> 从名字上就听的出来，单调栈中存放的数据应该是有序的，所以单调栈也分为<strong>单调递增栈</strong>和<strong>单调递减栈</strong> </p>
+<ul>
+<li>单调递增栈：单调递增栈就是从栈底到栈顶数据是从大到小</li>
+<li>单调递减栈：单调递减栈就是从栈底到栈顶数据是从小到大</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> temperatures.length;</span><br><span class="line"><span class="type">int</span>[] answer = <span class="keyword">new</span> <span class="title class_">int</span>[n];</span><br><span class="line">ArrayDeque&lt;Integer&gt; stack = <span class="keyword">new</span> <span class="title class_">ArrayDeque</span>&lt;&gt;();</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">while</span> (!stack.isEmpty() &amp;&amp; temperatures[i] &gt; temperatures[stack.peek()]) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> stack.pop();</span><br><span class="line">        answer[pop] = i - pop;</span><br><span class="line">    &#125;</span><br><span class="line">    stack.push(i);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> answer;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="4、堆（优先队列）"><a href="#4、堆（优先队列）" class="headerlink" title="4、堆（优先队列）"></a>4、堆（优先队列）</h1><p> <strong>堆的定义</strong>：n个元素的序列{k1 , k2 , … , kn}称之为堆，当且仅当满足以下条件时： </p>
+<p> （1）ki &gt;&#x3D; k2i 且 ki &gt;&#x3D; k(2i+1) ——大根堆<br>（2） ki &lt;&#x3D; k2i 且 ki &lt;&#x3D; k(2i+1) ——小根堆 </p>
+<p>简单来说如图：	</p>
+<p><img src="/2024/02/06/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/1707184376947.png" alt="1707184376947"></p>
+<p><strong>优先级队列</strong></p>
+<p>普通的队列是一种先进先出的数据结构，元素在队列尾追加，而从队列头删除。在优先队列中，元素被赋予优先级。当访问元素时，具有最高优先级的元素最先删除。优先队列具有最高级先出（first in, largest out）的行为特征。通常采用堆数据结构来实现。 </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">PriorityQueue&lt;Integer&gt; pq = <span class="keyword">new</span> <span class="title class_">PriorityQueue</span>&lt;&gt;();</span><br></pre></td></tr></table></figure>
+
+<p>常见api</p>
+<table>
+<thead>
+<tr>
+<th>函数名</th>
+<th>功能介绍</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>boolean offer(E e)</td>
+<td>插入元素e，成功返回true，如果e为空，抛出NullPointerException异常时间复杂度O ( log2N )</td>
+</tr>
+<tr>
+<td>E peek()</td>
+<td>获取优先级最高的元素，如果优先级队列为空，返回null</td>
+</tr>
+<tr>
+<td>E poll()</td>
+<td>移除优先级最高的元素并返回，如果优先级队列为空，返回null</td>
+</tr>
+<tr>
+<td>int size()</td>
+<td>获取有效元素的个数</td>
+</tr>
+<tr>
+<td>void clear()</td>
+<td>清空</td>
+</tr>
+<tr>
+<td>boolean isEmpty()</td>
+<td>检测优先级队列是否为空</td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
         <category>JAVA后端</category>
