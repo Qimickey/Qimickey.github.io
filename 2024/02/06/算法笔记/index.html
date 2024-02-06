@@ -10,11 +10,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Qimickey个人博客,"> 
-    <meta name="description" content="个人博客,算法[TOC]
-1、图论有向（有环）图、有向（无环）图 、无向图
+    <meta name="description" content="个人博客,算法1、图论有向（有环）图、有向（无环）图 、无向图
 力扣207  210 课程表
 广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
-2、统计每,"> 
+2、统计每个点的出度节,"> 
     <meta name="author" content="Qimickey"> 
     <link rel="alternative" href="atom.xml" title="Qimi" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -25,11 +24,10 @@
     
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="算法笔记 - Qimi"/>
-    <meta name="twitter:description" content="个人博客,算法[TOC]
-1、图论有向（有环）图、有向（无环）图 、无向图
+    <meta name="twitter:description" content="个人博客,算法1、图论有向（有环）图、有向（无环）图 、无向图
 力扣207  210 课程表
 广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
-2、统计每,"/>
+2、统计每个点的出度节,"/>
     
     
     
@@ -37,11 +35,10 @@
     <meta property="og:site_name" content="Qimi"/>
     <meta property="og:type" content="object"/>
     <meta property="og:title" content="算法笔记 - Qimi"/>
-    <meta property="og:description" content="个人博客,算法[TOC]
-1、图论有向（有环）图、有向（无环）图 、无向图
+    <meta property="og:description" content="个人博客,算法1、图论有向（有环）图、有向（无环）图 、无向图
 力扣207  210 课程表
 广度优先搜索1、统计每个点的入度数量    List&amp;lt;List&amp;gt; edges；
-2、统计每,"/>
+2、统计每个点的出度节,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -83,8 +80,7 @@
 
         </div>
         <div class="content markdown">
-            <h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><p>[TOC]</p>
-<h1 id="1、图论"><a href="#1、图论" class="headerlink" title="1、图论"></a><strong>1、图论</strong></h1><p>有向（有环）图、有向（无环）图 、无向图</p>
+            <h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><h1 id="1、图论"><a href="#1、图论" class="headerlink" title="1、图论"></a><strong>1、图论</strong></h1><p>有向（有环）图、有向（无环）图 、无向图</p>
 <p>力扣207  210 课程表</p>
 <h2 id="广度优先搜索"><a href="#广度优先搜索" class="headerlink" title="广度优先搜索"></a><strong>广度</strong>优先搜索</h2><p>1、统计每个点的入度数量    List&lt;List<Integer>&gt; edges；</Integer></p>
 <p>2、统计每个点的出度节点   int[] indeg；</p>
@@ -92,7 +88,7 @@
 <p>4、对队列进行为空判定……………</p>
 <h2 id="深度优先搜索"><a href="#深度优先搜索" class="headerlink" title="深度优先搜索"></a><strong>深度</strong>优先搜索</h2><h1 id="2、动态规划"><a href="#2、动态规划" class="headerlink" title="2、动态规划"></a><strong>2、动态规划</strong></h1><p><strong>思想：</strong></p>
 <p>考察01背包和完全背包较多 </p>
-<h2 id><a href="#" class="headerlink" title></a><img src="https://img-blog.csdnimg.cn/8765b9f6db9546218a3dc7371b2b8c41.png" alt="img"></h2><h2 id="01背包"><a href="#01背包" class="headerlink" title="01背包"></a><strong>01背包</strong></h2><p><strong>递推公式</strong>  ：w为重量 v为价值  dp[i] [j]  代表 容量为j的时候，0-i个物品的最大价值<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i-1][j-w[i]]+v[i])<br>$$</p>
+<h2 id><a href="#" class="headerlink" title></a><img src="/2024/02/06/%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/1707188065528.png" alt="1707188065528"></h2><h2 id="01背包"><a href="#01背包" class="headerlink" title="01背包"></a><strong>01背包</strong></h2><p><strong>递推公式</strong>  ：w为重量 v为价值  dp[i] [j]  代表 容量为j的时候，0-i个物品的最大价值<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i-1][j-w[i]]+v[i])<br>$$</p>
 <h2 id="完全背包"><a href="#完全背包" class="headerlink" title="完全背包"></a><strong>完全背包</strong></h2><p><strong>递推公式</strong>     区别在于dp[i] [j-w[i]]  </p>
 <p> 在原来的01背包中，第二项用的是dp[i-1] [j-w[i]]，代表的是用上一行，也就是上一个物品的数据。<br>$$<br>dp[i][j]&#x3D;Math.max(dp[i-1][j],dp[i][j-w[i]]+v[i])<br>$$<br> <strong>而第i个物品我们希望可以使用多次，也就是说假如这一行前面使用过了第i件物品，而后面我们希望还可以使用，并且我们希望接下来是基于前面使用过了第i件物品的情况下的最大利益，后续可以继续添加第i件物品，所以此时我们就是以当前这行来计算后续的最大利益。</strong> </p>
 <p><strong>优化</strong>：使用滚动数据进行压缩</p>
